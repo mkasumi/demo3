@@ -1,0 +1,11 @@
+<!-- BEGIN_MODULE Entry_List id="newsSecond" -->
+<div>
+	<!-- BEGIN moduleField --><!-- BEGIN module_heading:veil --><h2>{module_heading}</h2><!-- END module_heading:veil --><!-- END moduleField -->
+	<!--#include file="/admin/module/setting.html"-->
+	<ul class="listBorder">
+		<!-- BEGIN entry:loop -->
+		<li class="listBorderItem {entry:loop.class}"><a href="{url}" class="listBorderLink"><time datetime="{date#Y}-{date#m}-{date#d}" class="listBorderTime">{date#Y}年{date#m}月{date#d}日</time>{title}</a></li>
+		<!-- END entry:loop -->
+	</ul>
+</div>
+<!-- END_MODULE Entry_List -->

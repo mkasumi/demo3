@@ -1,0 +1,112 @@
+<header class="acms-admin-grid-r">
+	<div class="acms-admin-col-md-6">
+		<h1 class="acms-admin-admin-title"><i class="acms-admin-icon acms-admin-icon-unit-image"></i><!--T-->画像サイズ修正<!--/T--></h1>
+	</div>
+	<div class="acms-admin-col-md-6">
+		<!--#include file="/admin/topicpath.html"-->
+	</div>
+</header>
+
+<!-- BEGIN_MODULE Admin_Fix_Image -->
+
+<form method="post" action="" class="acms-admin-form">
+	<!-- BEGIN message#success -->
+	<p class="acms-admin-alert acms-admin-alert-info"><button class="js-acms-alert-close">×</button><!--T-->画像サイズを修正しました。<!--/T--></p><!-- END message#success -->
+
+	<div class="js-acms_fix_marker js-acms_fix_target acms_fix_bg">
+		<div class="acms_fix_bg_index">
+			<a href="{indexUrl}" class="acms-admin-btn-admin"><!--T-->一覧<!--/T--></a>
+		</div>
+	</div>
+
+	<div class="acms-admin-panel acms-admin-panel-info">
+		<div class="acms-admin-panel-header">
+			<!--T-->概要<!--/T-->
+		</div>
+		<div class="acms-admin-panel-body">
+			<!--T-->ユニットの画像サイズ（拡大画像、通常画像、モバイル画像、正方形画像）を修正します。<!--/T-->
+		</div>
+	</div>
+
+	<div class="acms-admin-panel acms-admin-panel-danger">
+		<div class="acms-admin-panel-header">
+			<!--T-->注意事項<!--/T-->
+		</div>
+		<div class="acms-admin-panel-body">
+			<!--T-->拡大画像がない場合や、拡大画像より大きいサイズには修正がされないのでご注意下さい。<!--/T-->
+		</div>
+	</div>
+
+	<!-- BEGIN step -->
+	<table class="adminTable acms-admin-table-admin-edit">
+		<tr>
+			<th><!--T-->ターゲット<!--/T--><i class="acms-admin-icon-tooltip js-acms-tooltip" data-acms-tooltip="<!--T-->リサイズをする画像サイズを選択してください。<!--/T-->"></i></th>
+			<td>
+				<ul class="acms-admin-list-nostyle">
+				<li>
+					<label class="acms-admin-form-radio">
+						<input type="radio" name="fix_image_type" value="large"{fix_image_type:checked#large}><i class="acms-admin-ico-radio"></i>&nbsp;<!-- BEGIN size --><!--T-->拡大画像<!--/T-->(Large : {largeSize}px)<!-- END size -->
+					</label>
+				</li>
+				<li>
+					<label class="acms-admin-form-radio">
+						<input type="radio" name="fix_image_type" value="normal"{fix_image_type:checked#normal}><i class="acms-admin-ico-radio"></i>&nbsp;<!--T-->通常画像<!--/T-->(Normal)
+					</label>
+
+					<select name="fix_image_normal_size" class="acms-admin-form-select"><!-- BEGIN normalSize:loop -->
+						<option value="{size}"{selected}>{size}</option><!-- END normalSize:loop -->
+					</select>
+
+					<input type="hidden" name="fix[]" value="fix_image_normal_size" />
+				</li>
+				<li>
+					<label class="acms-admin-form-radio">
+						<input type="radio" name="fix_image_type" value="tiny"{fix_image_type:checked#tiny}><i class="acms-admin-ico-radio"></i>&nbsp;<!-- BEGIN size --><!--T-->モバイル画像<!--/T-->(Tiny : {tinySize}px)<!-- END size -->
+					</label>
+				</li>
+				<li>
+					<label class="acms-admin-form-radio">
+						<input type="radio" name="fix_image_type" value="square"{fix_image_type:checked#square}><i class="acms-admin-ico-radio"></i>&nbsp;<!-- BEGIN size --><!--T-->正方形画像<!--/T-->(Square : {squareSize}px)<!-- END size -->
+					</label>
+				</li>
+				</ul><!-- END size -->
+
+				<input type="hidden" name="fix[]" value="fix_image_type" />
+				<input type="hidden" name="fix_image_type:validator#required" />
+				<!-- BEGIN fix_image_type:v#required -->
+				<label class="validator-result-0"><!--T-->ターゲットを選択して下さい<!--/T--></label>
+				<!-- END fix_image_type:v#required -->
+			</td>
+		</tr>
+		<tr>
+			<th><!--T-->リサイズ<!--/T--><i class="acms-admin-icon-tooltip js-acms-tooltip" data-acms-tooltip="<!--T-->リサイズ後のサイズを入力してください。<!--/T-->"></i></th>
+			<td>
+				<select name="fix_image_size_criterion">
+					<option value=""><!--T-->長辺<!--/T--></option>
+					<option value="width"><!--T-->横<!--/T--></option>
+					<option value="height"><!--T-->縦<!--/T--></option>
+				</select><!-- END_IF -->
+				<input type="hidden" name="fix[]" value="fix_image_size_criterion" />
+
+				<input type="text" name="fix_image_size" value="{fix_image_size}" />
+				<input type="hidden" name="fix[]" value="fix_image_size" />
+
+				<input type="hidden" name="fix_image_size:validator#required" />
+				<input type="hidden" name="fix_image_size:validator#regex" value="^[1-9][\d]+$" />
+
+				<!-- BEGIN fix_image_size:v#required -->
+				<label class="validator-result-0"><!--T-->リサイズするサイズを入力して下さい<!--/T--></label>
+				<!-- END fix_image_size:v#required --><!-- BEGIN fix_image_size:v#regex -->
+				<label class="validator-result-0"><!--T-->数値を入力して下さい<!--/T--></label><!-- END fix_image_size:v#regex -->
+			</td>
+		</tr>
+		<tr>
+			<th></th>
+			<td>
+				<input type="submit" name="ACMS_POST_Fix_Image" value="<!--T-->修正<!--/T-->" onclick="return confirm('<!--T-->画像サイズを修正します。よろしいですか？<!--/T-->');" class="acms-admin-btn-admin acms-admin-btn-admin-primary">
+			</td>
+		</tr>
+	</table>
+	<!-- END step -->
+</form>
+<!-- END_MODULE Admin_Fix_Image -->

@@ -1,0 +1,51 @@
+<header class="acms-admin-grid-r">
+	<div class="acms-admin-col-md-6">
+		<h1 class="acms-admin-admin-title"><i class="acms-admin-icon acms-admin-icon-import"></i><!--T-->CSVインポート<!--/T--></h1>
+	</div>
+	<div class="acms-admin-col-md-6">
+		<!--#include file="/admin/topicpath.html"-->
+	</div>
+</header>
+
+<!-- BEGIN_MODULE Touch_SessionWithAdministration -->
+<!-- BEGIN_MODULE Admin_Import_Message -->
+<!-- BEGIN message:veil -->
+<p class="acms-admin-alert acms-admin-alert-info"><button class="js-acms-alert-close">×</button><!--T-->{importMessage}<!--/T--></p><!-- END message:veil --><!-- BEGIN import:data -->
+<p class="acms-admin-alert acms-admin-alert-info"><button class="js-acms-alert-close">×</button><!--T--><!--$1-->{blog}<!--/$1--> ブログ <!--$2-->{category}<!--/$2--> に <!--$3-->{entry_count}<!--/$3-->件、インポートしました。<!--/T--></p><!-- END import:data -->
+<!-- END_MODULE Admin_Import_Message -->
+
+<p class="acms-admin-margin-sp"><!--T-->CSVデータを、指定したカテゴリーにインポートまたは上書きします。<!--/T--></p>
+
+<ul>
+	<li><!--T-->CSV形式のファイル(カンマ区切りデータ)をエントリーと、エントリーのカスタムフィールドに変換してインポートします。<!--/T--></li>
+	<li><!--T-->CSVファイルに、カスタムフィールドの情報のみが含まれる場合は、エントリー情報は自動で作成されます。<!--/T--></li>
+	<li><!--T-->CSVに <strong>entry_id</strong> を指定することで既存のエントリーに上書きすることができます。<!--/T--></li>
+	<li><!--T-->CSVに<strong>entry_category_id</strong>を指定することで、優先してそのカテゴリーにインポートされます。<!--/T--></li>
+</ul>
+
+<form action="" method="post" enctype="multipart/form-data" class="acms-admin-form">
+	<input class="acms-admin-btn-admin acms-admin-btn-admin-primary acms-admin-btn-admin-save acms-admin-margin-sp" type="submit" name="ACMS_POST_Import_Csv" value="<!--T-->インポートを実行する<!--/T-->"/ onclick="return confirm('<!--T-->インポートを実行します。よろしいですか？<!--/T-->');">
+
+	<h2 class="acms-admin-admin-title2"><!--T-->CSVデータ<!--/T--></h2>
+	<table class="adminTable acms-admin-table-admin-edit">
+		<tr>
+			<th><!--T-->インポート先ブログ<!--/T--></th>
+			<td>%{BLOG_NAME}（<!--T-->現在のブログ<!--/T-->）</td>
+		</tr>
+		<tr>
+			<th><!--T-->インポート先カテゴリー<!--/T--></th>
+			<td>
+				<select name="category_id">
+					<option value="0"><!--T-->なし<!--/T--></option><!-- BEGIN_MODULE Admin_Category_Select --><!-- BEGIN loop -->
+					<option value="{value}"{selected}>{indent}[raw]{label} ( {amount} )</option><!-- END loop --><!-- END_MODULE Admin_Category_Select -->
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th><!--T-->インポートデータ（CSV）<!--/T--></th>
+			<td><input type="file" name="csv_import_file"></td>
+		</tr>
+	</table>
+</form>
+<!-- END_MODULE Touch_SessionWithAdministration -->
+

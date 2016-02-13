@@ -1,0 +1,48 @@
+<!-- BEGIN_MODULE Admin_Shortcut_Index -->
+<header class="acms-admin-grid-r">
+	<div class="acms-admin-col-md-6">
+		<h1 class="acms-admin-admin-title"><i class="acms-admin-icon acms-admin-icon-shortcut"></i><!--T-->ショートカット管理<!--/T--></h1>
+	</div>
+	<div class="acms-admin-col-md-6">
+		<!--#include file="/admin/topicpath.html"-->
+	</div>
+</header>
+
+<!-- BEGIN index#notFound -->
+<p class="acms-admin-alert acms-admin-alert-danger"><button class="js-acms-alert-close">×</button><!--T-->ショートカットがありません。<!--/T--></p><!-- END index#notFound --><!-- BEGIN sort#success -->
+<p class="acms-admin-alert acms-admin-alert-info"><button class="js-acms-alert-close">×</button><!--T-->表示順を変更しました<!--/T--></p><!-- END sort#success -->
+
+<!-- BEGIN index:veil -->
+<form method="post" action="" id="sortableForm" class="acms-admin-form">
+	<table class="adminTable js-admin_table-sortable exceptionSort acms-admin-table-admin acms-admin-table-heading" data-sort-enable="on" data-sort-submit="ACMS_POST_Shortcut_Index_Sort" data-sort-target="#sortableForm">
+	<thead>
+		<tr>
+			<th class="item-handle acms-admin-hide-sp"></th>
+			<th class="acms-admin-hide-sp"><!--T-->表示順<!--/T--></th>
+			<th class="acms-admin-show-sp"><!--T-->ショートカット名<!--/T--></th>
+			<th class="acms-admin-hide-sp"><!--T-->対象ユーザー<!--/T--></th>
+			<th class="acms-admin-hide-sp"><!--T-->アクション<!--/T--></th>
+		</tr>
+	</thead>
+	<tbody><!-- BEGIN shortcut:loop -->
+		<tr data-sort-level="parallel" data-sort-name="sort">
+			<td class="item-handle acms-admin-hide-sp" style="cursor: move;"><i class="acms-admin-icon-sort"></i></td>
+			<td>
+				<select name="sort[]"><!-- BEGIN sort:loop -->
+					<option value="{value}"{selected}>{label}</option><!-- END sort:loop -->
+				</select>
+			</td>
+			<td class="acms-admin-title-sp acms-admin-show-sp acms-admin-width-sp"><a href="{url}">{name}</a></td>
+			<td><!-- BEGIN auth#administration -->
+				<!--T-->管理権限<!--/T--><!-- END auth#administration --><!-- BEGIN auth#compilation -->
+				<!--T-->編集権限<!--/T--><!-- END auth#compilation --><!-- BEGIN auth#contribution -->
+				<!--T-->投稿権限<!--/T--><!-- END auth#contribution -->
+			</td>
+			<td class="acms-admin-show-sp acms-admin-width-sp acms-admin-border-bottom-sp">
+				<a href="{itemUrl}&edit=update" class="acms-admin-btn-admin"><!--T-->変更<!--/T--></a>
+			</td>
+		</tr>
+	<!-- END shortcut:loop --></tbody>
+	</table>
+</form><!-- END index:veil -->
+<!-- END_MODULE Admin_Shortcut_Index -->

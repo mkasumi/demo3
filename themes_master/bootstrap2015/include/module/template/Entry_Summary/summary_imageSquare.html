@@ -1,0 +1,26 @@
+<!-- BEGIN_MODULE Entry_Summary -->
+<div class="clearfix">
+	<!-- BEGIN moduleField -->
+	<h2 class="moduleHeading">{module_heading}</h2>
+	<p>{module_detail}[nl2br]</p><!-- END moduleField -->
+	<!--#include file="/admin/module/setting.html"-->
+	<!-- BEGIN notFound -->
+	<p>エントリーが見つかりませんでした。</p>
+	<!-- END notFound -->
+
+	<!-- BEGIN unit:loop -->
+		<div>
+			<!-- BEGIN entry:loop -->
+			<div class="text-center feature-border {entry:loop.class}">
+				<div style="width:{x}px; height:{y}px; overflow:hidden; position:relative;" class="img-wrap-center"><!-- BEGIN image:veil -->
+				<img src="%{ROOT_DIR}{path}" width="{imgX}" height="{imgY}" alt="" style="left:{left}px; top:{top}px; position:relative;" /><!-- END image:veil --><!-- BEGIN noimage -->
+				noimage
+				<!-- END noimage -->
+				</div>
+				<p class="summary-title"><a href="{url}">{title}</a></p>
+				<p>{entry_meta_description}</p>
+			</div><!-- END entry:loop -->
+		</div>
+		<!-- END unit:loop -->
+</div>
+<!-- END_MODULE Entry_Summary -->

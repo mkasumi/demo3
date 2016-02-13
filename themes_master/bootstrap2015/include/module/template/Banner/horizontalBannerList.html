@@ -1,0 +1,20 @@
+<!-- BEGIN_MODULE Banner id="" -->
+<div>
+<!--#include file="/admin/module/setting.html"-->
+<div>
+	<!-- BEGIN moduleField -->
+	<!-- BEGIN module_heading:veil --><h2 class="moduleHeading">{module_heading}</h2><!-- END module_heading:veil -->
+	<!-- BEGIN module_detail:veil --><p>{module_detail}[nl2br]</p><!-- END module_detail:veil --><!-- END moduleField -->
+	<ul class="listInlineBanner clearfix">
+		<!-- BEGIN banner:loop -->
+		<!-- BEGIN banner#src -->
+		<li class="{banner:loop.class} text-center">{src}[raw]</li>
+		<!-- END banner#src -->
+		<!-- BEGIN banner#img -->
+		<li class="{banner:loop.class} text-center"><a href="{url}" target="{target}"><img src="%{ARCHIVES_DIR}{img}" alt="{alt}" class="img-responsive" /></a></li>
+		<!-- END banner#img -->
+		<!-- END banner:loop -->
+	</ul>
+</div>
+</div>
+<!-- END_MODULE Banner -->

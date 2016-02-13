@@ -1,0 +1,54 @@
+ERROR 1008 (HY000) at line 1: Can't drop database 'DBacms'; database doesn't exist
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 20: ​: command not found
+ERROR 1049 (42000): Unknown database 'DBacms'
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 23: ​: command not found
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 29: ​: command not found
+ERROR 1008 (HY000) at line 1: Can't drop database 'DBacms'; database doesn't exist
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 20: ​: command not found
+ERROR 1049 (42000): Unknown database 'DBacms'
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 23: ​: command not found
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 29: ​: command not found
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 20: ​: command not found
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 23: ​: command not found
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 20: ​: command not found
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 23: ​: command not found
+/Applications/MAMP/htdocs/demo2/reset/reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+./reset.sh: line 20: ​: command not found
+./reset.sh: line 23: ​: command not found
+./reset.sh: line 29: ​: command not found
+/Applications/MAMP/htdocs/demo3/reset/reset.sh: line 20: ​: command not found
+/Applications/MAMP/htdocs/demo3/reset/reset.sh: line 23: ​: command not found
+/Applications/MAMP/htdocs/demo3/reset/reset.sh: line 20: ​: command not found
+/Applications/MAMP/htdocs/demo3/reset/reset.sh: line 23: ​: command not found
+/Applications/MAMP/htdocs/demo3/reset/reset.sh: line 29: ​: command not found

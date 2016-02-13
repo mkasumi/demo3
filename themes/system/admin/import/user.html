@@ -1,0 +1,41 @@
+<header class="acms-admin-grid-r">
+	<div class="acms-admin-col-md-6">
+		<h1 class="acms-admin-admin-title"><i class="acms-admin-icon acms-admin-icon-import"></i><!--T-->ユーザーインポート<!--/T--></h1>
+	</div>
+	<div class="acms-admin-col-md-6">
+		<!--#include file="/admin/topicpath.html"-->
+	</div>
+</header>
+
+<!-- BEGIN_MODULE Touch_SessionWithAdministration -->
+<!-- BEGIN_MODULE Admin_Import_Message -->
+<!-- BEGIN message:veil -->
+<p class="acms-admin-alert acms-admin-alert-info"><button class="js-acms-alert-close">×</button><!--T-->{importMessage}<!--/T--></p><!-- END message:veil --><!-- BEGIN import:data -->
+<p class="acma-alert acms-admin-alert-info"><button class="js-acms-alert-close">×</button><!--T--><!--$1-->{blog}<!--/$1--> ブログ に <!--$2-->{entry_count}<!--/$2-->件、インポートしました。<!--/T--></p><!-- END import:data -->
+<!-- END_MODULE Admin_Import_Message -->
+
+<p><!--T-->CSVデータのユーザーを現在のブログにインポートまたは上書きします。<!--/T--></p>
+
+<ul>
+	<li><!--T-->CSV形式のファイル(カンマ区切りデータ)をユーザーと、ユーザーのカスタムフィールドに変換してインポートします。<!--/T--></li>
+	<li><!--T-->user_code, user_mail, user_passは必須項目です。<!--/T--></li>
+	<li><!--T-->CSVに <strong>user_id</strong> を指定することで既存のユーザーを上書きすることができます。<!--/T--></li>
+</ul>
+
+<form action="" method="post" enctype="multipart/form-data">
+
+	<input class="acms-admin-btn-admin acms-admin-btn-admin-primary acms-admin-btn-admin-save" type="submit" name="ACMS_POST_Import_User" value="<!--T-->インポートを実行する<!--/T-->"/ onclick="return confirm('<!--T-->インポートを実行します。よろしいですか？<!--/T-->');">
+	<h3 class="acms-admin-admin-title2"><!--T-->CSVデータ<!--/T--></h3>
+	<table class="adminTable acms-admin-table-admin-edit">
+		<tr>
+			<th><!--T-->インポート先ブログ<!--/T--></th>
+			<td>%{BLOG_NAME}（<!--T-->現在のブログ<!--/T-->）</td>
+		</tr>
+		<tr>
+			<th><!--t-->エクスポートデータ（CSV）<!--/T--></th>
+			<td><input type="file" name="csv_import_file" ></td>
+		</tr>
+	</table>
+</form>
+<!-- END_MODULE Touch_SessionWithAdministration -->
+

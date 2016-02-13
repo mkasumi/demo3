@@ -1,0 +1,32 @@
+<!-- BEGIN_MODULE Plugin_Schedule -->
+<!-- BEGIN moduleField --><!-- BEGIN module_heading:veil --><h2 class="moduleHeading">{module_heading}</h2><!-- END module_heading:veil --><!-- END moduleField -->
+<!-- BEGIN unit:loop -->
+<div class="unit"><!-- BEGIN month:loop -->
+	<!-- BEGIN monthly --><ul class="pager">
+	<li><a href="{prevUrl}">≪前月</a></li>
+	<li><a href="{nextUrl}">次月≫</a></li>
+</ul><!-- END monthly -->
+<div class="month panel panel-default">
+	<p class="panel-heading"><a href="{url}">{year}年 {month}月 {time}[date(F)]</a></p>
+	<table class="{mode} table"><!-- BEGIN week:loop -->
+		<tr class="week"><!-- BEGIN day:loop -->
+			<td class="day{weekNo}">
+				<!-- BEGIN day:veil -->
+				<span class="week">
+					{day} <small>({week})</small>
+				</span>
+				<!-- END day:veil -->
+			</td><!-- BEGIN plan:veil -->
+			<td class="plan"><!-- BEGIN plan -->
+				<p<!-- BEGIN class:veil --> class="{class}"<!-- END class:veil -->>
+				<!-- BEGIN item:veil -->{item}<!-- END item:veil -->
+				<!-- BEGIN item:null -->(なし)<!-- END item:null -->
+				<!-- BEGIN label:veil -->{label}<!-- END label:veil -->
+				<!-- BEGIN label:null -->(ラベルなし)<!-- END label:null -->
+			</p><!-- END plan -->
+		</td><!-- END plan:veil --><!-- END day:loop -->
+	</tr><!-- END week:loop -->
+</table>
+</div><!-- END month:loop -->
+</div><!-- END unit:loop -->
+<!-- END_MODULE Plugin_Schedule -->

@@ -1,0 +1,7428 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-12-24 17:21+0900\n"
+"PO-Revision-Date: 2015-12-24 18:34+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: themes/system/admin/action.html
+msgid "プロフィール"
+msgstr "Profile"
+
+msgid "承認通知"
+msgstr "Approval Notifications"
+
+msgid "デバッグモード"
+msgstr "Debug Mode"
+
+msgid "現在表示中のテンプレート"
+msgstr "Current Used Template"
+
+msgid "現在のルール"
+msgstr "Current Rule"
+
+msgid "トライアル版 有効期限"
+msgstr "Trial Version Expiration Date"
+
+msgid "期間限定ライセンス"
+msgstr "Licence for a limited period"
+
+msgid "登録されているユーザー数が上限を超えているため、ラインセンスが無効になっています。"
+msgstr "License is now unavailable, because number of users is above its limit."
+
+msgid "データベースのタイムスタンプが不正であるため、ライセンスが無効になっています。"
+msgstr "License is inactivated because TIMESTAMP in the database is incorrect"
+
+msgid "トライアル期間が終了しました"
+msgstr "Trial date expired"
+
+msgid "継続利用のご案内"
+msgstr "For Continued Use"
+
+msgid "ライセンス体系のページ"
+msgstr "Go to License System Page"
+
+msgid "商用・法人向けのご利用"
+msgstr "For Business Use"
+
+msgid "ライトライセンスお申し込みのページ"
+msgstr "Go to Lite License application page"
+
+msgid "ライトライセンスのご利用"
+msgstr "Use Lite License"
+
+msgid "ダイレクト編集ONにする"
+msgstr "Activate Direct Editing"
+
+msgid "ダイレクト編集OFFにする"
+msgstr "Inactivate direct editing"
+
+msgid "エントリー作成"
+msgstr "Add Entry"
+
+msgid "管理ページ"
+msgstr "Admin page"
+
+msgid "Ping送信"
+msgstr "Ping Sending"
+
+msgid "モブログ受信"
+msgstr "Get mails for moblog"
+
+msgid "プレビューモード"
+msgstr "Preview Mode"
+
+msgid "ログアウト"
+msgstr "Logout"
+
+msgid "このエントリーをメールで送信"
+msgstr "This entry will be sent via mail"
+
+msgid "一斉送信"
+msgstr "Broadcast"
+
+msgid "ショートカットを選択"
+msgstr "Select Shortcut"
+
+msgid "他ブログの管理ページへ移動"
+msgstr "Go to other blog's admin page"
+
+#: themes/system/admin/alias/edit.html
+msgid "エイリアス管理"
+msgstr "Alias"
+
+msgid "エイリアスを作成しました"
+msgstr "Alias Added"
+
+msgid "エイリアスを保存しました"
+msgstr "Alias Saved"
+
+msgid "エイリアスを削除しました"
+msgstr "Alias Deleted"
+
+msgid "この操作は許可されていません。"
+msgstr "This operation is not allowed."
+
+msgid "エイリアスを削除できませんでした。"
+msgstr "Alias couldn't be deleted."
+
+msgid "プライマリに指定されているエイリアスは削除出来ません。"
+msgstr "The primary alias can't be deleted."
+
+msgid "一覧"
+msgstr "List"
+
+msgid "作成"
+msgstr "Add New"
+
+msgid "保存"
+msgstr "Save"
+
+msgid "削除"
+msgstr "Delete"
+
+msgid "この操作は取り消せません。\\nよろしいですか？"
+msgstr ""
+"This operation can’t be reverted.\n"
+"Are you sure you want to continue?"
+
+msgid "エイリアスの管理番号です"
+msgstr "Alias identification number"
+
+msgid "ステータス"
+msgstr "Status"
+
+msgid "エイリアスの有効・無効を変更します。"
+msgstr "Activate or Inactivate the alias."
+
+msgid "公開"
+msgstr "Public"
+
+msgid "名前"
+msgstr "Name"
+
+msgid "エイリアスの名前を変更します。（日本語可）"
+msgstr "Enter Alias Name (Japanese allowed)"
+
+msgid "名前が入力されていません。"
+msgstr "The name is not entered."
+
+msgid "ドメイン"
+msgstr "Domain"
+
+msgid "エイリアスのドメイン名を変更します。"
+msgstr "Enter domain name of alias."
+
+msgid "英数字"
+msgstr "Alphanumeric"
+
+msgid "ドメインが入力されていません。"
+msgstr "Domain is not entered"
+
+msgid "入力されたドメイン名はご利用できません。"
+msgstr "You can't use the entered domain name."
+
+msgid "入力されたドメインとコードネームの組み合わせは既に使用されています。"
+msgstr "The combination of entered domain and code name has already been used."
+
+msgid "コードネーム"
+msgstr "Codename"
+
+msgid "URL上で表示されるディレクトリ名を変更します。"
+msgstr "Enter directory name displayed on URL."
+
+msgid "システムで予約されているキーワードです。"
+msgstr "The keyword is used in the system."
+
+msgid "グローバル"
+msgstr "Global"
+
+msgid "チェックされたエイリアスは子ブログにも受け継がれて使用されます。"
+msgstr "Checked aliases will be used in lower blogs."
+
+msgid "下の階層のブログと共有する"
+msgstr "Share with lower blogs"
+
+msgid "ブログコードが設定されていないブログがあります。またはブログコードが重複しています。"
+msgstr "There may be blogs whose code are not set or overlapped."
+
+msgid "インデキシング"
+msgstr "Indexing"
+
+msgid "チェックが外されたエイリアスは、エイリアスの一覧を出力するモジュールに表示されなくなります。"
+msgstr "Unchecked alias won't be displayed in the alias list."
+
+msgid "リストに出す"
+msgstr "Show on list"
+
+#: themes/system/admin/alias/index.html
+msgid "エイリアスの一覧を更新しました。"
+msgstr "Alias updated."
+
+msgid "対象が選択されていません。"
+msgstr "Please select the target."
+
+msgid "ステータスが無効のエイリアスはプライマリに設定できません。"
+msgstr "Inactivated alias couldn't be set to primary one."
+
+msgid "エイリアスの作成"
+msgstr "Add Alias"
+
+msgid "表示順"
+msgstr "Display Order"
+
+msgid "プライマリエイリアス"
+msgstr "Primary Alias"
+
+msgid "変更"
+msgstr "Update"
+
+msgid "非公開"
+msgstr "Private"
+
+msgid ""
+"エイリアスに別ドメインを指定していて、index.phpまでのパスにディレクトリが含まれる場合、一覧のURLが正しくないことがありま"
+"す。"
+msgstr ""
+"If you set a different domain to the alias and if some directories exist in the path to index.php, listed URL may be "
+"incorrect."
+
+msgid "手動で「エイリアスのドメイン + index.phpまでのディレクトリパス + エイリアスのコード」のURLにアクセスしてください。"
+msgstr "Access to the following URL manually ‘alias domain + path to index.php + alias code’"
+
+msgid "プライマリ"
+msgstr "Primary"
+
+msgid "アクション"
+msgstr "Action"
+
+msgid "オリジナル"
+msgstr "Original"
+
+msgid "先祖ブログ"
+msgstr "Root Blog"
+
+#: themes/system/admin/app/index.html
+msgid "拡張アプリ管理"
+msgstr "ExApps"
+
+msgid "インストールに必要な要件を満たしていません。"
+msgstr "It doesn't meet the requirement for Instration."
+
+msgid "インストールに成功しました。"
+msgstr "Install succeed."
+
+msgid "インストールに失敗しました。"
+msgstr "Install failed."
+
+msgid "アンインストールに成功しました。"
+msgstr "Uninstall Succeed."
+
+msgid "アンインストールに失敗しました。"
+msgstr "Uninstall Failed."
+
+msgid "アプリ有効化に成功しました。"
+msgstr "App Activation Succeed."
+
+msgid "アプリ有効化に失敗しました。"
+msgstr "App Activation Failed."
+
+msgid "アプリ無効化に成功しました。"
+msgstr "App Inactivation Succeed."
+
+msgid "アプリ無効化に失敗しました。"
+msgstr "App Inactivation Failed."
+
+msgid "拡張アプリが見つかりません。"
+msgstr "ExApps not Found."
+
+msgid "アプリ名"
+msgstr "App Name"
+
+msgid "状態"
+msgstr "State"
+
+msgid "提供"
+msgstr "Sponsor"
+
+msgid "説明"
+msgstr "Description"
+
+msgid "利用可能な拡張アプリはありません。子ブログで利用するにはルートブログでインストールを行ってください。"
+msgstr "There are no available ExApps. Install these in the root blog, if you want to use these in the lower blogs."
+
+msgid "{name}"
+msgstr ""
+
+msgid "有効"
+msgstr "Activated"
+
+msgid "無効"
+msgstr "Inactivated"
+
+msgid "未インストール"
+msgstr "Not Installed"
+
+msgid "要アップデート"
+msgstr "Required Updating"
+
+msgid "{author}"
+msgstr ""
+
+msgid "{desc}"
+msgstr ""
+
+msgid "無効化"
+msgstr "Inactivate"
+
+msgid "アプリを無効化をします。よろしいですか？"
+msgstr "Inactivate the app. Are you sure you want to continue?"
+
+msgid "アンインストール"
+msgstr "Uninstall"
+
+msgid "アプリのアンインストールをします。またデータも削除されます。よろしいですか？"
+msgstr "Uninstall the app. its data will also be deleted. Are you sure you want to continue ?"
+
+msgid "インストール"
+msgstr "Install"
+
+msgid "アプリのインストールをします。よろしいですか？"
+msgstr "Install the app. Are you sure you want to continue ?"
+
+msgid "有効化"
+msgstr "Activate"
+
+msgid "アプリを有効化をします。よろしいですか？"
+msgstr "Activate the app. Are you sure you want to continue ?"
+
+msgid "アップデート"
+msgstr "Update"
+
+msgid "アプリのアップデートをします。よろしいですか？"
+msgstr "Are you sure you want to update the app ?"
+
+msgid "ルートブログで操作してください"
+msgstr "Please make sure you are on the root blog."
+
+#: themes/system/admin/approval/index.html
+msgid "承認履歴一覧"
+msgstr "Approval History"
+
+msgid "承認履歴がありません。"
+msgstr "There is no approval history."
+
+msgid "ソート"
+msgstr "Sort"
+
+msgid "日付"
+msgstr "Date"
+
+msgid "降順"
+msgstr "desc-order"
+
+msgid "昇順"
+msgstr "asc-order"
+
+msgid "表示数"
+msgstr "The number of items"
+
+msgid "表示"
+msgstr "Display"
+
+msgid "日時"
+msgstr "Datetime"
+
+msgid "タイプ"
+msgstr "Type"
+
+msgid "タイトル"
+msgstr "Title"
+
+msgid "バージョン名"
+msgstr "Version"
+
+msgid "操作ユーザー"
+msgstr "Action User"
+
+msgid "コメント"
+msgstr "Comments"
+
+msgid "承認却下"
+msgstr "Decline Approval"
+
+msgid "最終承認"
+msgstr "Finalize Approval"
+
+msgid "承認依頼"
+msgstr "Request for Approval"
+
+msgid "削除依頼"
+msgstr "Deletion Request"
+
+msgid "バージョンが削除されています"
+msgstr "The version was deleted."
+
+msgid "前へ"
+msgstr "Prev\t"
+
+msgid "次へ"
+msgstr "Next"
+
+msgid "件"
+msgstr " items"
+
+msgid "全"
+msgstr "Total "
+
+#: themes/system/admin/approval/notification.html
+msgid "承認通知はありません。"
+msgstr "There are no approval notifications."
+
+msgid "承認タスク"
+msgstr "Approval Task"
+
+msgid "依頼ユーザー"
+msgstr "Requesting User"
+
+msgid "期限"
+msgstr "Period"
+
+msgid "担当"
+msgstr "People in charge"
+
+msgid "確認"
+msgstr "Confirm"
+
+msgid "通知を削除します。\\nこの操作は取り消せません。\\nよろしいですか？"
+msgstr ""
+"Delete notifications.\n"
+"This operation can't be reverted. \n"
+"Are you sure you want to continue ?"
+
+msgid "承認期限"
+msgstr "Deadline for approving"
+
+msgid "次の承認者"
+msgstr "Next Approver"
+
+#: themes/system/admin/backup/index.html
+msgid "バックアップ"
+msgstr "Backup"
+
+msgid "アクセスログ"
+msgstr "Access Log"
+
+msgid "開始"
+msgstr "Start"
+
+msgid "終了"
+msgstr "Finish"
+
+msgid "子ブログのログも含める"
+msgstr "Include child blog's logs"
+
+msgid "対象期間を選択してください。"
+msgstr "Select a period."
+
+msgid "archivesディレクトリを書き込み可能にしてください。"
+msgstr "Make archive directory rewritable"
+
+msgid "CSVダウンロード"
+msgstr "Download CSV"
+
+msgid "ログ収集の状態"
+msgstr "How to correct logs"
+
+msgid "全て取得"
+msgstr "Get all"
+
+msgid "POSTのみ取得"
+msgstr "Get only POST"
+
+msgid "全体の件数"
+msgstr "Total"
+
+msgid "実行する前にarchivesディレクトリに書き込み権限があるか確認してください。"
+msgstr "Please make sure that you have the right to write down to the archives directory before executing."
+
+msgid "zip形式でダウンロードされます。ダウンロード後、解凍はしないでください。"
+msgstr "You can download it with zip formatted. Don't unzip it after downloading."
+
+msgid "エクスポート"
+msgstr "Export"
+
+msgid "データベースをエクスポート"
+msgstr "Export Database"
+
+msgid "エクスポートを実行する"
+msgstr "Export"
+
+msgid "データベースのデータを一括ダウンロードします。よろしいですか？"
+msgstr "Are you sure you want to download data from database?"
+
+msgid "アクセスログとキャッシュ以外のテーブルをzip形式でダウンロードします。"
+msgstr "Download tables aside from access logs and caches as zip format."
+
+msgid "アーカイブをエクスポート"
+msgstr "Export Archives"
+
+msgid ""
+"全てのarchivesディレクトリを一括ダウンロードします。データが大きい場合にはサーバに負荷がかかります。よろしいですか？"
+msgstr ""
+"Download all archives directory at the same time. It will affect the server, if the data is big. Are you sure you want "
+"to continue ?"
+
+msgid "archives ディレクトリのデータをzip形式でダウンロードします。"
+msgstr "Download archives directory's data as zipped file."
+
+msgid "インポート"
+msgstr "Import"
+
+msgid "元のテーブルを残しておく"
+msgstr "Leave original table as is"
+
+msgid "チェック時　： \"BACKUP_ACMS_(元のテーブル名)\" としてバックアップされます。"
+msgstr "If checked,  it will be backed up as [BACKUP_ACMS_(original table name)]"
+
+msgid "万が一処理に失敗した場合は、それらのテーブルを元の名前に戻して復旧してください。"
+msgstr "If the process failed, you can recover it by renaming these table to its original name."
+
+msgid "非チェック時： インポート後に元のデータベーステーブルを自動で削除します。"
+msgstr "If unchecked, delete database tables after importing."
+
+msgid "バージョンチェック"
+msgstr "Version Check"
+
+msgid "チェック時　： エクスポートファイルと現在のシステムをバージョン照合して確認します。"
+msgstr "If checked, you can verify the exported file by checking the current system version."
+
+msgid "非チェック時： バージョンの照合を省略します。"
+msgstr "If unchecked, you can skip the version verification."
+
+msgid "インポートしてもバージョン間の差異によって、正常に動作しない可能性があります。"
+msgstr "There is a possibility not to work well because of the difference of the version."
+
+msgid "エクスポートファイル"
+msgstr "Export File"
+
+msgid "参照先"
+msgstr "References"
+
+msgid "インポートを実行する"
+msgstr "Execute importation"
+
+msgid "全データのインポート処理を行います。よろしいですか？"
+msgstr "Are you sure you want to import all data?"
+
+msgid "実行する前に必ず、データベース・アーカイブ等のバックアップを行ってください。"
+msgstr "Done Backup the database and the archive before executing."
+
+msgid "エクスポートしたZIPファイルを、FTPなどでprivate/backup/ディレクトリにアップロードしてください。"
+msgstr "Upload exported zip file to ‘private/backup/‘ directory via FTP or so."
+
+msgid "テーマファイルはFTP等で別途アップロードしてください。"
+msgstr "You have to upload theme files separately via FTP."
+
+msgid "アーカイブインポート"
+msgstr "Archive Import"
+
+msgid "アーカイブインポートを実行する"
+msgstr "Import Archives"
+
+msgid "前のアーカイブディレクトリを削除しインポート処理を行います。よろしいですか？"
+msgstr "Are you sure you want to delete previous archive directory and want to import ?"
+
+msgid "エクスポートしたZIPアーカイブファイルを、FTPなどでarchives/backup/ディレクトリにアップロードしてください。"
+msgstr "Upload exported zip archive file to ‘archives/backup/‘ via FTP or so."
+
+#: themes/system/admin/blog/edit.html
+msgid "ブログ管理"
+msgstr "Blog"
+
+msgid "ブログを作成しました"
+msgstr "Blog Created"
+
+msgid "ブログを保存しました"
+msgstr "Blog Saved"
+
+msgid "ブログを削除しました"
+msgstr "Blog deleted"
+
+msgid "コンフィグを初期化しました"
+msgstr "Config Initialized"
+
+msgid "ブログを削除できませんでした。子を持つブログは削除できません。"
+msgstr "Blog couldn't be deleted. Blogs with children can't be deleted."
+
+msgid "戻る"
+msgstr "Back"
+
+msgid "ショートカットに追加"
+msgstr "Add to Shortcut"
+
+msgid "基本情報"
+msgstr "Basic Info"
+
+msgid "カスタム情報"
+msgstr "Custom Settings"
+
+msgid "ブログの管理番号です。"
+msgstr "Blog Identification Number."
+
+msgid "ブログの公開状態です。シークレットを選択した場合、ログインしたユーザーにのみブログが公開されます。"
+msgstr "Blog's publishing state.if you select 'secret'. The blog will be published to the login user."
+
+msgid "シークレット"
+msgstr "Secret"
+
+msgid "親ブログのステータスとの関係でステータスを変更できません。"
+msgstr "You can't update its status because of its parent's status."
+
+msgid "ルートブログは非公開にできません。"
+msgstr "Root Blog can't be set as private."
+
+msgid "ブログの名前です。"
+msgstr "Blog Name"
+
+msgid "日本語可"
+msgstr "Japanese allowed"
+
+msgid "ブログのドメイン名です。"
+msgstr "Blog's domain name"
+
+msgid "URL上で表示されるカテゴリーの名前（ディレクトリー名）を変更します。"
+msgstr "Update category name (directory name) show on URL."
+
+msgid ""
+"チェックが外されたブログはブログ一覧に表示されなくなります。しかし「非表示」ではないのでURLを入力するとブログが表示され"
+"ます。"
+msgstr ""
+"Unchecked blog won't be shown on blog list. But the blog will be displayed on specific URL as it doesn't mean ‘private’."
+
+msgid "テーマカラー"
+msgstr "Theme Color"
+
+msgid "ブログのテーマカラーを16進数で設定します。"
+msgstr "Set blog's theme color "
+
+msgid "色を選択"
+msgstr "Select a color"
+
+#: themes/system/admin/blog/index.html
+msgid "子ブログを作成"
+msgstr "Add Child Blog"
+
+msgid "親ブログを"
+msgstr "Parent Blog's BID"
+
+msgid "コンフィグの複製"
+msgstr "Config Duplication"
+
+msgid "コンフィグを現在のブログに"
+msgstr "Apply the config to the current blog."
+
+msgid "複製"
+msgstr "Duplicate"
+
+msgid "複製先のブログの元々のコンフィグは削除されます。\\n実行してよろしいですか？"
+msgstr "Original config data of referenced blogs will be deleted. Are you sure you want to continue?"
+
+msgid "選択したブログの元々のコンフィグを削除した後に、複製されたコンフィグが適用されます"
+msgstr "Duplicated config will be applied after deleting original configs of selected blogs."
+
+msgid "移動"
+msgstr "Move"
+
+msgid "前のページ"
+msgstr "Previous Page"
+
+msgid "次のページ"
+msgstr "Next Page"
+
+#: themes/system/admin/cart/menu.html
+msgid "カート"
+msgstr "Cart"
+
+msgid "カート設定を保存しました"
+msgstr "Cart Setting saved."
+
+msgid "コンフィグを保存出来ませんでした。"
+msgstr "Config couldn’t be saved."
+
+#: themes/system/admin/cart/setting/misc.html
+msgid "ショップの動作設定"
+msgstr "Shop Operation Settings"
+
+msgid "カートに商品を追加した後の移動先"
+msgstr "Destination after adding items to the cart."
+
+msgid "サンプルのテンプレートでは order.html か form.html に設定して下さい。"
+msgstr "You have to name it as order.html or form.html in the sample template."
+
+msgid "在庫管理"
+msgstr "Stock Management"
+
+msgid "在庫を管理する場合にチェックをつけてください。"
+msgstr "Check it If you manage stocks."
+
+msgid "税金の設定"
+msgstr "Tax Settings"
+
+msgid "税率の設定"
+msgstr "Tax Rate Setting"
+
+msgid "消費税の税率を設定してください。"
+msgstr "Set the tax rate."
+
+msgid "税換算の設定"
+msgstr "Tax Setting"
+
+msgid "内税・外税の切り替えを行う事ができます。"
+msgstr "Include or exclude tax"
+
+msgid "内税_CTX_tax_included"
+msgstr "Tax Inclusive"
+
+msgid "外税_CTX_tax_excluded"
+msgstr "Tax Exclusive"
+
+msgid "方式"
+msgstr "Method"
+
+msgid "合計算出の設定"
+msgstr "Total Amount"
+
+msgid "合計金額( total )に含める項目"
+msgstr "Item you want to include in total amount."
+
+msgid "合計金額に含める手数料を設定します。"
+msgstr "Commission fee included in total amount."
+
+msgid "配送手数料"
+msgstr "Delivery Fee"
+
+msgid "配送手数料＋オプション手数料"
+msgstr "Delivery Fee + Option Fee"
+
+msgid "配送手数料＋オプション手数料＋支払い手数料"
+msgstr "Delivery Fee + Option Fee + Commission Paid"
+
+#: themes/system/admin/cart/setting/order.html
+msgid "決済と配送の設定"
+msgstr "Payment and Delivery Settings"
+
+msgid "決済方法と手数料"
+msgstr "Payment and Commission Fee"
+
+msgid ""
+"決済方法と手数料を設定します。3つ目のブロックには、result.htmlで表示させたいブロックを設定します。（空白の場合には"
+"defaultが表示されます）"
+msgstr ""
+"Payment and Commission Fee settings. You can set a block to use on result.html as the third block. (If blank, it will "
+"be ‘default’)"
+
+msgid "ラベル"
+msgstr "Label"
+
+msgid "手数料"
+msgstr "Commission Fee"
+
+msgid "ブロック"
+msgstr "Block"
+
+msgid "配送方法と手数料"
+msgstr "Delivery and Commission Fee"
+
+msgid "配送方法と手数料を設定します。"
+msgstr "Delivery and Commission Fee Settings"
+
+msgid "方法"
+msgstr "Method"
+
+msgid "手数料を空欄にすると別項「送料の設定」が適用されます"
+msgstr "If you don't set the commission fee, ‘Shipping Fee’ will be applied."
+
+msgid "配送オプションの設定"
+msgstr "Delivery Option"
+
+msgid "配送希望日の選択肢の設定"
+msgstr "Setting of the Delivery Date."
+
+msgid "配送希望日の選択肢の設定します。"
+msgstr "Setting of the Delivery Date."
+
+msgid "日先から"
+msgstr "~"
+
+msgid "日先までを配達希望日の範囲とします"
+msgstr "will be the range of the delivery date."
+
+msgid "配送希望時間帯の選択肢の設定"
+msgstr "Setting of the Delivery Time"
+
+msgid "配送希望時間帯の選択肢の設定します。"
+msgstr "Setting of the Delivery Time"
+
+msgid "配送時間帯"
+msgstr "Delivery Time"
+
+msgid "その他のオプション"
+msgstr "Other Options"
+
+msgid "その他のオプションの手数料を設定します。"
+msgstr "Set the other option's commission fee."
+
+msgid "オプション"
+msgstr "Option"
+
+#: themes/system/admin/cart/setting/shipping.html
+msgid "送料の設定（配送方法の手数料に何も入力しないと，この送料が適用されます）"
+msgstr "Shipping Fee (This fee will be applied unless you enter anything to the delivery fee fields)"
+
+msgid "送料無料のしきい値"
+msgstr "Free Shipping Threshold"
+
+msgid "送料無料のしきい値を設定します。"
+msgstr "You can set the threshold for free shipping."
+
+msgid "円"
+msgstr "Yen"
+
+msgid "各種手数料を除いた合計金額がこの値を超えると無料になります"
+msgstr ""
+"The commission fee won't be applied if the total amount of money (aside from every commission fee)  is larger than this "
+"value."
+
+msgid "送料の全国一括設定"
+msgstr "Common Shipping Fee"
+
+msgid "送料の全国一括設定します。"
+msgstr "Common Shipping Fee"
+
+msgid "入力すると送料が地域を問わず共通になります"
+msgstr "Shipping fee for every country will be the same price if you set here."
+
+msgid "配送地域と送料の設定"
+msgstr "Location and Shipping Fee"
+
+msgid "地域"
+msgstr "Location"
+
+msgid "送料"
+msgstr "Shipping Fee"
+
+#: themes/system/admin/category/edit.html
+msgid "カテゴリー詳細"
+msgstr "Category Settings"
+
+msgid "カテゴリーを作成しました"
+msgstr "Category Added"
+
+msgid "カテゴリーを保存しました"
+msgstr "Category Saved"
+
+msgid "カテゴリーを削除しました"
+msgstr "Category Deleted"
+
+msgid "カテゴリーを削除できませんでした。"
+msgstr "Category couldn't be deleted."
+
+msgid "エントリーが登録されているカテゴリーは削除できません。"
+msgstr "You can't delete categories which have entries."
+
+msgid "サブカテゴリーがあるカテゴリーは削除できません。"
+msgstr "You can't delete categories which have sub categories."
+
+msgid "モブログで使用されているカテゴリーは削除できません。"
+msgstr "You can't delete categories used for moblog."
+
+msgid "カテゴリーを作成できませんでした。"
+msgstr "Category couldn't be added."
+
+msgid "カテゴリーを保存できませんでした。"
+msgstr "Category couldn't be saved."
+
+msgid "カスタム設定"
+msgstr "Custom Settings"
+
+msgid "カテゴリーの管理番号です。"
+msgstr "Category Identification Number."
+
+msgid "カテゴリーの公開状態です。チェックを外すとこのカテゴリーに所属するエントリーもすべて非公開になります。"
+msgstr "Publish status of the category. If unchecked, the entries belong to this category will be private."
+
+msgid "親カテゴリーが非公開の場合はステータスを公開にできません。"
+msgstr "You can't set it as public category if the parent category is private."
+
+msgid "カテゴリー名"
+msgstr "Category Name"
+
+msgid "カテゴリーの名前です"
+msgstr "Category Name"
+
+msgid "URL上で表示されるカテゴリーの名前（ディレクトリ名）です。"
+msgstr "Category Name (Directory Name) used for URL."
+
+msgid "コードネームが入力されていません。"
+msgstr "Cord name is not entered."
+
+msgid "既に使用されているコードネームです。"
+msgstr "The code name is already used."
+
+msgid "親カテゴリー"
+msgstr "Parent Category"
+
+msgid "このカテゴリーを特定のカテゴリーの下位階層に置く場合、上位（親）となるカテゴリーを指定してください。"
+msgstr "If you want to set this category as child category, you have to designate the parent category."
+
+msgid "なし"
+msgstr "None"
+
+msgid "自分自身を親カテゴリーに設定できません。"
+msgstr "You can't set itself as parent category."
+
+msgid "現在の子カテゴリーは、親カテゴリーに設定できません。"
+msgstr "Current child category can't be set as parent category."
+
+msgid "チェックされたカテゴリーは子ブログにも受け継がれて表示されます。"
+msgstr "Checked category will be used in the lower blogs."
+
+msgid "下の階層のブログが利用することを許可する"
+msgstr "Allow user to use this ID in the children blogs."
+
+msgid "親カテゴリーと異なる共有設定にすることはできません。"
+msgstr "You can't set this as global category, since the parent category is not global one."
+
+msgid "子ブログのエントリーが登録されています。"
+msgstr "Child blog's entries are registered."
+
+msgid "下の階層のブログと共有する ( 子ブログを持たないブログでは設定できません )"
+msgstr "Share this category with lower blogs. (You can't set it on the blog with no lower blogs)"
+
+msgid ""
+"チェックが外されたカテゴリーはカテゴリー一覧に表示されなくなります。しかし「非表示」ではないのでURLを入力するとカテゴ"
+"リーを表示することができます。"
+msgstr ""
+"Unchecked category won't be shown on the category list. But since it doesn't mean ‘private’ you can display the "
+"category contents with specific URL."
+
+#: themes/system/admin/category/index.html
+msgid "カテゴリー管理"
+msgstr "Category"
+
+msgid "カテゴリー一覧を更新しました。"
+msgstr "Category list updated"
+
+msgid "カテゴリーがありません。"
+msgstr "No Categories found"
+
+msgid "新規カテゴリー作成"
+msgstr "Add New Category"
+
+msgid "親カテゴリーを"
+msgstr "Parent Category Name"
+
+msgid "カテゴリーのステータスを非公開にすると\\nサブカテゴリーのステータスも非公開になります。\\nよろしいですか？"
+msgstr "If you set this category as private, sub categories will be private too. Are you sure you want to continue ?"
+
+msgid "コード"
+msgstr "Code"
+
+msgid "エントリー数"
+msgstr "Number of Entries"
+
+msgid "親に所属"
+msgstr "belong to a parent blog"
+
+msgid "親ブログに所属"
+msgstr "Belong to the parent blog"
+
+msgid "子カテゴリー"
+msgstr "Child Category"
+
+#: themes/system/admin/checklist.html
+msgid "チェックリスト"
+msgstr "Check Lists"
+
+msgid "ライセンス・バージョン情報"
+msgstr "License / Version Info"
+
+msgid "項目"
+msgstr "List"
+
+msgid "バージョン"
+msgstr "Version"
+
+msgid "期限付き"
+msgstr "Limited time"
+
+msgid "お試し期間"
+msgstr "Trial Period"
+
+msgid "ユーザー数"
+msgstr "Number of users"
+
+msgid "無制限"
+msgstr "Unlimited"
+
+msgid "ライセンスタイプ"
+msgstr "License type"
+
+msgid ","
+msgstr ","
+
+msgid "{type}"
+msgstr ""
+
+msgid "動作モード"
+msgstr "Operation Modes"
+
+msgid "ベンチマークモード"
+msgstr "Benchmark Mode"
+
+msgid "画像エンジン"
+msgstr "Image Engine"
+
+msgid "サーバー環境情報"
+msgstr "Server Environment Info"
+
+msgid "設定値"
+msgstr "Value"
+
+msgid "メモリー占有量の上限"
+msgstr "Upper Limit of Memory Usage "
+
+msgid "アップロード上限サイズ"
+msgstr "Upper Limit of uploading"
+
+msgid "POSTデータ上限サイズ"
+msgstr "Upper limit of posting data"
+
+msgid "同時アップロード上限ファイル数"
+msgstr "Number of files you can upload at the same time."
+
+msgid "セーフモード"
+msgstr "Safe Mode"
+
+msgid "PHPのバージョン"
+msgstr "PHP Version"
+
+msgid "PHP動作環境"
+msgstr "PHP Operating Environment"
+
+msgid "{php_sapi}"
+msgstr ""
+
+msgid "MySQLのバージョン"
+msgstr "MySQL Version"
+
+msgid "サーバー内時間"
+msgstr "Time in Server"
+
+msgid "利用化"
+msgstr "Available"
+
+msgid "利用不可"
+msgstr "Unavailable"
+
+msgid "使用条件がある機能"
+msgstr "Conditional Use Features"
+
+msgid "Twitter API系モジュール"
+msgstr "Twitter API Module"
+
+msgid "{Twitter}"
+msgstr ""
+
+msgid "Facebook API系モジュール"
+msgstr "Facebook API Module"
+
+msgid "{Facebook}"
+msgstr ""
+
+msgid "画像の回転処理"
+msgstr "Image Rotating"
+
+msgid "{ImageRotate}"
+msgstr ""
+
+msgid "キャッシュ・アクセスログ"
+msgstr "Cache Access log"
+
+msgid "ブログID"
+msgstr "Blog ID"
+
+msgid "ルールID"
+msgstr "Rule ID"
+
+msgid "キャッシュ"
+msgstr "Cache"
+
+msgid "キャッシュ感度"
+msgstr "Cache Sensitivity"
+
+msgid "編集"
+msgstr "Edit"
+
+msgid "フォーム"
+msgstr "Form"
+
+msgid "一般宛メール設定"
+msgstr "General Mail Settings"
+
+msgid "フォームID"
+msgstr "Form ID"
+
+msgid "文字コード"
+msgstr "Character code"
+
+msgid "管理者宛メール設定"
+msgstr "Mail Settings to Admin"
+
+msgid "コンフィグ検索"
+msgstr "Config Searching"
+
+msgid "DBのconfigテーブルを検索します"
+msgstr "Look up config table in the DB"
+
+msgid "検索"
+msgstr "Search"
+
+msgid "モジュールID"
+msgstr "Module ID"
+
+msgid "ルール名"
+msgstr "Rule name"
+
+msgid "キー"
+msgstr "Key"
+
+msgid "バリュー"
+msgstr "Value"
+
+#: themes/system/admin/comment/action.html
+msgid "承認待ち"
+msgstr "Pending"
+
+#: themes/system/admin/comment/edit.html
+msgid "コメントを返信する"
+msgstr "Reply"
+
+msgid "お名前"
+msgstr "Name"
+
+msgid "必須"
+msgstr "Required"
+
+msgid "名前を入力してください。"
+msgstr "The name is not entered."
+
+msgid "メールアドレス"
+msgstr "E-mail Address"
+
+msgid "無効なメールアドレスです。"
+msgstr "Mail address is invalid."
+
+msgid "無効なURLです。"
+msgstr "Invalid URL."
+
+msgid "タイトルが入力されていません。"
+msgstr "The title is not entered."
+
+msgid "タイトルに不適切な言葉が含まれています。"
+msgstr "The title has improper words."
+
+msgid "ここにコメントをご入力ください"
+msgstr "Write a comment here."
+
+msgid "コメントが入力されていません"
+msgstr "Comment is not entered."
+
+msgid "コメントに不適切な言葉が含まれています"
+msgstr "The comment has improper words."
+
+msgid "パスワード"
+msgstr "Password"
+
+msgid "パスワードが入力されていません"
+msgstr "Password is not entered."
+
+msgid "パスワードは半角小文字英数字で入力してください。"
+msgstr "Password should be entered with alphanumerics."
+
+msgid "Cookieに保存"
+msgstr "Saved in Cookie"
+
+msgid "次回から名前などを自動で入力します"
+msgstr "Fill in name and so automatically next time "
+
+msgid "内容の確認"
+msgstr "Confirm"
+
+msgid "名前が入力されていません"
+msgstr "Name is not entered."
+
+msgid "投稿"
+msgstr "Post"
+
+msgid "表示されません"
+msgstr "Not displayed"
+
+msgid "上記の内容で投稿します。よろしいですか？"
+msgstr "Are you sure you want to post above contents."
+
+msgid "上記の内容で保存します。よろしいですか？"
+msgstr "Are you sure you want to save above contents."
+
+msgid "上記のコメントを削除します。よろしいですか？"
+msgstr "Are you sure you want to delete above contents."
+
+msgid "修正する"
+msgstr "Modify"
+
+msgid "投稿する"
+msgstr "Post"
+
+msgid "保存する"
+msgstr "Save"
+
+msgid "削除する"
+msgstr "Delete"
+
+msgid "結果"
+msgstr "Result"
+
+msgid "表示されません。"
+msgstr "Not Displayed."
+
+msgid "上記の内容で投稿しました。"
+msgstr "Posted above contents."
+
+msgid "上記の内容で保存しました。"
+msgstr "Saved above contents."
+
+msgid "上記のコメントを削除しました。"
+msgstr "Deleted above comments."
+
+msgid "認証"
+msgstr "Authentication"
+
+msgid "上記のコメントを投稿する際に登録したパスワードを入力してください。"
+msgstr "Enter the password you registered on commenting above contents."
+
+msgid "パスワードが正しくありません。"
+msgstr "Password is not correct."
+
+#: themes/system/admin/comment/index.html
+msgid "コメント管理"
+msgstr "Comments"
+
+msgid "コメントが見つかりません"
+msgstr "No comments found."
+
+msgid "コメント一覧を更新しました。"
+msgstr "Comments have been updated."
+
+msgid "階層"
+msgstr "Hierarchy"
+
+msgid "下階層ブログのコメントも表示する"
+msgstr "Show "
+
+msgid "絞り込み"
+msgstr "Filter"
+
+msgid "全てのステータス"
+msgstr "All Status"
+
+msgid "選択したコメントを削除します。\\nこの操作は元に戻せません、よろしいですか？"
+msgstr "Selected comments will be deleted. This operation couldn’t be cancelled. Are you sure you want to continue?"
+
+msgid "投稿者"
+msgstr "Contributor"
+
+msgid "参照エントリー"
+msgstr "Referenced Entries"
+
+msgid "ブログ"
+msgstr "Blog"
+
+msgid "詳細"
+msgstr "Detail"
+
+msgid "件 "
+msgstr "items"
+
+#: themes/system/admin/config/access.html
+msgid "ルール"
+msgstr "Rule"
+
+msgid "アクセス設定"
+msgstr "Access Setting"
+
+msgid "アクセス設定を保存しました"
+msgstr "Access Settings has been saved."
+
+msgid "ログイン"
+msgstr "Login"
+
+msgid "許可リスト"
+msgstr "Permitted List"
+
+msgid ""
+"IPアドレスを半角数字と「.」「/」を使い<a href='http://ja.wikipedia.org/wiki/Classless_Inter-Domain_Routing' "
+"target='_blank'>CIDR記法</a>で入力してください。(例：a.b.c.d/32)<br />指定されたIPアドレスからのアクセスに限りログインで"
+"きるようになります。（この項目はブログごとの設定となり、ルールには反映されません。）"
+msgstr ""
+"Enter IP address with alphanumerics, ‘.’ and ‘/‘ by using CIDR rule.\n"
+"(Ex. a.b.c.d/32)<br />You can login only from designated IP address."
+
+msgid "追加"
+msgstr "Add"
+
+msgid "不正な形式です"
+msgstr "Invalid Format"
+
+msgid "拒否リスト"
+msgstr "Rejected List"
+
+msgid ""
+"IPアドレスを半角数字と「.」「/」を使い<a href='http://ja.wikipedia.org/wiki/Classless_Inter-Domain_Routing' "
+"target='_blank'>CIDR記法</a>で入力してください。(例：a.b.c.d/32)<br />指定されたIPアドレスからのアクセスに限りログインが"
+"拒否されるようになります。（この項目はブログごとの設定となり、ルールには反映されません。）"
+msgstr ""
+"Enter IP address with alphanumerics, ‘.’ and ‘/‘ by using CIDR rule.\n"
+"(Ex. a.b.c.d/32)<br />You can't login only from designated IP address."
+
+msgid "ベーシック認証"
+msgstr "Basic Authentication"
+
+msgid "アカウント"
+msgstr "Account"
+
+msgid "ベーシック認証に使用するユーザー名とパスワードを設定します。"
+msgstr "User name and password for basic authentication."
+
+msgid "ユーザー"
+msgstr "User"
+
+msgid "ユーザーは半角英数字のみ入力できます。"
+msgstr "User name should be alphanumerics."
+
+msgid "パスワードは半角英数字のみ入力できます。"
+msgstr "Password should be alphanumerics."
+
+msgid "認証スキップ"
+msgstr "Skip Authentication"
+
+msgid ""
+"IPアドレスを半角数字と「.」「/」を使い<a href='http://ja.wikipedia.org/wiki/Classless_Inter-Domain_Routing' "
+"target='_blank'>CIDR記法</a>で入力してください。(例：a.b.c.d/32)<br />指定されたIPアドレスからのアクセスに限り、ベーシッ"
+"ク認証をスキップできます。"
+msgstr ""
+"Enter IP address with alphanumerics, ‘.’ and ‘/‘ by using CIDR rule.\n"
+"(Ex. a.b.c.d/32)<br />You can skip the basic authentication from the specified IP address."
+
+#: themes/system/admin/config/alias/list.html
+msgid "エイリアスリスト"
+msgstr "Alias List"
+
+msgid "設定を保存しました"
+msgstr "Settings saved."
+
+#: themes/system/admin/config/alias/list_body.html
+msgid "エイリアスリストが表示される順番です。"
+msgstr "Display order of Alias List"
+
+msgid "( 昇順 )"
+msgstr "(asc-order)"
+
+msgid "( 降順 )"
+msgstr "(desc-order)"
+
+msgid "コード名"
+msgstr "Code Name"
+
+msgid "表示件数"
+msgstr "The number of Items"
+
+msgid "エイリアスリストが表示される件数です。"
+msgstr "The number of Alias List"
+
+msgid "数字を入力して下さい。"
+msgstr "Please enter a number."
+
+#: themes/system/admin/config/api/bing/image-search.html
+msgid "Bingイメージ検索"
+msgstr "Bing Image Search"
+
+#: themes/system/admin/config/api/bing/image-search_body.html
+msgid "コンフィグ"
+msgstr "Config"
+
+msgid "一度に表示される件数です。"
+msgstr "The number of items displayed at once."
+
+msgid "( 上限50件 )"
+msgstr "(Upper Limit 50)"
+
+msgid "上限を超えています"
+msgstr "Surpass the upper limit"
+
+#: themes/system/admin/config/api/bing/web-search.html
+msgid "Bingウェブ検索"
+msgstr "Bing Web Search"
+
+#: themes/system/admin/config/api/instagram/users/media/liked.html
+msgid "Instagram最近のLiked"
+msgstr "Recent Likes on Instagram"
+
+#: themes/system/admin/config/api/instagram/users/media/liked_body.html
+msgid "APIリクエスト キャッシュ有効時間"
+msgstr "API request cache expiration time"
+
+msgid ""
+"APIリクエストの結果を、ここで設定した秒数の間だけキャッシュ利用します。ページのキャッシュとは異なることに注意してくださ"
+"い。"
+msgstr ""
+"Use the cache during the expiration time of the API request cache. Beware that this is different from the page cache."
+
+#: themes/system/admin/config/api/instagram/users/media/recent.html
+msgid "Instagram最近の投稿"
+msgstr "Recent Post on Instagram"
+
+#: themes/system/admin/config/api/twitter/list/members.html
+msgid "Twitterリストメンバーズ"
+msgstr "Twitter List Members"
+
+#: themes/system/admin/config/api/twitter/list/statuses.html
+msgid "Twitterリストタイムライン"
+msgstr "Twitter List Time Statuses"
+
+#: themes/system/admin/config/api/twitter/list/statuses_body.html
+msgid "非公開ツイート"
+msgstr "Private Tweet"
+
+msgid "チェックをすると非公開アカウントのツイートを表示しません。"
+msgstr "Private account’s Tweet won’t be displayed if checked."
+
+msgid "非公開のステータスを表示しない"
+msgstr "Don’t show private status."
+
+#: themes/system/admin/config/api/twitter/search.html
+msgid "Twitterサーチ"
+msgstr "Twitter Search"
+
+#: themes/system/admin/config/api/twitter/search_body.html
+msgid "非公開アカウントのツイートを表示しません。"
+msgstr "Hide Tweets of private account."
+
+msgid "非公開ツイートを表示しない"
+msgstr "Hide private Tweets."
+
+msgid "日本のツイート"
+msgstr "Tweet in Japanese"
+
+msgid "検索結果を日本語のツイートに絞るようにリクエストします。（設定している場合でも、他言語が混入する場合があります。）"
+msgstr "Request the search result by Tweets in Japanese."
+
+msgid "日本のツイートを中心に検索する"
+msgstr "Search around by Tweets in Japenese."
+
+msgid "秒"
+msgstr "seconds"
+
+#: themes/system/admin/config/api/twitter/statuses/home-timeline.html
+msgid "Twitterホームタイムライン"
+msgstr "Twitter Home Timeline"
+
+#: themes/system/admin/config/api/twitter/statuses/user-timeline.html
+msgid "Twitterユーザータイムライン"
+msgstr "Twitter User Timeline"
+
+#: themes/system/admin/config/api/twitter/users/show.html
+msgid "Twitterユーザー詳細"
+msgstr "Twitter User Detail"
+
+#: themes/system/admin/config/app/timeline.html
+msgid "コンフィグ管理"
+msgstr "Config"
+
+msgid "タイムライン"
+msgstr "Timeline"
+
+msgid "どのようなルールに従って表示されるかの設定です。"
+msgstr "You can set the rule for display."
+
+#: themes/system/admin/config/authorize.html
+msgid "外部認証設定"
+msgstr "External Authentication Setting"
+
+msgid ""
+"TwitterAPI系モジュールを利用するために、認証してブログとアカウント情報を関連付けます。この設定は、ブログ単位で行われま"
+"す。ルールを利用した個別の設定はできません"
+msgstr ""
+"Associate Twitter account with this blog by authentication in order to use Twitter API module. This setting is to be "
+"done each blogs. You can’t set it with Rule."
+
+msgid "OAuth認証を行う"
+msgstr "OAuth Authentication"
+
+msgid "認証キーの直接入力"
+msgstr "Direct Input of Authentication Key"
+
+msgid "※アクセストークン(認証キー)を直接入力して、認証する場合は以下から設定してください"
+msgstr "* You can authenticate with the following settings, if you want to enter access token directly."
+
+msgid "設定"
+msgstr "Config"
+
+msgid "この設定は、ブログ単位で行われます。ルールを利用した個別の設定はできません。"
+msgstr "This setting is to be done with each blogs. You can’t set it with Rule."
+
+msgid "<strong>$1 : $2</strong> で認証済み"
+msgstr "Authorized with <strong>$1 : $2</strong>"
+
+msgid "API 残回数"
+msgstr "Remained usage count of API"
+
+msgid "認証確認の接続に失敗しました"
+msgstr "Failed to connect for authentication."
+
+msgid "認証には、<a href=\"https://dev.twitter.com/apps\">Twitterアプリケーション</a>の登録が必要です"
+msgstr "Required registration on Twitter App for authentication."
+
+msgid ""
+"登録後に<a href=\"%{ADMIN_BASE_URL}bid/%{BID}/admin/config_property/\">プロパティ設定</a>で、取得したコンシューマーキー"
+"とシークレットを入力してください。"
+msgstr "Enter consumer key and secret key you got from property settings page after registration."
+
+msgid ""
+"<a href=\"https://dev.twitter.com/apps\">Twitterアプリケーション</a>を登録するときに、下記のURLをコールバックURLに指定し"
+"てください。"
+msgstr "Set following url as callback url on registering<a href=\"https://dev.twitter.com/apps\">Twitter app</a>"
+
+msgid "このブログのコールバックURL"
+msgstr "Call back URL on this blog."
+
+msgid ""
+"InstagramAPI系モジュールを利用するために、認証してブログとアカウント情報を関連付けます。この設定は、ブログ単位で行われま"
+"す。ルールを利用した個別の設定はできません。"
+msgstr ""
+"Associate Instagram account with this blog by authentication in order to use Instagram API module. This setting is to "
+"be done each blogs. You can’t set it with Rule."
+
+msgid "認証情報を破棄"
+msgstr "Discard authenticated info"
+
+msgid "認証には、<a href=\"http://instagram.com/developer/\">Instagramアプリケーション</a>の登録が必要です。"
+msgstr "Required registration on Instagram app for authentication."
+
+msgid ""
+"登録後に<a href=\"%{ADMIN_BASE_URL}bid/%{BID}/admin/config_property/\">プロパティ設定</a>で、Client Id、Client Secret、"
+"Client Redirectを入力してください。"
+msgstr "Enter Client Id, Client Secret and Client Redirect you got from property settings page after registration"
+
+msgid ""
+"<a href=\"http://instagram.com/developer/\">Instagramアプリケーション</a>を登録するときに、下記のURLをコールバックURLに"
+"指定してください。"
+msgstr "Set Following URL as callback URL on registering Instagram App."
+
+#: themes/system/admin/config/banner_body.html
+msgid "バナーが表示される順番を表示順かランダムかを選びます。"
+msgstr "Select if the display order of banners is random order or designated order."
+
+msgid "表示順 ( 昇順 )"
+msgstr "Designated order (asc-order)"
+
+msgid "表示順 ( 降順 )"
+msgstr "Designated order (desc-order)"
+
+msgid "ランダム"
+msgstr "Random"
+
+msgid "バナーが表示される数です。空白または数値でない場合、全件表示されます。"
+msgstr ""
+"The number of displayed banners. All banners are to be displayed, if the form is not filled or filled with non-"
+"alphanumeric characters."
+
+msgid "ループ内クラス"
+msgstr "Class in the Loop"
+
+msgid "指定したクラスをループブロック内に設定できます。例えばグリッドシステムのカラム数設定などにご利用ください。"
+msgstr ""
+"You can use css classes inside of the Category’s loop block. For example, you can use it for column settings of grid "
+"system."
+
+msgid "画像データ"
+msgstr "Image Data"
+
+msgid "バナーが表示される順番です。"
+msgstr "Display order of Banners"
+
+msgid "バナーの公開状態です。"
+msgstr "Publishing State of Banners"
+
+msgid "バナー"
+msgstr "Banner"
+
+msgid "表示されるバナーの情報です。"
+msgstr "Displayed Banner’s Info"
+
+msgid "ソース"
+msgstr "Source"
+
+msgid "HTMLを直接記述してバナーを掲載する場合、この欄にHTMLを入力してください。"
+msgstr "If you want to add HTML on the Banners, you can enter the HTML on this form."
+
+msgid "公開日時"
+msgstr "Publishing Date"
+
+msgid ""
+"このバナーの公開日時を指定します。バナーの表示には日時の範囲内であっても、公開設定にチェックが入っている必要があります。"
+msgstr ""
+"Set the publishing date of this banner. Even if date is within the publishing period, it won’t be displayed without "
+"checking."
+
+msgid "画像"
+msgstr "Image"
+
+msgid "表示されるバナー画像です。"
+msgstr "Banner Images to be displayed."
+
+msgid "バナーのリンク先URLです。"
+msgstr "Banner’s linked URL"
+
+msgid "代替テキスト"
+msgstr "Alt Text"
+
+msgid "バナー画像が表示できなかった場合に表示される代替テキストです。"
+msgstr "Alternative text for the image, in the case you can’t display the image."
+
+msgid "属性1"
+msgstr "Attribute 1"
+
+msgid "任意の属性を設定できます。（変数名 attr1）"
+msgstr "You can set any attribute (variable attr1)"
+
+msgid "属性2"
+msgstr "Attribute 2"
+
+msgid "任意の属性を設定できます。（変数名 attr2）"
+msgstr "You can set any Attribute (variable attr2)"
+
+msgid "新規ページ_CTX_banner"
+msgstr "New Window"
+
+msgid "このバナーのリンクを新しいウィンドウで開くかのチェックです。チェックすると新しいウィンドウで開きます。"
+msgstr "You can check it for viewing the linked page with new window."
+
+msgid "新しいウィンドウで開く"
+msgstr "Open with new window."
+
+#: themes/system/admin/config/blog/child-list.html
+msgid "子ブログリスト"
+msgstr "Child Blog List"
+
+#: themes/system/admin/config/cache-list.html
+msgid "キャッシュ生成リスト"
+msgstr "List of Generated Caches"
+
+msgid "キャッシュ生成リストを保存しました"
+msgstr "Cache generating list updated."
+
+msgid "ダッシュボード"
+msgstr "Dashboard"
+
+msgid "キャッシュを手動or自動で即時生成をするリストです。URLを指定してください。"
+msgstr "This is the list you can generate caches manually or automatically. You can set the URLs."
+
+#: themes/system/admin/config/calendar/month.html
+msgid "カレンダー"
+msgstr "Calendar"
+
+#: themes/system/admin/config/calendar/month_body.html
+msgid "週の始まり"
+msgstr "Starting Day"
+
+msgid "カレンダー中、週の始まりが何曜日になるかの設定です。"
+msgstr "Set starting day of week at calendar."
+
+msgid "日曜日"
+msgstr "Sunday"
+
+msgid "月曜日"
+msgstr "Monday"
+
+msgid "火曜日"
+msgstr "Tuesday"
+
+msgid "水曜日"
+msgstr "Wednesday"
+
+msgid "木曜日"
+msgstr "Thursday"
+
+msgid "金曜日"
+msgstr "Friday"
+
+msgid "土曜日"
+msgstr "Saturday"
+
+msgid "曜日のラベル"
+msgstr "Label of days"
+
+msgid "各曜日をどのような文字列で表示するかの設定です。"
+msgstr "Setting of words that how to display each days."
+
+#: themes/system/admin/config/calendar/year.html
+msgid "年間カレンダー"
+msgstr "Month Calendar"
+
+#: themes/system/admin/config/calendar/year_body.html
+msgid "ユニット"
+msgstr "Unit"
+
+msgid "指定した件数の月ごとに、unitブロックが表示されます。何月ごとに折り返すなどの指定に応用できます。"
+msgstr ""
+"Unit block is displayed by setting number of items at each month. You can use when setting turn wrap units by number of "
+"month you set."
+
+#: themes/system/admin/config/category/entry-list.html
+msgid "カテゴリーエントリーリスト"
+msgstr "Category Entry List"
+
+#: themes/system/admin/config/category/entry-list_body.html
+msgid "カテゴリー"
+msgstr "Category"
+
+msgid "チェックを外すと、インデキシングされていないカテゴリーも表示されます。"
+msgstr "If unchecked, the categories that isn’t indexing will also display."
+
+msgid "インデキシングされているカテゴリーのみ表示する"
+msgstr "Display indexed categories only."
+
+msgid "表示するカテゴリーの階層の深さの設定です。数値で指定します。"
+msgstr "Set the displayed category Level. You can set with number."
+
+msgid ""
+"指定したクラスをカテゴリのループブロック内に設定できます。例えばグリッドシステムのカラム数設定などにご利用ください。"
+msgstr ""
+"You can use css classes inside of the Category’s loop block. For example, you can use it for column settings of grid "
+"system."
+
+msgid "エントリー"
+msgstr "Entries"
+
+msgid ""
+"どのようなルールに従って表示されるかの設定です。フィールド、数値フィールドはカスタムフィールドでの検索結果の表示時に利用"
+"します。"
+msgstr ""
+"The display order will abide by this. It is used for displaying searching result with number-field and custom-field."
+
+msgid "ファイル名"
+msgstr "File Name"
+
+msgid "フィールド"
+msgstr "Field"
+
+msgid "数値フィールド"
+msgstr "Number-field"
+
+msgid ""
+"指定したクラスをエントリのループブロック内に設定できます。例えばグリッドシステムのカラム数設定などにご利用ください。"
+msgstr ""
+"You can use css classes inside of the Entry’s loop block. For example, you can use it for column settings of grid "
+"system."
+
+msgid "チェックを外すと、インデキシングされていないエントリーも表示されます。"
+msgstr "If unchecked, the unindexed entries will be also display."
+
+msgid "インデキシングされているエントリーのみ表示する"
+msgstr "Display indexed entries only."
+
+msgid "エントリーの有無"
+msgstr "Existence of entries"
+
+msgid "チェックを外すとエントリーが登録されていないカテゴリーが表示されなくなります。"
+msgstr "If unchecked, the categories with no entry will not be displayed."
+
+msgid "エントリーが登録されていないカテゴリーも表示する"
+msgstr "Display the categories with no entry."
+
+msgid "表示エントリー"
+msgstr "Displayed entries"
+
+msgid ""
+"チェックを入れると、URLコンテキストで表示中の（選択中の）カテゴリに含まれるエントリーのみが表示され、選択中ではないカテ"
+"ゴリーのエントリーが表示されなくなります。モジュールの特性上、モジュール設定でカテゴリーIDのチェックを入れ「URLコンテキ"
+"ストを優先」にすると効果がありません"
+msgstr ""
+"If checked, displayed the only entries including category selected by \"URL Context\" , and other entries will not be "
+"displayed. Because of the Module nature, it will not work, if you checked categoryID and do “Prioritize URL Context”."
+
+msgid "URLコンテキストで表示中のカテゴリに含まれるエントリーのみ表示する"
+msgstr "Display only entries that included by displaying categories’ URL context."
+
+#: themes/system/admin/config/category/entry-summary.html
+msgid "カテゴリーエントリーサマリー"
+msgstr "Category Entry Summary"
+
+#: themes/system/admin/config/category/entry-summary_body.html
+msgid "カテゴリーフィールド"
+msgstr "Category Field"
+
+msgid "チェックをすると、カテゴリーフィールドを表示できるようになります。"
+msgstr "If checked, can display the category field."
+
+msgid "カテゴリーのカスタムフィールドを表示する"
+msgstr "Display Category Field"
+
+msgid "オフセット"
+msgstr "Offset"
+
+msgid "表示順で並び替えた後の先頭から数えて、設定した件数のエントリーを表示しなくします。"
+msgstr "Entries after the designated number of items counted from the top will not be displayed."
+
+msgid ""
+"指定したクラスをエントリーのループブロック内に設定できます。例えばグリッドシステムのカラム数設定などにご利用ください。"
+msgstr ""
+"You can use css classes inside of the Entry’s loop block. For example, you can use it for column settings of grid "
+"system."
+
+msgid "新着期間"
+msgstr "Recent Period"
+
+msgid "エントリーの公開日時を基点に、ここで設定した期間中はnewブロックが出力されます。"
+msgstr "The new block can be used during the period you set here from the publishing date."
+
+msgid "シークレットエントリー"
+msgstr "Secret Entry"
+
+msgid "チェックをすると、ログインしていなくてもシークレットブログのエントリーが表示されます。"
+msgstr "If checked, the entries of secret blog is also displayed at logout user."
+
+msgid "ログインしていなくてもシークレットブログのエントリーを表示する"
+msgstr "Display the entries of secret blog  if user is logged in or not."
+
+msgid "指定した件数のエントリーごとに、unitブロックが表示されます。何件ごとに折り返すなどの指定に応用できます。"
+msgstr ""
+"Unit block will be displayed on the each designated entry number. It can be used, when you want to turn wrap items."
+
+msgid "数字を入力してください。"
+msgstr "Enter the number."
+
+msgid "サマリー"
+msgstr "Summary"
+
+msgid "テキストユニットの先頭から任意の文字量を出力できます。"
+msgstr "Trim by the character that you set from starting of text unit."
+
+msgid "文字数"
+msgstr "Number of Character"
+
+msgid "追加文字"
+msgstr "Word at Last"
+
+msgid "エントリーがない場合の表示"
+msgstr "Without entries"
+
+msgid "チェックすると、指定条件でエントリーが見つからなかった場合にnotFoundブロックを出力します。"
+msgstr "If checked and entries are not found under the designated conditions, display 'notFound' block."
+
+msgid "指定された条件のエントリーが一つもない場合にnot foundを表示する"
+msgstr "Display 'not found' if the entries are not found under the designated conditions."
+
+msgid "( チェックなしで何も表示しない )"
+msgstr "( If unchecked, display nothing )"
+
+msgid "エントリーフィールド"
+msgstr "Entry Field"
+
+msgid "チェックをすると、エントリーフィールドを表示できるようになります。"
+msgstr "If checked, entry field will be displayed."
+
+msgid "エントリーのカスタムフィールドを表示する"
+msgstr "Display the entry field"
+
+msgid "イメージ"
+msgstr "Image"
+
+msgid "メインイメージ"
+msgstr "Main Image"
+
+msgid "チェックをすると、メインイメージが表示できます。"
+msgstr "If checked, main image will be displayed."
+
+msgid "メインイメージを表示できるようにする。"
+msgstr "Display the main image"
+
+msgid "ノーイメージ"
+msgstr "No Image"
+
+msgid "チェックを外すと、画像がないエントリーを表示しなくなります。"
+msgstr "If unchecked, the entries without images are not displayed."
+
+msgid "画像がないエントリーを表示する"
+msgstr "Display the entries without images."
+
+msgid "サイズ"
+msgstr "Size"
+
+msgid "このモジュールで出力する画像のサイズを設定します。"
+msgstr "Set the size of image displayed at this module."
+
+msgid "横"
+msgstr "Width"
+
+msgid "ピクセル x 縦"
+msgstr "pixel × height"
+
+msgid "ピクセル"
+msgstr "pixel"
+
+msgid "トリミング"
+msgstr "Trimming"
+
+msgid "サイズで指定された大きさに、画像をトリミングして表示します。"
+msgstr "Display the trimmed image with size you set."
+
+msgid "画像を指定されたサイズにトリミングする"
+msgstr "Trim the image to the designated size."
+
+msgid "拡大　( トリミングがoffの場合のみ )"
+msgstr "Scaling ( If the trimming is off )"
+
+msgid "画像が指定されたサイズよりも小さいときに、指定されたサイズまで拡大します。"
+msgstr "Scale images to designated size, if the image was smaller than designated size."
+
+msgid "画像が指定されたサイズに満たない場合に拡大する"
+msgstr "Scale images if the image size is less than the designated size."
+
+msgid "表示位置 ( トリミングがoffの場合のみ )"
+msgstr "Display Position (only when trimming is off)"
+
+msgid "画像を指定されたサイズの中心に表示します。"
+msgstr "Display images at the center of the designated size area."
+
+msgid "画像を指定されたサイズの中心に表示する"
+msgstr "Display images at the center of the designated size area."
+
+#: themes/system/admin/config/category/list.html
+msgid "カテゴリーリスト"
+msgstr "Category List"
+
+#: themes/system/admin/config/category/list_body.html
+msgid "チェックをするとエントリーが登録されていないカテゴリーも表示します。"
+msgstr "If checked, Categories without entries will be shown."
+
+msgid "チェックをすると各カテゴリーに登録されているエントリー数を表示します。"
+msgstr "If checked, you can display the number of categorized entries"
+
+msgid "エントリー数を表示する"
+msgstr "Display number of entries."
+
+msgid "フィールド検索"
+msgstr "Field Search"
+
+msgid "絞り込むフィールドを選択します。"
+msgstr "Select the field for filtering"
+
+msgid "カスタムフィールド"
+msgstr "Custom Field"
+
+msgid "チェックをするとカスタムフィールドを出力できます。"
+msgstr "If checked, you can display customfields."
+
+#: themes/system/admin/config/column-definition.html
+msgid "{actualLabel}"
+msgstr " "
+
+msgid "配置"
+msgstr "Arrangement"
+
+msgid "おまかせ"
+msgstr "Automatic"
+
+msgid "全体"
+msgstr "Full"
+
+msgid "非表示"
+msgstr "Hide"
+
+msgid "グループ"
+msgstr "Group"
+
+msgid "{group.label}"
+msgstr " "
+
+msgid "タグ"
+msgstr "Tags"
+
+msgid "{label}"
+msgstr " "
+
+msgid "左"
+msgstr "Left"
+
+msgid "右"
+msgstr "Right"
+
+msgid "中央"
+msgstr "Center"
+
+msgid "画像の大きさ"
+msgstr "Size of Image"
+
+msgid "画像の編集"
+msgstr "Edit of the Images"
+
+msgid "編集しない"
+msgstr "No Editing"
+
+msgid "拡大表示させない"
+msgstr "No scaling"
+
+msgid "キャプション"
+msgstr "Caption"
+
+msgid "リンク"
+msgstr "Link"
+
+msgid "緯度"
+msgstr "Latitude"
+
+msgid "経度"
+msgstr "Longitude"
+
+msgid "ズーム"
+msgstr "Zoom"
+
+msgid "地図の大きさ"
+msgstr "Size of map"
+
+msgid "吹き出し ( HTML可 )"
+msgstr "Baloon ( HTML allowed )"
+
+msgid "レイヤー"
+msgstr "Layer"
+
+msgid "標準画像"
+msgstr "Standard Image"
+
+msgid "拡大画像"
+msgstr "Scaled Image"
+
+msgid "引用URL"
+msgstr "Quote URL"
+
+msgid "メディアID"
+msgstr "Media ID"
+
+msgid "サイズ "
+msgstr "Size "
+
+msgid "テンプレート"
+msgstr "Template"
+
+#: themes/system/admin/config/column.html
+msgid "ユニット設定"
+msgstr "Unit Setting"
+
+msgid "テキストを追加"
+msgstr "Add text"
+
+msgid "画像を追加"
+msgstr "Add image"
+
+msgid "ファイルを追加"
+msgstr "Add file"
+
+msgid "地図を追加"
+msgstr "Add map"
+
+msgid "YouTubeを追加"
+msgstr "Add YouTube"
+
+msgid "画像URLを追加"
+msgstr "Add Image URL"
+
+#: themes/system/admin/config/comment/body.html
+msgid "コメント本文"
+msgstr "Comment Body"
+
+#: themes/system/admin/config/comment/body_body.html
+msgid "表示形式"
+msgstr "Display Format"
+
+msgid ""
+"スレッドはコメントをスレッド形式で表示します。コメントに対して返信されたコメントを階層化して表示します。<br>リストはコメ"
+"ントをリスト形式で表示します。スレッド形式とは違い、全てのコメントを同列階層としてリスト表示します。"
+msgstr ""
+"Display comments with thread format. Display replied comments with hierarchical structure.<br>”List” will display "
+"comments by list format. Difference of thread format is display comments as same hierarchy."
+
+msgid "リスト"
+msgstr "List"
+
+msgid "スレッド"
+msgstr "Thread"
+
+msgid "( リスト表示のみ )"
+msgstr "(List display only)"
+
+msgid "表示順で決められたルールでの昇順、降順の設定です。[表示形式]が「リスト表示」のときのみ適用されます。"
+msgstr "Display order set from “Display order” settings. It will be applied only when the “Display Format” is “List”."
+
+msgid "並び"
+msgstr "Order"
+
+msgid "[表示順]の設定とは別に、1ページ内で一度に表示されるコメント本文の中での並びの設定です。"
+msgstr "Aside from “Display Order” settings, you can set the order of comment list displayed on a Comment Body."
+
+msgid "上から並べる"
+msgstr "From top to bottom"
+
+msgid "下から並べる"
+msgstr "From bottom to top"
+
+msgid "一度に表示されるコメントの件数です。"
+msgstr "The number of comments displayed at once."
+
+#: themes/system/admin/config/comment/list.html
+msgid "コメントリスト"
+msgstr "Comment List"
+
+#: themes/system/admin/config/common.html
+msgid "共通設定"
+msgstr "Common Setting"
+
+msgid "共通設定を保存しました"
+msgstr "Common Settings saved."
+
+msgid "モジュールの曜日表示に共通で使用される文字です。"
+msgstr "Characters to be used for displaying week’s label of Modules in common."
+
+#: themes/system/admin/config/edit.html
+msgid "編集設定"
+msgstr "Edit Setting"
+
+msgid "編集設定を保存しました"
+msgstr "Editing Setting saved"
+
+msgid "拡張機能"
+msgstr "Extended Feature"
+
+msgid "ダイレクト編集"
+msgstr "Direct Editing"
+
+msgid "チェックすると、ダイレクト編集機能が有効になります。"
+msgstr "If checked, you can use Direct Editing Feature."
+
+msgid "ユニットグループ"
+msgstr "Unit Group"
+
+msgid "チェックすると、ユニットグループ機能が有効になります。"
+msgstr "If checked, you can use Unit Group Feature."
+
+msgid "関連エントリー"
+msgstr "Related Entries"
+
+msgid "チェックすると、関連エントリー機能が有効になります。"
+msgstr "If checked, you can use “Related Entries” feature."
+
+msgid "ユニット追加ボタン"
+msgstr "Unit Adding Button"
+
+msgid "モード"
+msgstr "Mode"
+
+msgid ""
+"ユニット追加ボタンに追加される、ユニットの種類を設定します。基本モードに続きアンダーバー+適当な文字列で基本ユニットを拡"
+"張できます。（例:image_h2）ここで入力したユニット追加ボタンは、ユニット設定で表示内容を編集できます。"
+msgstr ""
+"Set the unit type added to the unit adding buttons group. You can extend basic unit's feature by naming it as [basic "
+"unit's type name + _ + additional characters].(Ex image_h2) If you add new unit, you can edit it at ‘Unit Setting’"
+
+msgid "モードは半角英字で入力して下さい。（image-mobile）"
+msgstr "Mode is to be entered with half-width alphanumeric."
+
+msgid "モードの指定が重複しています。一意なモード名を半角英字で入力してください。"
+msgstr "Mode settings are overlapped. Enter unique mode name with half-width alphanumeric."
+
+msgid "ユニット追加ボタンのボタン名を設定します。"
+msgstr "Set the name of “Unit Adding Button”"
+
+msgid "拡張"
+msgstr "Extension"
+
+msgid "テキスト"
+msgstr "Text"
+
+msgid "ファイル"
+msgstr "File"
+
+msgid "マップ"
+msgstr "Map"
+
+msgid "Yahoo!地図"
+msgstr "Yahoo! Maps"
+
+msgid "ビデオ"
+msgstr "Video"
+
+msgid "画像URL"
+msgstr "Image URL"
+
+msgid "引用"
+msgstr "Quote"
+
+msgid "メディア"
+msgstr "Media"
+
+msgid "改ページ"
+msgstr "Page Break"
+
+msgid "モジュール"
+msgstr "Module"
+
+msgid "カスタム"
+msgstr "Custom"
+
+msgid "テキストタグセレクト"
+msgstr "Select Text Tag"
+
+msgid "エントリーのテキストユニットにおける、タグのブロック名を設定します。"
+msgstr "Set block name of tag on text unit."
+
+msgid "エントリーのテキストユニットにおける、タグのラベル名を設定します。"
+msgstr "Set Label of tag on text unit."
+
+msgid "エントリーのテキストユニットにおける、拡張フィールドラベルを設定します。"
+msgstr "Set the label of extension field on the entry’s text unit."
+
+msgid "変数"
+msgstr "Variable"
+
+msgid "クラス"
+msgstr "Class"
+
+msgid "エントリーのユニットグループにおける、DIV要素のクラス名を設定します。"
+msgstr "Class Name of unit groups."
+
+msgid "エントリーのユニットグループにおける、選択肢のラベル名を設定します"
+msgstr "Set the label names of the options added to the entry's unit group."
+
+msgid "サイズセレクト"
+msgstr "Select Size"
+
+msgid "イメージサイズ選択肢"
+msgstr "Option for Image size"
+
+msgid "投稿した画像のサイズを設定します。サイズが200なら縦（または横、または長辺）が200pxになります。"
+msgstr "Set the size of uploaded images. If the size is 200px, long side of the image will be scaled to 200px."
+
+msgid "基準"
+msgstr "Standard"
+
+msgid "表示サイズ"
+msgstr "Display Size"
+
+msgid "長辺"
+msgstr "Long Side"
+
+msgid "縦"
+msgstr "Height"
+
+msgid "マップサイズ選択肢"
+msgstr "Option of Map Size"
+
+msgid "地図を表示するサイズを設定します。設定の方法は'横幅x高さ'となり、210x210なら210px の正方形になります。"
+msgstr "Set size of maps. You can set it width “width × height”. Say 210x210 makes 210px square."
+
+msgid "メディアサイズ選択肢"
+msgstr "Option of Media Size"
+
+msgid ""
+"メディアを表示するサイズを設定します。320x205なら横幅320x高さ205px の長方形になります。※画面比率16:9 + 縦25px（コント"
+"ロールバー）"
+msgstr "You can set media size. Say 320x205 makes 320x205 px rectangle."
+
+msgid "ビデオサイズ選択肢"
+msgstr "Option of Video Size"
+
+msgid ""
+"ビデオを表示するサイズを設定します。320x205なら横幅320x高さ205px の長方形になります。※画面比率16:9 + 縦25px（コントロー"
+"ルバー）"
+msgstr "Set size of videos. Say, 320x205 makes 320x205 px rectangle."
+
+msgid "画像URLサイズ選択肢"
+msgstr "Option for [Image URL] size"
+
+msgid "画像URLを表示するサイズを設定します。サイズが200なら縦または横の辺の大きい方が200pxになります"
+msgstr "Set size of external domain image. If you set it 200, the long side of the image will be 200px."
+
+msgid "エントリーコード"
+msgstr "Entry Code"
+
+msgid "ファイル名接頭辞"
+msgstr "Prefix of File Name"
+
+msgid "ファイル名を自動生成するときの接頭辞です。"
+msgstr "Prefix of generated file"
+
+msgid "ファイル名拡張子"
+msgstr "Extension of File Name"
+
+msgid "ファイル名を自動生成するときの拡張子です。"
+msgstr "Extension of generated file."
+
+msgid "ファイル名の自動生成"
+msgstr "Auto Generation of File Name"
+
+msgid "チェックすると、ファイル名が指定されていない時にはエントリーのタイトルをファイル名として使います。"
+msgstr "If checked, when you didn’t designate file name, the Entry title is used as file name."
+
+msgid "ファイル名が指定されていない時に、タイトルをファイル名として使う"
+msgstr "When you didn’t set file name, the title is to be file name."
+
+msgid "イメージサイズ"
+msgstr "Image Size"
+
+msgid "拡大表示時の最大サイズ"
+msgstr "Maximum Size on Scaling"
+
+msgid "拡大表示時の画像サイズとして使用されます。"
+msgstr "Used as image size on scaling"
+
+msgid "モバイル用画像の最大サイズ"
+msgstr "Maximum image size for mobile phone."
+
+msgid "縮小された画像サイズとして使用されます。"
+msgstr "It will be used as reduced image size."
+
+msgid "正方形画像の一辺サイズ"
+msgstr "Side Length of Square Image"
+
+msgid "正方形画像の一辺のサイズです。画像はトリミングされます。0を設定すると正方形画像を生成しなくなります。"
+msgstr "Length of square images’s side. images will be trimmed. If set ‘0’, images will not be created."
+
+msgid "JPEG画像の圧縮率"
+msgstr "JPEG quality"
+
+msgid "数字が小さいほど容量を抑えますが画質は低下します。"
+msgstr "The smaller the value is, the more you can reduce the volume, the less quality it is though."
+
+msgid "アップロード許可ファイル拡張子"
+msgstr "File Extension that can be uploaded"
+
+msgid "命名方法"
+msgstr "Naming Rule"
+
+msgid "「ファイル」ユニットでアップロードするファイルの命名方法を選択します。"
+msgstr "Select the naming rule of uploaded files with “File Unit”"
+
+msgid "元のファイル名"
+msgstr "Original File Name"
+
+msgid "チェックをすると、テキストファイルのアップロードを禁止します。"
+msgstr "If checked, text files can’t be uploaded"
+
+msgid "テキストファイルのアップロードを禁止"
+msgstr "Restrict text file uploading"
+
+msgid "ドキュメント"
+msgstr "Document"
+
+msgid "「ファイル」ユニットでのアップロードを許可したい文章ファイルの拡張子を追加します。"
+msgstr "Add extensions of document files you want to upload on file units."
+
+msgid "アーカイブ"
+msgstr "Archive"
+
+msgid "「ファイル」ユニットでのアップロードを許可したい圧縮ファイルの拡張子を追加します。"
+msgstr "Add extensions of zip files you want to upload at file units"
+
+msgid "ムービー"
+msgstr "Movie"
+
+msgid "「ファイル」ユニットでのアップロードを許可したい動画ファイルの拡張子を追加します。"
+msgstr "Add extensions of movie files you want to upload at file units"
+
+msgid "オーディオ"
+msgstr "Audio"
+
+msgid "「ファイル」ユニットでのアップロードを許可したい音声ファイルの拡張子を追加します。"
+msgstr "Add Audio File Extensions you want to upload on [File] units."
+
+msgid "フォームユニット追加ボタン"
+msgstr "Button for Adding Form Unit"
+
+msgid "動的フォームのフォームユニットのタイプを指定します。"
+msgstr "Set the type of form units on the dynamic forms."
+
+msgid "動的フォームのフォームユニット追加ボタンのボタン名を設定します。"
+msgstr "Set the label of “Dynamic Form Adding Button”"
+
+msgid "テキストエリア"
+msgstr "Textarea"
+
+msgid "ラジオボタン"
+msgstr "Radio"
+
+msgid "セレクト"
+msgstr "Selectbox"
+
+msgid "チェックボックス"
+msgstr "Checkbox"
+
+msgid "レイアウト追加ボタン"
+msgstr "Button for adding layout"
+
+msgid ""
+"レイアウトのブロックのモードを設定します。ブロック名はtype#ブロック名になります。また（カラム数 - 1）個のハイフンをモー"
+"ド名に含めて下さい。"
+msgstr ""
+"Set the mode of layout block. Block name should be [type#(additional characters)]. (columns count - 1) number of hyphen "
+"should be added to its name."
+
+msgid "モードは半角英数字、小文字で入力してください。"
+msgstr "Mode should be named with half-width alphanumerics."
+
+msgid "レイアウトのブロックのグループを設定します。"
+msgstr "Set the group of layout blocks."
+
+msgid "レイアウトのブロックのラベルを設定します。"
+msgstr "Set the label of layout blocks."
+
+msgid "レイアウトグループ"
+msgstr "Layout Group"
+
+msgid "レイアウト選択肢のグループにおける、DIV要素のクラス名を設定します。"
+msgstr "Set the class name of layout selection group."
+
+msgid "レイアウト選択肢のグループのラベル名を設定します。"
+msgstr "Set label name of layout options."
+
+#: themes/system/admin/config/entry/archive-list.html
+msgid "アーカイブリスト"
+msgstr "Archive List"
+
+#: themes/system/admin/config/entry/archive-list_body.html
+msgid "アーカイブの単位"
+msgstr "Archive Type"
+
+msgid "アーカイブを年・月・日のいずれでまとめるかの設定です。"
+msgstr "The type of archive list to display. Values are ‘yearly’, ‘monthly’ and ‘daily’."
+
+msgid "月単位"
+msgstr "Monthly"
+
+msgid "年単位"
+msgstr "Yearly"
+
+msgid "日単位"
+msgstr "Daily"
+
+#: themes/system/admin/config/entry/body.html
+msgid "エントリー本文"
+msgstr "Entry Body"
+
+#: themes/system/admin/config/entry/body_body.html
+msgid "日時 ( 昇順 )"
+msgstr "Date (latest)"
+
+msgid "日時 ( 降順 )"
+msgstr "Date (oldest)"
+
+msgid "ファイル名 ( 昇順 )"
+msgstr "File Name (A to Z)"
+
+msgid "ファイル名 ( 降順 )"
+msgstr "File Name (Z to A)"
+
+msgid "ID ( 昇順 )"
+msgstr "ID (A to Z)"
+
+msgid "ID ( 降順 )"
+msgstr "ID (Z to A)"
+
+msgid "フィールド ( 昇順 )"
+msgstr "Field (A to Z)"
+
+msgid "フィールド ( 降順 )"
+msgstr "Field (Z to A)"
+
+msgid "数値フィールド ( 昇順 )"
+msgstr "Number Field (Smallest)"
+
+msgid "数値フィールド ( 降順 )"
+msgstr "Number Field (Largest)"
+
+msgid "カテゴリー表示順"
+msgstr "Display order of Categories"
+
+msgid "カテゴリーの親子関係の表示順設定です。"
+msgstr "Display order of category’s hierarchy."
+
+msgid "子から ( 降順 )"
+msgstr "From the bottom"
+
+msgid "親から ( 昇順 )"
+msgstr "From the top"
+
+msgid "現在のカテゴリーのみ"
+msgstr "Current category only"
+
+msgid "記事を複数表示した場合の表示件数です。"
+msgstr "Total count of the entries on displaying all entries."
+
+msgid "指定したクラスをループブロック内に設定できます。例えばグリッドシステムのカラム数など設定してください。"
+msgstr "You can use CSS classes inside of the loop block. For example, you can use it for column settings of grid system."
+
+msgid "イメージビューワー"
+msgstr "Image Viewer"
+
+msgid "画像ユニットのa要素に割り当てられる属性です。（変数名 : viewer）"
+msgstr "Attribute allocated to ‘a’ element of Image unit (variable:viewer)"
+
+msgid "エントリーの公開日時を基点に、ここで設定した期間中はnew:touchブロックが出力されます。"
+msgstr "New:touch blocks will be displayed during the period you set here."
+
+msgid "チェックをするとタグ情報を出力できるようになります。"
+msgstr "If checked, you can display Tag’s Info"
+
+msgid "タグを表示できるようにする"
+msgstr "Enable Tags"
+
+msgid "チェックをするとサマリーを出力できるようになります。"
+msgstr "If checked, you can display summary"
+
+msgid "サマリーを表示できるようにする"
+msgstr "Show summary"
+
+msgid "一覧全表示"
+msgstr "Display All"
+
+msgid "チェックをすると一覧表示で続きを読むを無視して全て表示します。"
+msgstr "If checked, you can display whole entry’s content regardless of “Read More Unit”."
+
+msgid "一覧で続きを読むを無視して全表示します。"
+msgstr "Display all regardless of “Read More Unit”."
+
+msgid "エントリー日付"
+msgstr "Entry’s date"
+
+msgid "チェックをするとエントリー日付を出力できるようになります。"
+msgstr "If checked, You can display entry’s date."
+
+msgid "エントリー日付を表示できるようにする"
+msgstr "Enable Entry’s date"
+
+msgid "投稿日時・変更日時"
+msgstr "Posted Date/Updated Date"
+
+msgid "投稿日時・変更日時を表示できるようにする"
+msgstr "Enable Posted Date and Updated Date."
+
+msgid "コメント情報"
+msgstr "Comment Info"
+
+msgid "チェックをするとコメント情報を出力できるようになります。"
+msgstr "If checked, you can display Comment Info."
+
+msgid "コメント情報を表示できるようにする"
+msgstr "Enable Comment Info"
+
+msgid "エントリーがない場合のHTTP応答"
+msgstr "HTTP response without entries"
+
+msgid ""
+"チェックをすると、このモジュールが表示すべきエントリー情報が0件のときに、リクエストされたページの応答を404 Not Foundとし"
+"ます。"
+msgstr "If checked and this entries could not be found, respond with '404 Not Found’"
+
+msgid "リクエストに404 Not Foundとして応答する"
+msgstr "Respond as “404 Not Found” for request."
+
+msgid "ページャー"
+msgstr "Pager"
+
+msgid "簡易ページャー"
+msgstr "Simple Pager"
+
+msgid ""
+"チェックをすると簡易ページャー（前後ページへのリンク）機能に必要な情報を出力します。記事数が多く通常のページャーが重い場"
+"合はこちらのペジャーをお使いください。ページャー機能を使用するには、モジュールIDとしてこのモジュールを使用し、引数の"
+"「ページ」のURLコンテキストにチェックをしてください。"
+msgstr ""
+"If checked, you can output the info required for simple pagination feature (serial links). If number of entries is too "
+"large to display normal pager, you way want to use this one. To use pagination feature, use this module as Module ID "
+"and check [page] to activate URL context."
+
+msgid "簡易ページャーを表示できるようにする。"
+msgstr "Enable Simple Pager"
+
+msgid ""
+"チェックをするとページャー（ページ送り）機能に必要な情報を出力します。ページャー機能を使用するには、モジュールIDとしてこ"
+"のモジュールを使用し、引数の「ページ」のURLコンテキストにチェックをしてください。"
+msgstr ""
+"If checked, you can output the info required for pagination feature. If you want to use pagination feature, use this "
+"module as Module ID and check [page] to activate URL context."
+
+msgid "ページャーを表示できるようにする。"
+msgstr "Enable Pager"
+
+msgid "前後に表示するページ数"
+msgstr "Number of previous and next pages."
+
+msgid "ページャーの設定です。表示中のページを基点として、ここで設定した値の数だけページ番号が表示されます。"
+msgstr "Page count will be shown as many as you set number here from the current page number."
+
+msgid "現在のページの要素の属性"
+msgstr "Attribute of the current page’s element"
+
+msgid "ページャーの設定です。表示中のページ番号に割り当てられる属性です。（変数名 : pageCurAttr）"
+msgstr "This will be allocated to the current page number. (variable : pageCurAttr)"
+
+msgid "前後リンク"
+msgstr "Serial Link"
+
+msgid "チェックをするとエントリーの詳細表示時に前後のエントリーへ移動するリンクを使用できます。"
+msgstr "If checked, you can use the links for front and behind entry's links on displaying entry's details."
+
+msgid "前後リンクを表示できるようにする。"
+msgstr "Enable displaying front and behind links."
+
+msgid "1記事の時の前後リンク"
+msgstr "Next and previous links for 1 articles"
+
+msgid ""
+"チェックをすると、エントリーの詳細表示時の前後リンクが、カテゴリーを考慮しなくなります。<br />チェックが入っていない状態"
+"で、カテゴリーが指定されていないエントリーを表示すると、前後リンクはカテゴリーが指定されていないエントリーの中から選ばれ"
+"ます。"
+msgstr ""
+"If checked, next and previous links neglect the categories when displaying entry's details<br />When displaying the "
+"uncategorized entries without checking, next and previous links will be selected from the uncategorized entries."
+
+msgid "カテゴリーを無視して、ブログ内の全記事における前後のリンクを表示する"
+msgstr "Regardless of the categories, display the next and previous links of the entire blog articles."
+
+msgid "マイクロページ"
+msgstr "Micro Page"
+
+msgid ""
+"ひとつのエントリーをページ分割して表示することができるようになります。（テンプレート、ユニットのカスタマイズが必要です）"
+msgstr "You can display the devided pages from the one entry (template and unit customize are required)."
+
+msgid "エントリーをページ分割する"
+msgstr "Divide the entry into pages."
+
+msgid "前後表示するページ数"
+msgstr "Number of the pages to show before and after"
+
+msgid "現在のページ要素の属性"
+msgstr "Attribution of the current page's element"
+
+msgid "フィールド基本情報"
+msgstr "Basic Field' Info"
+
+msgid "チェックをすると各フィールドの基本情報（名前など）を出力できます。"
+msgstr "If checked,you can output every field's basic information (like number)."
+
+msgid "カテゴリー情報"
+msgstr "Category Infomation"
+
+msgid "ユーザー情報"
+msgstr "User Infomation"
+
+msgid "ブログ情報"
+msgstr "Blog Information"
+
+msgid "チェックをすると各フィールドのカスタムフィールドを出力できます。"
+msgstr "If checked, you can display each field’s custom field."
+
+msgid "ユーザーフィールド"
+msgstr "User Field"
+
+msgid "ブログフィールド"
+msgstr "Blog Field"
+
+msgid "(エントリーフィールド以外のフィールドは各基本情報がonの時のみ有効)"
+msgstr "(Fields's other than entry field will be valid only if the information is checked.)"
+
+#: themes/system/admin/config/entry/calendar.html
+msgid "エントリーカレンダー"
+msgstr "Entry Calendar"
+
+#: themes/system/admin/config/entry/calendar_body.html
+msgid "今日の日付 class指定"
+msgstr "Class of the current date"
+
+msgid "今日の日付のclass指定です。テンプレート側での装飾時に使用します。"
+msgstr "Setting of the current date.it can be used for decolation at the template."
+
+msgid "最大エントリー数"
+msgstr "Max entries number"
+
+msgid "リストに出すエントリーの最大数です。"
+msgstr "Max number of the listed entries."
+
+msgid "表示モード"
+msgstr "Display Mode"
+
+msgid "カレンダーの表示形式です。"
+msgstr "Display format of the calendar."
+
+msgid "月表示"
+msgstr "Monthly display"
+
+msgid "週表示(その日から)"
+msgstr "Weekly display (as of the day)"
+
+msgid "週表示(週の始まりから)"
+msgstr "Weekly display (as of the beginning of the week)"
+
+msgid "ページ送り数"
+msgstr "Pagenation"
+
+msgid "週表示の時、何日分ページを送るかを指定します。"
+msgstr "Set how many days to skip on displaying the weekly list."
+
+msgid "日 &nbsp;週表示(その日から)で有効です。"
+msgstr "days &nbsp;Activated by the weekly display."
+
+msgid "前後月のエントリー表示"
+msgstr "Show entries written in the next month and previous month."
+
+msgid "月表示の時でチェックが入っている場合、前後月のエントリーを表示します。"
+msgstr "Display entries written in the previous and next month, if the 'Monthly display' is checked."
+
+msgid "月表示で有効です"
+msgstr "Activated by the monthly display."
+
+#: themes/system/admin/config/entry/continue.html
+msgid "エントリーコンティニュー"
+msgstr "Entry Continue"
+
+#: themes/system/admin/config/entry/continue_body.html
+msgid "チェックをすると、モジュール内でエントリーのカスタムフィールドを読み込みます。"
+msgstr "If checked, entry's custom field will be loaded in the module."
+
+msgid "エントリーのカスタムフィールドを出力する"
+msgstr "Display the entry's custom field."
+
+#: themes/system/admin/config/entry/headline.html
+msgid "ヘッドライン"
+msgstr "Head Line"
+
+#: themes/system/admin/config/entry/headline_body.html
+msgid "表示内容"
+msgstr "Display Order"
+
+msgid ""
+"チェックをすると、ログインしていなくてもシークレットブログのエントリーが表示されます。<br />ステータスがシークレットの子"
+"ブログのエントリーを表示するためには、モジュールIDの設定でブログIDは指定せず、ブログの階層は下階層のブログを含めるように"
+"してください。"
+msgstr ""
+"If checked, secret block will be displayed even if you are not login user.<br />If you want to display the child blog's "
+"entry with secret status,do not assign the blog ID at the Module ID setting, include the discendant blogs."
+
+msgid "詳細のエントリー表示"
+msgstr "Show Entry Page"
+
+msgid "チェックをすると詳細ページでそのページのエントリーを除いたものが出力されます。"
+msgstr "If checked, the page without entries will be displayed at the detail pages."
+
+msgid "現在表示されているエントリーを表示しない"
+msgstr "Hide a showed entry."
+
+#: themes/system/admin/config/entry/list.html
+msgid "エントリーリスト"
+msgstr "Entry List"
+
+#: themes/system/admin/config/entry/photo.html
+msgid "フォト"
+msgstr "Photo"
+
+#: themes/system/admin/config/entry/photo_body.html
+msgid ""
+"チェックをすると、ログインしていなくてもシークレットブログのエントリーが表示されます。ステータスがシークレットの子ブログ"
+"のエントリーを表示するためには、モジュールIDの設定でブログIDは指定せず、ブログの階層は下階層のブログを含めるようにしてく"
+"ださい。"
+msgstr ""
+"If checked, secret blog's entry will be displayed, even if you are not login user. If you want to display the secret "
+"child blog's entries, do not assign blog's ID at the ID setting, include the descendant blogs instead."
+
+#: themes/system/admin/config/entry/summary_body.html
+msgid ""
+"チェックをつけると、そのエントリーに登録されている関連エントリーを表示できます。この場合は、表示順の情報は無視されます。"
+msgstr "If checked, you can display related entries registered on the entry. In this case, display order will be ignored."
+
+msgid "関連エントリーのサマリーを表示する"
+msgstr "Display related and summarized entry."
+
+msgid "投稿日時・更新日時"
+msgstr "Publishing date / Update date"
+
+msgid "チェックをすると投稿日時・更新日時を出力できるようになります。"
+msgstr "If checked, you can display the publishing date and update date."
+
+msgid "投稿日時・更新日時を表示できるようにする。"
+msgstr "Enable display of the publishing date and update date."
+
+msgid ""
+"チェックをするとサマリー（テキストユニットの先頭から任意の文字量）を出力できます。サマリーの文字量はテンプレート側で指定"
+"します。"
+msgstr ""
+"If checked, you can display the summary (arbitrary number of the character from the text unit) you can set the "
+"character volume at the template."
+
+msgid "サマリーを表示できるようにする。"
+msgstr "Eneble displaying the summary."
+
+msgid "チェックをするとタグの情報を出力できるようになります。"
+msgstr "Tag's information will be available, if you check it."
+
+msgid "タグを表示できるようにする。"
+msgstr "Show tag information."
+
+msgid "チェックをするとメインイメージを出力できます。"
+msgstr "If checked, main image will be displayed."
+
+msgid "(エントリーフィールド以外のカスタムフィールドは各基本情報がonの時のみ有効)"
+msgstr "(Custom Fields will be available only when it's basic setting is on aside from Entry Field)"
+
+#: themes/system/admin/config/entry/tag-relational.html
+msgid "タグリレーショナル"
+msgstr "Tag Relational"
+
+#: themes/system/admin/config/entry/tag-relational_body.html
+msgid ""
+"どのようなルールに従って表示されるかの設定です。フィールド、数値フィールドはカスタムフィールドでの検索結果の表示時に利用"
+"します。関連度優先は、同じタグのついた数が多いエントリーが優先されます。"
+msgstr ""
+"Display rule setting, field and numberfield will be used on displaying the searching result at the custom "
+"field.’Prioritize relevance' will prioritize entries with the greater number of the tags."
+
+msgid "関連度優先"
+msgstr "Prioritize relevance"
+
+#: themes/system/admin/config/feed/ex-list.html
+msgid "外部フィードリスト"
+msgstr "External Feed List"
+
+#: themes/system/admin/config/feed/ex-list_body.html
+msgid "フィードURL"
+msgstr "Feed URL"
+
+msgid "取得するフィードのURLを入力します。"
+msgstr "Enter the feed URL."
+
+msgid "フィード形式"
+msgstr "Feed Format"
+
+msgid "指定したフィードの種類を選択します。"
+msgstr "Select the Feed type"
+
+msgid "フィード形式を選択して下さい。"
+msgstr "Select the feed format."
+
+msgid "フィード配信時の件数です。（配信元のフィード件数が実際の表示上限になります）"
+msgstr "Feed Distribution Count (Feed distribution count of its resource will be the actual upper limit to display)"
+
+msgid "表示順で並び替えた後の先頭から数えて、設定した件数のフィードアイテムを表示しなくします。"
+msgstr "Entries after the number of items counted from the top will not be displayed."
+
+msgid "フィードアイテムの公開日時を基点に、ここで設定した期間中はnewブロックが出力されます。"
+msgstr "“New block” will be displayed during the period you set here from the publishing date"
+
+msgid "チェックすると、フィードの取得に失敗した時などにnotFoundブロックを出力します。"
+msgstr "If checked, 'notFound block' will be displayed, When you fail to get feeds."
+
+#: themes/system/admin/config/feed/rss2.html
+msgid "アールエスエス2"
+msgstr "RSS2"
+
+#: themes/system/admin/config/feed/rss2_body.html
+msgid "更新日時"
+msgstr "Updated Date"
+
+msgid "投稿日時"
+msgstr "Posted Date"
+
+msgid "フィード配信時の件数です。"
+msgstr "Number of feed distribution."
+
+msgid "フィルタ"
+msgstr "Filter"
+
+msgid "ブログ フィルタ"
+msgstr "Blog Filter"
+
+msgid "ブログのカスタムフィールドで絞り込む事が出来るようになります。"
+msgstr "You can filter blogs by those custom fields."
+
+msgid "カテゴリー フィルタ"
+msgstr "Category Filter"
+
+msgid "カテゴリのカスタムフィールドで絞り込む事が出来るようになります。"
+msgstr "You can filter categories by those custom fields."
+
+msgid "エントリ フィルタ"
+msgstr "Entry Filter"
+
+msgid "エントリのカスタムフィールドで絞り込む事が出来るようになります。"
+msgstr "You can filter entries by those custom fields."
+
+#: themes/system/admin/config/field/value-list.html
+msgid "フィールドバリューリスト"
+msgstr "Field Value List"
+
+#: themes/system/admin/config/field/value-list_body.html
+msgid "フィールドの値 ( 昇順 )"
+msgstr "Field Value (A to Z)"
+
+msgid "フィールドの値 ( 降順 )"
+msgstr "Field Value (Z to A)"
+
+#: themes/system/admin/config/function.html
+msgid "機能設定"
+msgstr "Function Setting"
+
+msgid "機能設定を保存しました"
+msgstr "Function setting saved."
+
+msgid "基本"
+msgstr "Basic"
+
+msgid "キャッシュ機能の設定状態です。チェックが外された場合、キャッシュ機能は動作しません。"
+msgstr "Cache function's setting state.if unchecked,cache function will not work."
+
+msgid "キャッシュ自動生成"
+msgstr "Auto Cache Generation"
+
+msgid "キャッシュクリア後に自動的にキャッシュ生成リストにあるページをキャッシュします。"
+msgstr "Cache pages on the “Cache Generating List” after clearing caches."
+
+msgid "キャッシュ有効時間"
+msgstr "Cache Available Period"
+
+msgid ""
+"キャッシュが有効な時間です。この時間内で同じデータに複数回アクセスがあった場合、2回目以降はキャッシュファイルが表示され"
+"ます。"
+msgstr "Cache available period. Cache file will be shown after accessed twice."
+
+msgid "キャッシュの感度"
+msgstr "Cache Sensitivity"
+
+msgid ""
+"チェックすると、下位または上位ブログが更新された場合にもキャッシュのリフレッシュ（現在存在するキャッシュの有効期限を終"
+"了）を行うようになります。"
+msgstr "If checked, it also refresh the cache when descendant and ascendant blogs are updated."
+
+msgid "祖先ブログまたは子孫ブログが更新されたときにもキャッシュをリフレッシュする"
+msgstr "Refresh the cache when descendant and ascendant blogs are updated."
+
+msgid "クライアントのキャッシュ有効時間"
+msgstr "Client's cache period"
+
+msgid ""
+"クライアント（ブラウザ）のキャッシュの有効時間です。この時間内はクライアント側のキャッシュが使用されサーバにアクセスしま"
+"せん。そのためページが更新された場合にも反映されないことがあります。管理ページにログインした時にブラウザの再読込ボタンを"
+"押したり、キャッシュを消したりしないとページが切り替わらないことがあります。"
+msgstr ""
+"During this period, clients can't access to the server files because of using the client side cache. So even though "
+"pages were updated, it may not be updated on the client(browser). Pages won’t be updated unless you delete the cache or "
+"go to the admin page to push the “Refresh” button."
+
+msgid ""
+"アクセスに関するログを記録してデータベースに記録します。取得しないという選択肢もあります。保存期間を越えたログは自動的に"
+"削除されます。また、ここで取得したログは「その他管理」内の「バックアップ」からCSVデータとしてダウンロードできます。"
+msgstr ""
+"Store the acceess log to the database. There is an option 'not store' the log over the save period will be "
+"automatically deleted. And you can download the log as CSV data via Backup” in “Others”."
+
+msgid "取得しない"
+msgstr "Get none"
+
+msgid "保存期間"
+msgstr "Save period"
+
+msgid "日間"
+msgstr "days"
+
+msgid "年間"
+msgstr "year"
+
+msgid "保存期間 {log_access_save_period}日間 (保存期間はルートブログで設定できます)"
+msgstr "Retain Period {log_access_save_period} days (You can set retain period in the root blog)"
+
+msgid "RSS,Sitemap.xml 出力なし"
+msgstr "Hide RSS,Sitemap.xml"
+
+msgid "チェックをつけると、このブログをRSSとSitemap.xmlに出力をしないように設定"
+msgstr "If checked RSS and sitemap.xml will be hidden."
+
+msgid "このブログをRSS, Sitemap.xmlに出力しない"
+msgstr "Hide RSS and Sitemap.xml."
+
+msgid "メールマガジン"
+msgstr "Mail Magazine"
+
+msgid "エントリーを、ブログの登録ユーザー（メールマガジン配信希望者）にメールとして配信できるようになります。"
+msgstr "You can broadcast entries as mail to the blog subscribers (mail magazine subscribers)."
+
+msgid "メールマガジンを発行する"
+msgstr "Issue mail magazine."
+
+msgid "承認機能"
+msgstr "Approval Function"
+
+msgid "チェックをするとエントリーで承認機能が利用できるようになります。"
+msgstr "If checked, you can use approval function for the entries."
+
+msgid "承認機能を利用可能にする"
+msgstr "Enable approval workflow feature."
+
+msgid "承認ブログ"
+msgstr "Blog with approved workflow "
+
+msgid "チェックをすると祖先ブログの管理者・編集者でも承認できるようになります。"
+msgstr "If checked, you can approve this blog's post from the ascendant blogs."
+
+msgid "上の階層ブログの管理者・編集も承認可能にする"
+msgstr "Approvable for the upper blog's editor and administrator."
+
+msgid "バージョン管理"
+msgstr "Version Managemant"
+
+msgid "チェックをするとエントリーのバージョン管理ができるようになります。"
+msgstr "If checked, you can manage the entries version."
+
+msgid "バージョン管理を利用可能にする"
+msgstr "Enable version management."
+
+msgid "動的フォーム"
+msgstr "Dynamic Form"
+
+msgid "チェックをするとエントリー毎にフォームの作成ができるようになります。"
+msgstr "If checked, you can creat forms in every entry."
+
+msgid "動的フォームを利用可能にする"
+msgstr "Enable dynamic form."
+
+msgid "メディア管理"
+msgstr "Media Managemet"
+
+msgid "チェックをするとメディア（アップロードした画像）の管理ができるようになります。"
+msgstr "If checked, you can manage media (uploaded images)"
+
+msgid "メディア管理を利用可能にする"
+msgstr "Enable media management."
+
+msgid "ログインクッキー有効時間"
+msgstr "Login cookie available period."
+
+msgid ""
+"ログイン画面で「パスワードを保存」のチェックボックスにチェックした場合、この有効時間内はログイン状態を保持できます。"
+msgstr "If you check [save password] in login page, you can retain login state during this period."
+
+msgid "現在のURLでログイン"
+msgstr "Login with current URL"
+
+msgid "ログイン後にリダイレクトされずに、そのままのページでログインします。"
+msgstr "If checked, you can't redirect to the admin page."
+
+msgid "現在のURLでログイン ※チェックされている場合、管理ページへのリダイレクトは無効になります。"
+msgstr "You can login without redirection."
+
+msgid "ログイン後ページの指定"
+msgstr "Page designation after login"
+
+msgid "ログイン後に表示したい管理ページのacmsパスを指定できます。"
+msgstr "You can designate the acms path to the admin page after login."
+
+msgid "※ログイン後に表示したい管理ページのacmsパスを指定できます。"
+msgstr "You can designate the acms path to the admin page after login."
+
+msgid "ログイン後ページのSSL"
+msgstr "SSL after login"
+
+msgid "ログイン後に表示するページでSSLを使用します。"
+msgstr "Use SSL at the page after login."
+
+msgid "ログイン後に表示するページでSSLを使用する。"
+msgstr "Use SSL at the page after login."
+
+msgid "ユーザー登録の外部申請"
+msgstr "External user registration request"
+
+msgid "チェックをすると読者登録の受付ができるようになります。ログインページ内に読者登録ページへのリンクが表示されます。"
+msgstr ""
+"If checked, you can accept subscribers.The link to the subscriber- registration-page will be displayed on login page."
+
+msgid "ユーザー登録の外部申請を受け付ける"
+msgstr "Accept external user registration request."
+
+msgid "外部申請時のアクティベーション"
+msgstr "Activation on the external request period"
+
+msgid ""
+"チェックをすると、読者登録フォームに入力された内容で、即座に有効なユーザーが作成されます。チェックをしない場合は仮ユー"
+"ザーとして作成し、登録者宛メールに記載されているパスワードを使って最初にログインした時点で有効なユーザーとして登録されま"
+"す。"
+msgstr ""
+"If checked, activated user will be added with the subscriber- registration-form filled. If not checked, tentative user "
+"will be created.and it will be activated after login with the password written in the subscriber-mail."
+
+msgid "メールアドレスの有効性とパスワード認証を行わない"
+msgstr "Not authenticate mail address and password validities."
+
+msgid "外部申請「どこでもログイン」"
+msgstr "External Request [Login Anywhere]"
+
+msgid "チェックをすると読者登録ユーザの「どこでもログイン」の初期値が「ON」に設定されます。"
+msgstr "If checked, Initial value of the subscriber's initial value of [Login Anywhere] will be [ON]."
+
+msgid "購読者を「どこでもログイン」を有効で作成する"
+msgstr "Add subscribers with [Login Anywhere] enabled."
+
+msgid "外部申請時の権限"
+msgstr "Role on the external request period."
+
+msgid "外部申請で登録されるユーザーの権限を設定します。"
+msgstr "Set the user's role registered by external requests."
+
+msgid "読者"
+msgstr "Subscriber"
+
+msgid "編集者"
+msgstr "Editor"
+
+msgid "でユーザーを登録する"
+msgstr "will be registered as a role."
+
+msgid "ログイン中の投稿者"
+msgstr "Logging-in-contributor"
+
+msgid "チェックをすると投稿者権限ユーザーがログインしている場合、自身が投稿したエントリーのみ表示されるようになります。"
+msgstr "If checked, logging-in-contributors can only see the entries they wrote."
+
+msgid "ログイン中の投稿者には、自分が投稿したエントリーのみ表示する"
+msgstr "Logging-in-contributors can only see their entries."
+
+msgid "SNSログイン機能"
+msgstr "SNS login"
+
+msgid "チェックをするとSNSログインができるようになります。"
+msgstr "If checked, you can use SNS login."
+
+msgid "SNSログインを利用可能にする"
+msgstr "Enable SNS login."
+
+msgid "SNSログイン使用権限"
+msgstr "The right to use SNS login"
+
+msgid "SNSログイン機能を使えるユーザー権限を設定します。"
+msgstr "Set the right to use SNS login."
+
+msgid "読者のみ"
+msgstr "Subscribers"
+
+msgid "投稿者以下"
+msgstr "Editor and the lower roles"
+
+msgid "編集者以下"
+msgstr "Editor and the lower roles"
+
+msgid "全ての権限"
+msgstr "All Role"
+
+msgid "でSNSログインを使用する。"
+msgstr "can use SNS login feature."
+
+msgid "コメント機能"
+msgstr "Comment function"
+
+msgid ""
+"エントリーのコメントを受け取るか／受け取らないかの設定状態です。コメントフォームはテンプレート内のentry_bodyモジュールに"
+"記述されている必要があります。"
+msgstr ""
+"Setting whether you want to receieve the comments on the entries. Comment forms is required to be written in entry_body "
+"module in the template."
+
+msgid "コメントを受け取る"
+msgstr "Receive comment"
+
+msgid "コメント受信時の初期状態"
+msgstr "Initial state on receiving comments"
+
+msgid ""
+"投稿されたコメントが「承認待ち」「公開」「非公開」のどの状態になるか選択します。「公開」以外の場合は、編集者以上の権限を"
+"持つユーザーが個別に公開するものになります。"
+msgstr ""
+"You can select the posted comment state from ‘pending’, ‘public’ or ‘private’. If it is not [public], it will be "
+"published by the user whose role is above editor."
+
+msgid "ブラックリスト"
+msgstr "Black list"
+
+msgid "コメントに対するNGワードの設定です。カンマ、スペース、改行のいずれかで単語が区切れます。"
+msgstr "Setting of the NG words toword comments. You can separate the words by commma, space or return."
+
+msgid "コメントクッキー有効時間"
+msgstr "Comment cookies available period"
+
+msgid ""
+"コメント欄で「Cookieに保存」のチェックボックスにチェックした場合、この有効時間内は名前などの情報がコメントした人のブラウ"
+"ザに保持されます。"
+msgstr ""
+"If you check the [save to Cookie] on the comment column, browser of the commentors can retain the information like "
+"'name'."
+
+#: themes/system/admin/config/import.html
+msgid "ファイルが選択されていません。"
+msgstr "File is not selected."
+
+msgid "ファイルが読み込めませんでした。"
+msgstr "Couldn't load the file."
+
+msgid "コンフィグをインポートしました。"
+msgstr "Success Importing the config."
+
+#: themes/system/admin/config/index.html
+msgid "コンフィグ一覧"
+msgstr "Configuration"
+
+msgid "（ルール : $1）"
+msgstr "(Rule: $1)"
+
+msgid "出力設定"
+msgstr "Output Setting"
+
+msgid "プロパティ設定"
+msgstr "Property Setting"
+
+msgid "メール設定"
+msgstr "Mail Setting"
+
+msgid "テーマ設定"
+msgstr "Theme Setting"
+
+msgid "承認機能設定"
+msgstr "Setting for approval workflow"
+
+msgid "リセット"
+msgstr "Reset"
+
+msgid "ガイドライン/ツール"
+msgstr "Guideline / Tool"
+
+msgid "スタイルガイド（管理画面）"
+msgstr "Styleguide (Admin Page)"
+
+msgid "スタイルガイド（CSSフレームワーク）"
+msgstr "Styleguide (CSS framework)"
+
+msgid "カスタムフィールドメーカー"
+msgstr "CustomField Maker"
+
+msgid "国際化 ( i18n )"
+msgstr "i18n"
+
+msgid "変数表"
+msgstr "Variable list"
+
+msgid "スニペット"
+msgstr "Snippet"
+
+msgid "コンティニュー"
+msgstr "Continue"
+
+msgid "サイトパーツ"
+msgstr "Site Parts"
+
+msgid "リンク集"
+msgstr "Links"
+
+msgid "ナビゲーション"
+msgstr "Navigation"
+
+msgid "トピックパス"
+msgstr "Topic Path"
+
+msgid "カートショップ"
+msgstr "Courtship"
+
+msgid "カートリスト"
+msgstr "Cart List"
+
+msgid "外部API連携"
+msgstr "External API"
+
+msgid "ユニット・カテゴリー"
+msgstr "Unit / Category"
+
+msgid "ユニットリスト"
+msgstr "Unit List"
+
+msgid "ユーザー・ブログ"
+msgstr "User / Blog"
+
+msgid "ユーザープロフィール"
+msgstr "User Profile"
+
+msgid "ユーザーサーチ"
+msgstr "User Search"
+
+msgid "タグ・カレンダー"
+msgstr "Tag / Calendar"
+
+msgid "タグクラウド"
+msgstr "Tag Cloud"
+
+msgid "タグフィルター"
+msgstr "Tag Filter"
+
+msgid "スケジュール"
+msgstr "Schedule"
+
+msgid "その他"
+msgstr "Others"
+
+msgid "サイトマップ"
+msgstr "Sitemap"
+
+msgid "共通"
+msgstr "Common"
+
+#: themes/system/admin/config/links_body.html
+msgid "リンク名"
+msgstr "Link name"
+
+msgid "リンクとして表示される文字列です。"
+msgstr "String displayed as label of the link."
+
+msgid "リンク先URLです。"
+msgstr "Linked URL."
+
+#: themes/system/admin/config/mail.html
+msgid "メール設定を保存しました"
+msgstr "Mail setting saved."
+
+msgid "SMTPサーバー"
+msgstr "SMTP Server"
+
+msgid "ホスト名"
+msgstr "Host name"
+
+msgid ""
+"a-blog cmsからメールを送信するSMTPサーバのホスト名を指定します。指定されない場合はphp.iniのsendmail_pathに従い、sendmail"
+"を使用してメールを送信します。"
+msgstr ""
+"Set the SMTP server's hostname to send mails from a-blog cms, if not set, it will send mail according to the "
+"sendmail_path on the php.ini."
+
+msgid "ポート"
+msgstr "Port"
+
+msgid ""
+"SMTPサーバのポートを指定します。SMTPサーバーを使用する場合は、必ず設定してください。サーバによって異なる場合があります。"
+"25や587がよく使われます。"
+msgstr ""
+"Designate the port number of the SMTP server.setting is necessary. It depends on the server you use. 25 port or 587 "
+"port is often used."
+
+msgid "ユーザー名"
+msgstr "User Name"
+
+msgid "SMTP認証が必要な場合にユーザー名を指定します。"
+msgstr "Designate the user name if the SMTP authentication is required."
+
+msgid "SMTP認証が必要な場合にパスワードを指定します。"
+msgstr "Designate the password if the SMTP authentication is required."
+
+msgid "読者登録"
+msgstr "Subscribers registration"
+
+msgid "登録者宛に送信されるメールの差出人を指定します。"
+msgstr "Designate the mail sender for the subscribers."
+
+msgid "登録者宛に送信されるメールの宛先を指定します。"
+msgstr "Designate the mail destination for the subscribers."
+
+msgid "※読者登録の申し込み時に入力されたメールアドレスに送信されます"
+msgstr "* Mails will be sent to the mail address registered on the subscribers registration."
+
+msgid "登録者宛に送信されるメールのBcc（ブラインドカーボンコピー）を指定します。"
+msgstr "Designate the mail's BCC send for the subscribers."
+
+msgid "件名テンプレート"
+msgstr "Subject template"
+
+msgid "登録者宛に送信されるメールの件名のテンプレートの場所を指定します。"
+msgstr "Designate the template location for the subject of the mail submitted to the subscribers."
+
+msgid "本文テンプレート"
+msgstr "Body template"
+
+msgid "登録者宛に送信されるメールの本文のテンプレートの場所を指定します。"
+msgstr "Designate the place of the template of the mail's body sent to the subscribers."
+
+msgid "読者登録（管理者）"
+msgstr "Subscribers registration (administrator)"
+
+msgid "From（管理者）"
+msgstr "From (administrator)"
+
+msgid "管理者宛に送信されるメールの差出人を指定します。"
+msgstr "Designate the sender of the mail sent to the administrator."
+
+msgid "To（管理者）"
+msgstr "To (administrator)"
+
+msgid "管理者宛に送信されるメールの宛先を指定します。"
+msgstr "Designate the destination of the mail sent to the administrator."
+
+msgid "Bcc（管理者）"
+msgstr "Bcc (administrator)"
+
+msgid "管理者宛に送信されるメールのBcc（ブラインドカーボンコピー）を指定します。"
+msgstr "Designate the BCC of the mail sent to the administrator."
+
+msgid "件名テンプレート（管理者）"
+msgstr "Subject template (administrator)"
+
+msgid "管理者宛に送信されるメールの件名のテンプレートの場所を指定します。"
+msgstr "Designate the location of the template of the mail subject sent to the administrator."
+
+msgid "本文テンプレート（管理者）"
+msgstr "Body template (administrator)"
+
+msgid "管理者宛に送信されるメールの本文のテンプレートの場所を指定します。"
+msgstr "Designate the template's location of the mail's body sent to the administrator."
+
+msgid "パスワード再発行"
+msgstr "Password reissuing"
+
+msgid "ユーザーに送信されるメールの差出人を指定します。"
+msgstr "Designate the sender of the mail sent to the user."
+
+msgid "ユーザーに送信されるメールの宛先を指定します。"
+msgstr "Designate the destination of the mial sent to the users."
+
+msgid "※パスワード再発行時に入力されたメールアドレスに送信されます"
+msgstr "*The mail will be sent to the address you entered on reissuing your password."
+
+msgid "ユーザーに送信されるメールのBcc（ブラインドカーボンコピー）を指定します。"
+msgstr "Set the mail’s BCC sent to the subscribers."
+
+msgid "ユーザーに送信されるメールの件名のテンプレートの場所を指定します。"
+msgstr "Designate the template's location of the mail's subject sent to the administrator."
+
+msgid "ユーザーに送信されるメールの本文のテンプレートの場所を指定します。"
+msgstr "Designate the template's location of the mail's body sent to the administrator."
+
+msgid "承認"
+msgstr "Approval"
+
+msgid "承認者宛に送信されるメールの差出人を指定します。"
+msgstr "Designate the sender of the mail sent to the approvers."
+
+msgid "承認者宛に送信されます。"
+msgstr "* Send to the approved users mail address."
+
+msgid "※承認者宛のメールアドレスに送信されます"
+msgstr "* Send to the approved users mail address."
+
+msgid "承認者宛に送信されるメールのBcc（ブラインドカーボンコピー）を指定します。"
+msgstr "Designate the BCC of the mail sent to the approvers."
+
+msgid "承認者宛に送信されるメールの件名のテンプレートの場所を指定します。"
+msgstr "Designate the template's location of the mail's subject sent to the approvers."
+
+msgid "承認者宛に送信されるメールの本文のテンプレートの場所を指定します。"
+msgstr "Designate the template's location of the mail's body sent to the approvers."
+
+msgid "送信されるメールの差出人を指定します。"
+msgstr "Designate the mail's sender."
+
+msgid "送信されるメールの宛先を指定します。"
+msgstr "Designate the mail's destination."
+
+msgid "送信されるメールの件名になる文章の雛形が記述されているテンプレートファイルの場所を指定します"
+msgstr "Designate the template's location of the mail's subject."
+
+msgid "本文テンプレート（プレーンテキスト）"
+msgstr "Body template (plain text)"
+
+msgid "送信されるメールのテキスト形式の本文になる文章の雛形が記述されているテンプレートファイルの場所を指定します。"
+msgstr "Designate the template's location of the mail's body."
+
+msgid "本文テンプレート（HTML）"
+msgstr "Body template (HTML)"
+
+msgid "送信されるメールのHTML形式の本文になる文章の雛形が記述されているテンプレートファイルの場所を指定します。"
+msgstr "Designate the template's location of the HTTP formated mail's body."
+
+msgid "一斉同報件数"
+msgstr "Broadcast number"
+
+msgid ""
+"一通のメールでBccに指定する登録ユーザーのメールアドレスの最大数です。この数字を大きくし過ぎると、プロバイダによってはス"
+"パムと判断されてしまう場合があります。"
+msgstr ""
+"Max number of the users you assigned as BCC with a mail. If you set this number too large, provider will recognize "
+"these mails as spam."
+
+msgid "アドバンス"
+msgstr "Advanced"
+
+msgid "Return-Path指定"
+msgstr "Return-Path designation"
+
+msgid "メールのReturn-Pathを特定のメールアドレスに指定します。"
+msgstr "Designate the mail's Return-Path as the specified mail addresses."
+
+msgid "メールヘッダ分割コード"
+msgstr "Code for separating mail header"
+
+msgid ""
+"メールヘッダの分割コード（改行コード）を指定します。<自動>で不具合がある場合に設定してください。送信サーバにqmailを利用"
+"している場合、LFでないと一部環境で正常にメールが受け取れない可能性があります。"
+msgstr ""
+"Designate the LF of the mail header. You can set this, if something is wrong with the automatic setting. Others may not "
+"be able to get your mail correctly in some platforms, if you use qmail on the sender server without LF."
+
+msgid "自動"
+msgstr "Automatic"
+
+#: themes/system/admin/config/menu.html
+msgid "エントリーメニュー"
+msgstr "Entry Menu"
+
+msgid "エントリーを書く"
+msgstr "Add Entry"
+
+msgid "サイト管理"
+msgstr "Sites"
+
+msgid "一般"
+msgstr "General"
+
+msgid "カラム設定"
+msgstr "Column Setting"
+
+#: themes/system/admin/config/navigation.html
+msgid "ナビゲーションを登録しました。"
+msgstr "Navigation registered."
+
+#: themes/system/admin/config/navigation_body.html
+msgid "ナビゲーションが表示される順番です。"
+msgstr "Order for displaying items in navigation."
+
+msgid ""
+"チェックをするとナビゲーションを表示できるようになります。親のナビゲーションが非公開だと子のナビゲーションも非公開になり"
+"ます。"
+msgstr ""
+"If checked, navigation will be available. If the parent's navigation is private, the children's navigations are also "
+"private."
+
+msgid "属性"
+msgstr "Attribute"
+
+msgid "このナビゲーション項目の要素に割り当てられる属性です。（変数名 : attr）"
+msgstr "Attribution assigned for the elements of this navigation (attribution name : attr)."
+
+msgid "子要素属性"
+msgstr "Child elements attributions"
+
+msgid "このナビゲーション項目の子要素に割り当てられる属性です。（変数名 : attr）"
+msgstr "Attribution assigned for child elements of this navigation (attribution name : attr)."
+
+msgid "親"
+msgstr "Parent"
+
+msgid "このナビゲーション項目の、親になるナビゲーション項目の設定です。"
+msgstr "Setting of the parent navigation of this navigation items."
+
+#: themes/system/admin/config/output.html
+msgid "出力設定を保存しました"
+msgstr "Output setting saved."
+
+msgid "変換"
+msgstr "Translation"
+
+msgid "ブログの文字コードを「Shift_JIS」「UTF-8」「EUC-JP」に変更します。"
+msgstr "Transform blog's character code to Shift_JIS, UTF-8 or EUC-JP"
+
+msgid "HTTP圧縮"
+msgstr "HTTP compression"
+
+msgid "対応ブラウザからのアクセス時に、gzip圧縮でデータを送信します。"
+msgstr "Submit data with gzip compression,on accessing compatible browser."
+
+msgid "使用する"
+msgstr "Use"
+
+msgid "※圧縮ページの読み込みに対応しているブラウザのみ有効になります。"
+msgstr "* Only available on the browser compatible with compression page."
+
+msgid "HTMLコメントの削除"
+msgstr "HTML comment deletion"
+
+msgid "出力するHTMLソースからHTMLコメント（&lt;-- コメント -- &gt;）を取り除きます"
+msgstr "Remove comment (&lt;-- comment -- &gt;) from the HTML source."
+
+msgid "HTMLコメントを取り除く"
+msgstr "Remove HTML comment"
+
+msgid "余分な空白の削除"
+msgstr "Remove redundant space"
+
+msgid ""
+"出力するHTMLソースから余分な空白を取り除きます。連続する空白文字（改行、スペース、タブ）の二つ目以降が取り除かれます。"
+msgstr ""
+"Remove redundant blanks from the HTMLsource. The second and any later redundant blanks will be removed from the "
+"successive blank characters like (return,space,tab)."
+
+msgid "余分な空白を取り除く"
+msgstr "Remove redundant blanks."
+
+msgid "定数定義ファイルの指定 ( 絵文字 )"
+msgstr "Designate constant definition file (emot-icons)."
+
+msgid "絵文字用の定義ファイルの場所を指定します。"
+msgstr "Designate the location of the emot-icon definition file."
+
+msgid "※ index.phpが基準となります。"
+msgstr "* index.php is to be standard"
+
+msgid "全角／半角の変換"
+msgstr "Transform Full-width / Half-width"
+
+msgid "全体のデータに、変換をかけます。設定値は、PHPのmb_convert_kana関数に準拠します。"
+msgstr "Convert all the data. Default is set in PHP's mb_convert_kana function."
+
+msgid "英数字 全角 → 半角"
+msgstr "Alphanumeric full-width -> Half-width"
+
+msgid "英数字 半角 → 全角"
+msgstr "Alphanumeric half-width -> Full-width"
+
+msgid "全角カナ → 半角カナ"
+msgstr "Full-width kana -> Half-width kana"
+
+msgid "半角カナ → 全角カナ"
+msgstr "Half-width kana -> Full-width kana"
+
+msgid "全角かな → 半角カナ"
+msgstr "Full-width kana -> Half-width kana"
+
+msgid "半角カナ → 全角かな"
+msgstr "Half-width kana -> Full-width kana"
+
+msgid "全角カナ → 全角かな"
+msgstr "Full-width kana -> Full-width kana"
+
+msgid "全角かな → 全角カナ"
+msgstr "Full-width kana -> Full-width kana"
+
+msgid "設定値は「AK」の様に複数指定する事も出来ます。"
+msgstr "Multiple setting values are allowed such as ‘AK’."
+
+msgid "参考リンク"
+msgstr "reference link"
+
+msgid "コンテントタイプと拡張子の関連付け"
+msgstr "Associate content type and extension"
+
+msgid "コンテントタイプ"
+msgstr "Contenttype"
+
+msgid "コンテントタイプ（MIMEタイプ）と拡張子の関連を個別に指定します。"
+msgstr "Designate association between content type (MIME type) and extentions individualy."
+
+msgid "拡張子"
+msgstr "Extensions"
+
+#: themes/system/admin/config/plugin/schedule_body.html
+msgid "参照先スケジュール"
+msgstr "Reference schedule"
+
+msgid ""
+"データ参照先のスケジュールセット名を選択します。「サイト管理」内の「スケジュール」で設定したものが選択肢として表示されま"
+"す。"
+msgstr "Select the reffered schedule set name. Things you set at the ‘Schedule' at the ‘Sites' will be displayed."
+
+msgid "参照候補が見つかりません"
+msgstr "Can’t find references"
+
+msgid "デフォルトの表示"
+msgstr "Default display"
+
+msgid "URLコンテキストに年月の情報が指定されていない状態の表示単位を設定します。"
+msgstr "Set how to display time period when the years and months information is not on the URL context."
+
+msgid "年表示"
+msgstr "Yearly display"
+
+msgid "指定日数表示"
+msgstr "Designated days display"
+
+msgid "月の表示モード"
+msgstr "Monthly display mode"
+
+msgid "月表示時のリスト表示か七曜表（カレンダー）表示を選択します。"
+msgstr "Select the display method of the calendar (\"List\" or \"Weekly table\")."
+
+msgid "七曜表"
+msgstr "Weekly table"
+
+msgid "年の表示モード"
+msgstr "Yearly display mode"
+
+msgid "年表示時のリスト表示か七曜表（カレンダー）表示を選択します。"
+msgstr "Select the display method of the calendar (list or weekly table)."
+
+msgid "指定日数の表示モード"
+msgstr "Designated days display mode"
+
+msgid "指定日数表示時の表示です。現在はリスト表示のみ対応しています。"
+msgstr "Display of the designated days.only list display is available now."
+
+msgid "月表示のときの前後月の表示"
+msgstr "Display the before and after months"
+
+msgid "月表示時に、当月に加えて前後指定月分を表示できます。"
+msgstr "You can display the before and after months along with the current month."
+
+msgid "過去"
+msgstr " "
+
+msgid "ヶ月_CTX_past"
+msgstr "month ago"
+
+msgid "未来"
+msgstr " "
+
+msgid "ヶ月_CTX_future"
+msgstr "month later"
+
+msgid "指定日数表示のときの前後日数の表示"
+msgstr "Display previous and next days for the [designated days mode]"
+
+msgid "指定日数表示時に、当日に加えて前後の指定日数分を表示できます。"
+msgstr "You can display the previous and next months along with the current month."
+
+msgid "日_CTX_past"
+msgstr "days ago"
+
+msgid "日_CTX_future"
+msgstr "days later"
+
+msgid "指定した件数の月ごとに、unitブロックが表示されます。何件ごとに折り返すなどの指定に応用できます。"
+msgstr ""
+"You can attach unit blocks to each items every designated months. it will be useful, when you want to wrap up items."
+
+msgid "年の表示形式"
+msgstr "Yearly display format"
+
+msgid "年の表示形式を選択します。"
+msgstr "Select the yearly display format."
+
+msgid "4桁の数字 ( 例:2009 )"
+msgstr "4 digit number (exp:2009)"
+
+msgid "2桁の数字 ( 例:09 )"
+msgstr "2 digit number (exp:09)"
+
+msgid "月の表示形式"
+msgstr "Monthly display format"
+
+msgid "月の表示形式を選択します。"
+msgstr "Select the monthly display format."
+
+msgid "先頭に0がつく数字 ( 01 ~ 12 )"
+msgstr "Numbers with 0 header (01 ~ 12)"
+
+msgid "先頭に0がない数字 ( 1 ~ 12 )"
+msgstr "Numbers without 0 header (1 ~ 12)"
+
+msgid "3文字形式 ( Jan ~ Aug )"
+msgstr "3 character format (Jan ~ Aug)"
+
+msgid "フルスペル形式 ( January ~ August )"
+msgstr "Full-spell format (January ~ August)"
+
+msgid "日の表示形式"
+msgstr "Daily display format"
+
+msgid "日の表示形式を選択します。"
+msgstr "Select the daily display format."
+
+msgid "先頭に0がつく数字 ( 01 ~ 31 )"
+msgstr "Numbers with 0 header (01 ~ 31)"
+
+msgid "先頭に0がない数字 ( 1 ~ 31 )"
+msgstr "Numbers without 0 header (1 ~ 31)"
+
+msgid "曜日の表示形式"
+msgstr "Weekly display format"
+
+msgid "曜日の表示形式を選択します。"
+msgstr "Select the weekly display format."
+
+msgid "3文字形式 ( Mon ~ Sun )"
+msgstr "3 character format (Mon ~ Sun)"
+
+msgid "フルスペル形式 ( Monday ~ Sunday )"
+msgstr "Full-spell format (Monday ~ Sunday)"
+
+msgid "日本語表記 ( 月 ~ 日 )"
+msgstr "Japanese format (月 ~ 日)"
+
+#: themes/system/admin/config/property.html
+msgid "プロパティ情報を保存しました"
+msgstr "Property info saved."
+
+msgid "メタ情報"
+msgstr "Meta Info"
+
+msgid "キーワード"
+msgstr "Keyword"
+
+msgid ""
+"このサイトの&lt;meta name=&quot;keywords&quot;&gt;の内容として使用できます。「,（コンマ）」で区切ることで複数登録するこ"
+"とができます。この入力内容は、グローバル変数の&#37;&#123;META_KEYWORDS}で表示できます。"
+msgstr ""
+"Can be used as the contents of &lt;meta name=&quot;keywords&quot;&gt;of this site. you can register words separetly by "
+"marking off by commma. this contents can be displayed by the global variable &#37;&#123;META_KEYWORDS}."
+
+msgid "説明 ( ディスクリプション ) "
+msgstr "Description"
+
+msgid ""
+"このサイトの&lt;meta name=&quot;description&quot;&gt;の内容として使用できます。この入力内容は、グローバル変数の&#37;"
+"&#123;META_DESCRIPTION}で表示できます。"
+msgstr ""
+"Can be used as the contents of の&lt;meta name=&quot;description&quot;&gt;of this site.this contents can be displayed "
+"by the global variable &#37;&#123;META_DESCRIPTION}."
+
+msgid "ウェブサービス"
+msgstr "Web Services"
+
+msgid "YahooアプリケーションID"
+msgstr "Yahoo Application ID"
+
+msgid ""
+"取得した<a href='https://e.developer.yahoo.co.jp/webservices/register_application' target='_blank'>Yahooアプリケーション"
+"ID</a>をセットします。<a href='http://srd.yahoo.jp/olp/about' target='_blank'>Yahoo地図（YOLP）</a>"
+msgstr ""
+"Set an acquired <a href='https://e.developer.yahoo.co.jp/webservices/register_application' target='_blank'>Yahoo "
+"Application ID</a>.<a href='http://srd.yahoo.jp/olp/about' target='_blank'>Yahoo Map (YOLP)</a>"
+
+msgid "取得した<a href='https://datamarket.azure.com/account/keys' target='_blank'>Application Key</a>をセットします。"
+msgstr "Set acquired <a href='https://datamarket.azure.com/account/keys' target='_blank'>Application Key</a>."
+
+msgid "Twitter アプリケーション"
+msgstr "Twitter Application"
+
+msgid "取得した<a href='https://apps.twitter.com/' target='_blank'>Twitterアプリケーション</a>の情報をセットします。"
+msgstr ""
+"Set aquired information of the <a href='https://twitter.com/apps' target='_blank'>Twitter Application</a><br>callback "
+"URL&nbsp;:&nbsp;%{BLOG_URL}callback/twitter.html"
+
+msgid "Twitter（SNSログイン用）"
+msgstr "Twitter (for SNS login)"
+
+msgid ""
+"取得した<a href='https://apps.twitter.com/' target='_blank'>Twitterアプリケーション</a>の情報をセットします。(SNSログイ"
+"ンで使用)<br>コールバックURL&nbsp;:&nbsp;<br>%{BLOG_URL}callback/signin/twitter.html"
+msgstr ""
+"Set the acquired <a href='https://twitter.com/apps' target='_blank'>Twitter Application</a>info(used after SNS "
+"login)<br>callback URL&nbsp;:&nbsp;<br>%{BLOG_URL}callback/signin/twitter.html"
+
+msgid "Facebook アプリケーション"
+msgstr "Facebook Application"
+
+msgid ""
+"取得した<a href='http://developers.facebook.com/' target='_blank'>Facebookアプリケーション</a>の情報をセットします。"
+msgstr ""
+"Set aquired information of the <a href='http://developers.facebook.com/' target='_blank'>Facebook Application</a>."
+
+msgid "Instagram アプリケーション"
+msgstr "Instagram Application"
+
+msgid ""
+"取得した<a href='http://instagram.com/developer/' target='_blank'>Instagramアプリケーション</a>の情報をセットします。"
+msgstr ""
+"Set aquired information of the <a href='http://instagram.com/developer/' target='_blank'>Instagram Application</a>."
+
+msgid ""
+"Google Analyticsの携帯電話用コードを参考に、アカウントIDを入力します。a-blog cmsインストール先ディレクトリから、ダウン"
+"ロードしてきたga.phpへのパスを設定します。"
+msgstr ""
+"Create Account ID by referencing Google Analytics phone code, enter Account ID. Set the path to the installed ga.php "
+"from the a-blog cms installed directory."
+
+msgid "Pingショット"
+msgstr "Ping Shot"
+
+msgid "エンドポイント"
+msgstr "Endpoint"
+
+msgid "Ping送信先のRPCエンドポイントを指定します。"
+msgstr "Designate the RPC endpoint of the Ping destination."
+
+msgid "拡張エンドポイント"
+msgstr "Extension end point"
+
+msgid "拡張規格に対応した、Ping送信先のエンドポイントを指定します。"
+msgstr "Designate endpoint of the Ping destination compatible with the extension's criteria."
+
+#: themes/system/admin/config/reset.html
+msgid "$1のコンフィグをリセットしました。"
+msgstr "Reset $1's config settings."
+
+msgid "リセットを実行します。よろしいですか？"
+msgstr "Are you OK with resetting?"
+
+msgid "現在のコンフィグを破棄して、コンフィグをリセットします。"
+msgstr "Revoke the current config and reset the config."
+
+msgid "リセット後は、システムデフォルトのコンフィグ（private/config.system.yamlの設定値）を適用されます。"
+msgstr "After resetting, the system default (private/config.system.yaml setting value) will be applied."
+
+msgid "ルール適用時のコンフィグがリセットされると、ブログの元々のコンフィグが適用されます。"
+msgstr "After resetting the config with the rule applied, the original config of the blog will be applied."
+
+#: themes/system/admin/config/setting.html
+msgid "$1 を編集"
+msgstr "Edit $1"
+
+#: themes/system/admin/config/shop/cart/list_body.html
+msgid "サムネイル画像のサイズ"
+msgstr "Size of thumbnail Image"
+
+msgid "サムネイル画像のサイズを指定します。"
+msgstr "Set the Size of thumbnail Image"
+
+#: themes/system/admin/config/sitemap_body.html
+msgid "コード名 ( 昇順 )"
+msgstr "Code name (A to Z)"
+
+msgid "コード名 ( 降順 )"
+msgstr "Code name (Z to A)"
+
+msgid "名前 ( 昇順 )"
+msgstr "Name (A to Z)"
+
+msgid "名前 ( 降順 )"
+msgstr "Name (Z to A)"
+
+msgid "チェックを外すと、インデキシングされていないブログも表示されます。"
+msgstr "If unchecked,unindexed blogs will be displayed."
+
+msgid "インデキシングされているブログのみ表示する"
+msgstr "Display only indexed blogs."
+
+msgid "コードネーム ( 昇順 )"
+msgstr "Code name (A to Z)"
+
+msgid "コードネーム ( 降順 )"
+msgstr "Code name (Z to A)"
+
+msgid "エントリー数 ( 昇順 )"
+msgstr "Number of entries (Smarllest)"
+
+msgid "エントリー数 ( 降順 )"
+msgstr "Number of entries (Largest)"
+
+msgid "更新日時 ( 昇順 )"
+msgstr "Date of updating (Oldest)"
+
+msgid "更新日時 ( 降順 )"
+msgstr "Date of updating (Newest)"
+
+msgid "一度に表示される件数です。空欄にすると全件を表示します。"
+msgstr "Number of the items displayed at once. If blank, it will show all the items."
+
+#: themes/system/admin/config/tag/cloud_body.html
+msgid "しきい値"
+msgstr "Threshold"
+
+msgid "あるタグを付けているエントリーの数が、ここに入力した値よりも少ない場合、そのタグは一覧に表示されません。"
+msgstr ""
+"If the number of the entries attached with a tag is lower than the number you set here, the tag will not be displayed."
+
+msgid "タグ数 ( 昇順 )"
+msgstr "Number of tags (Smarllest)"
+
+msgid "タグ数 ( 降順 )"
+msgstr "Number of tags (Largest)"
+
+#: themes/system/admin/config/tag/filter_body.html
+msgid "選択数"
+msgstr "Number of options"
+
+msgid "選択されているタグの最大表示件数を設定します。"
+msgstr "Display the max display number of the selected tags."
+
+#: themes/system/admin/config/theme.html
+msgid "テーマ設定を保存しました"
+msgstr "Theme Setting saved."
+
+msgid "テーマ"
+msgstr "Theme"
+
+msgid "テーマ ディレクトリ名"
+msgstr "Theme directory name"
+
+msgid "適用されるテーマのディレクトリ名です。「a-blog cms設置ディレクトリ/themes/」以下のディレクトリになります。"
+msgstr ""
+"This is the directory name of the applied theme. This is the directory under the [a-blog cms installed directory/"
+"themes/]."
+
+msgid "テーマが指定されていません。"
+msgstr "No theme assigned."
+
+msgid "テンプレート設定"
+msgstr "Theme Setting"
+
+msgid ""
+"チェックがついている場合テーマディレクトリ直下のtemplate.yamlファイルのテンプレートを優先して読む込みます。（template."
+"yamlは継承されます）"
+msgstr "If checked, template.yaml under the theme directory will be prioritized (template.yaml will be inherited)."
+
+msgid "テンプレート選択ファイル（template.yaml）の値を優先する"
+msgstr "Prioritize the values of template.yaml."
+
+msgid "template.yamlファイル"
+msgstr "template.yaml file"
+
+msgid "トップページ"
+msgstr "Top page"
+
+msgid "そのサイト（ブログ）のトップページにアクセスした際に適用されるテンプレートファイルです。"
+msgstr "This is the template file applied on accessing to the top page of the site."
+
+msgid "一覧ページ"
+msgstr "Index page"
+
+msgid "カテゴリーのトップページで複数のエントリーを一覧表示する際に適用されるテンプレートファイルです。"
+msgstr "This is the template file applied on displaying several entries as a list at category top page."
+
+msgid "詳細ページ"
+msgstr "Detail page"
+
+msgid "個別のエントリーを表示する際に適用されるテンプレートファイルです。"
+msgstr "This is the template file applied on displaying each entry."
+
+msgid "エラーページ(404 Not Found)"
+msgstr "Error page (404 Not Found)"
+
+msgid "存在しないURLにアクセスした際に適用されるテンプレートファイルです。"
+msgstr "This is the template file applied on accessing to nonexisting URLs."
+
+msgid "管理ページ（このページなど）を表示する際に適用されるテンプレートファイルです。"
+msgstr "This is the template file applied on displaying admin page (like this page)."
+
+msgid "エントリー編集ページ"
+msgstr "Entry edit page"
+
+msgid "エントリーを投稿・編集する際に適用されるテンプレートファイルです。"
+msgstr "This is the template file applied on editing and posting entries."
+
+msgid "ユニット追加ページ"
+msgstr "Unit adding page"
+
+msgid "エントリーにユニットを追加する際に適用されるテンプレートファイルです。"
+msgstr "This is the template file applied on adding units to entries."
+
+msgid "ログインページ"
+msgstr "Login page"
+
+msgid "「設置URL/login/」で表示されるログインページに適用されるテンプレートファイルです。"
+msgstr "This is the template file applied on login page displayed at [installedURL/login/]."
+
+msgid "$1テーマにtemplate.yamlが設置されていません。"
+msgstr "Template.yaml is not installed at the $1 theme."
+
+msgid "テンプレートファイル"
+msgstr "Template File"
+
+#: themes/system/admin/config/topicpath_body.html
+msgid "階層の起点"
+msgstr "Start point of the hierarchy"
+
+msgid ""
+"ブログが階層構造になっている場合、一番上の階層（ルート）から表示するか、一番下の階層（末端）から表示するかの設定です。"
+msgstr ""
+"If the blogs are composed with hierarchical structure, you can select 'display from the top' or 'display from the "
+"bottom'."
+
+msgid "ルート"
+msgstr "Root"
+
+msgid "末端"
+msgstr "End"
+
+msgid "階層の数"
+msgstr "Number of the visible levels"
+
+msgid "階層の表示数を設定します。0 を入力で表示せず、空欄で全て表示します。"
+msgstr "Set the depth of the hierarchy. If ‘0’, it shows nothing, if blank, it shows all of them."
+
+msgid " 個 (0で表示しない、空で全てを表示する)"
+msgstr "Set the displayed hierarchy number. If ‘0’,it shows nothing,if blank,it shows all of them."
+
+msgid "階層の表示順"
+msgstr "Display order of the hierarchy"
+
+msgid "階層の起点を先頭に、表示順の並び替えを設定します。"
+msgstr "Starting from the root of the hierarchy, you can set the display order."
+
+msgid "起点の代替ラベル"
+msgstr "Alternative start point label"
+
+msgid "トピックパスの表示上の起点となるブログのラベルを置き換えます。（TopやHomeなど）"
+msgstr "Replace the labels of the blog which is the start point for displaying the topic path (like 'top' or 'home')."
+
+msgid "チェックをつけるとブログのカスタムフィールドを出力するようになります。"
+msgstr "If checked, you can output blog’s custom fields."
+
+msgid "ブログのカスタムフィールドを使用する"
+msgstr "Use blog’s custom fields."
+
+msgid "カテゴリーが階層構造になっている場合、一番上の階層から表示するか、一番下の階層から表示するかの設定です。"
+msgstr ""
+"If the categories are composed with hierarchy structure, you can select 'display from the top' or 'display from the "
+"bottom'."
+
+msgid "階層の表示数"
+msgstr "Depth of the hierarchy"
+
+msgid "カテゴリーのカスタムフィールドを使用する"
+msgstr "Use category’s custom fields."
+
+msgid "エントリータイトル"
+msgstr "Entries title"
+
+msgid "トピックパスに、今表示しているエントリーを含めるかのチェックです。"
+msgstr "Check to include the entry diplayed at the current topic path."
+
+msgid "エントリーのタイトルを階層に表示する"
+msgstr "Display the titles of the entries on the hierarchies."
+
+msgid "エントリーのカスタムフィールドを使用する"
+msgstr "Use entry’s custom fields."
+
+#: themes/system/admin/config/unit/list_body.html
+msgid "日付 ( 昇順 )"
+msgstr "date (Oldest)"
+
+msgid "日付 ( 降順 )"
+msgstr "date (Newest)"
+
+msgid "ユニットタイプ"
+msgstr "Unit type"
+
+msgid "表示に含めるユニットのタイプの設定です。ここで選択していないタイプのユニットは表示されません。"
+msgstr "Set the type of the unit you want to show. Unselected units will not be displayed."
+
+msgid "地図"
+msgstr "Map"
+
+msgid "ユーチューブ"
+msgstr "YouTube"
+
+msgid "ユニットタイプが選択されていません。"
+msgstr "Unit type is not selected."
+
+msgid "エントリー情報"
+msgstr "Entry information"
+
+msgid "(カスタムフィールドは各基本情報がonの時のみ有効)"
+msgstr "( The custom field is available only when the each basic information is on. )"
+
+#: themes/system/admin/config/unit.html
+msgid "ユニット設定を保存しました"
+msgstr "Unit List setting saved."
+
+msgid "{mode}"
+msgstr " "
+
+#: themes/system/admin/config/user/profile_body.html
+msgid "最終ログイン日時 ( 昇順 )"
+msgstr "Recent login date (Oldest)"
+
+msgid "最終ログイン日時 ( 降順 )"
+msgstr "Recent login date (Newest)"
+
+msgid "権限"
+msgstr "Role"
+
+msgid "選択した権限のユーザーが一覧の表示対象になります。"
+msgstr "Users with the selected role will be displayed on the list."
+
+msgid "管理者"
+msgstr "Administrator"
+
+msgid "チェックを外すと、インデキシングされていないユーザーも表示されます。"
+msgstr "If unchecked, unindexed user will also be displayed."
+
+msgid "インデキシングされているユーザーのみ表示する"
+msgstr "Display only indexed user."
+
+#: themes/system/admin/config/user/search_body.html
+msgid "任意"
+msgstr "Arbitorary"
+
+msgid "選択したステータスのユーザーが一覧の表示対象になります。"
+msgstr "Users with the selected status will be displayed on the iist."
+
+msgid "選択したメールマガジン受信希望のユーザーが一覧の表示対象になります。"
+msgstr "User who requests for the selected mail magazine, will be displayed on the list."
+
+msgid "PCメール"
+msgstr "E-mail (PC)"
+
+msgid "携帯メール"
+msgstr "E-mail (mobile)"
+
+msgid "チェックをするとユーザー毎のエントリーリストを表示できるようになります。"
+msgstr "If checked, you can display every user’s entry list."
+
+msgid "エントリーリストを表示できるようにする。"
+msgstr "Display entry list."
+
+msgid "ユーザ毎に表示される件数です。"
+msgstr "Number of items displayed to every user"
+
+#: themes/system/admin/customfield/customField.html
+msgid "コンバーター参照"
+msgstr "Converter Reference"
+
+msgid "意味"
+msgstr "Meaning"
+
+msgid "「全角」英字を「半角」に変換します"
+msgstr "“Full-width alpha” to “Half-width alpha”"
+
+msgid "「半角」英字を「全角」に変換します"
+msgstr "“Half-width alpha” to “Full-width alpha”"
+
+msgid "「全角」数字を「半角」に変換します"
+msgstr "“Full-width number” to “Half-width number”"
+
+msgid "「半角」数字を「全角」に変換します。"
+msgstr "“Half-width number” to “Full-width number”"
+
+msgid "「全角」英数字を「半角」に変換します。"
+msgstr "“Full-width alphanumeric” to “Half-width alphanumeric”"
+
+msgid "「半角」英数字を「全角」に変換します。"
+msgstr "“Half-width alphanumeric” to “Full-width alphanumeric”"
+
+msgid "「全角」スペースを「半角」に変換します（U+3000 -> U+0020）。"
+msgstr "“Full-width space” to “Half-width space”"
+
+msgid "「半角」スペースを「全角」に変換します（U+0020 -> U+3000）。"
+msgstr "“Half-width space” to “Full-width space”"
+
+msgid "「全角カタカナ」を「半角カタカナ」に変換します。"
+msgstr "“Full-width katakana” to “Half-width katakana”"
+
+msgid "「半角カタカナ」を「全角カタカナ」に変換します。"
+msgstr "“Half-width katakana” to “Full-width katakana”"
+
+msgid "「全角ひらがな」を「半角カタカナ」に変換します。"
+msgstr "“Full-width hiragana” to “Half-width hiragana”"
+
+msgid "「半角カタカナ」を「全角ひらがな」に変換します。"
+msgstr "“Half-width katakana” to “Full-width hiragana”"
+
+msgid "「全角カタカナ」を「全角ひらがな」に変換します。"
+msgstr "“Full-width katakana” to “Full-width hiragana”"
+
+msgid "「全角ひらがな」を「全角カタカナ」に変換します。"
+msgstr "“Full-width hiragana” to “Full-width katakana”"
+
+msgid "セレクトボックス"
+msgstr "Select"
+
+msgid "name属性"
+msgstr "name attr"
+
+msgid "変換・入力チェックを利用する"
+msgstr "Use Converter and Validator"
+
+msgid ""
+"テキストフィールドに入力された値を別の値に変換します。詳しくは参照ボタンを押すと表示されるモーダルウィンドウに情報が記載"
+"されています。"
+msgstr ""
+"Convert values in a form to the different ones. You can check further details on the modal windows that can be shown by "
+"entering “Reference” button."
+
+msgid "参照"
+msgstr "Reference"
+
+msgid "入力チェック"
+msgstr "Input Validation"
+
+msgid "フィールドに入力された値が条件に合っているかをチェックします。"
+msgstr "Check if values are match with designated conditions."
+
+msgid "値"
+msgstr "Value"
+
+msgid "最小文字数や、正規表現チェックをバリデータに設定した際に設定する値となります。"
+msgstr "Used for validators like “Min Length” and “Regex”."
+
+msgid "メッセージ"
+msgstr "Messages"
+
+msgid "フィールドに入力されている値が条件に合わなかった場合に表示されるメッセージになります。"
+msgstr "This is message which is shown when a entered value is not match with conditions."
+
+msgid "▼ バリデータを選択"
+msgstr "Select Validators"
+
+msgid "入力値の制限"
+msgstr "Validator for Input value"
+
+msgid "必須 ( required )"
+msgstr "Required"
+
+msgid "最小文字数 ( minLength )"
+msgstr "Min Length"
+
+msgid "最大文字数 ( maxLength )"
+msgstr "Max Length"
+
+msgid "下限値 ( min )"
+msgstr "Minimum"
+
+msgid "上限値 ( max )"
+msgstr "Maximum"
+
+msgid "形式チェック"
+msgstr "Format"
+
+msgid "数字チェック ( digits )"
+msgstr "Digits"
+
+msgid "メールアドレスチェック ( email )"
+msgstr "Email"
+
+msgid "URLチェック ( url )"
+msgstr "URL"
+
+msgid "日付チェック ( dates )"
+msgstr "Date"
+
+msgid "時間チェック ( times )"
+msgstr "Time"
+
+msgid "正規表現マッチ ( regex )"
+msgstr "Regex"
+
+msgid "アドレスの重複禁止 ( duplication )"
+msgstr "Duplication"
+
+msgid "クリア"
+msgstr "Clear"
+
+msgid "生成"
+msgstr "Add"
+
+msgid "プレビュー表示する画像"
+msgstr "Preview Image"
+
+msgid "編集画面のカスタムフィールドにプレビューとして表示される画像の形式をお選びください。"
+msgstr "Select the preview image for admin page."
+
+msgid "サイズ指定"
+msgstr "Size Setting"
+
+msgid "画像の横幅や縦幅などのサイズを指定できます。"
+msgstr "Set width and height of images"
+
+msgid "alt表示"
+msgstr "Alt text"
+
+msgid "画像のalt属性の値を設定できます。"
+msgstr "You can set alt text of images"
+
+msgid "通常画像"
+msgstr "Normal Image"
+
+msgid "tiny画像"
+msgstr "Tiny Image"
+
+msgid "large画像"
+msgstr "Large Image"
+
+msgid "square画像"
+msgstr "Square Image"
+
+msgid "alt表示する"
+msgstr "Alt Text"
+
+msgid "tiny画像生成"
+msgstr "Generate Tiny Image"
+
+msgid "通常画像よりも小さい画像を生成できます。"
+msgstr "You can generate smaller image"
+
+msgid "large画像生成"
+msgstr "Generate Large Image"
+
+msgid "通常画像よりも大きい画像を生成できます。"
+msgstr "You can generate larger image."
+
+msgid "square画像生成"
+msgstr "Generate Square Image"
+
+msgid "通常画像を指定したサイズで中央から正方形にトリミングして生成します。"
+msgstr "Generate its cropped square image, The image will be cropped to specific size from the center."
+
+msgid "つくらない"
+msgstr "Unused"
+
+msgid "フロント側のリサイズ機能を使用する"
+msgstr "Enable automatic resizing from frontend uploads"
+
+msgid "ファイルの拡張子（任意）"
+msgstr "File Extension Name (arbitrary)"
+
+msgid "アップロードするファイルの拡張子となります。（例、txt, doc, docx, pdf, ppt, pptx, xls, xlsx, csvなど）"
+msgstr "File extensions which can be uploaded (Ex. txt, doc, docx, pdf, ppt, pptx, xls, xls, xlsx and csv)"
+
+msgid "*拡張子は一つしか指定できません。"
+msgstr "*You can only specify one extension."
+
+msgid "固定のファイル名（任意）"
+msgstr "Designated File Name (arbitrary)"
+
+msgid "設定しないとファイル名がランダムの文字列となります。"
+msgstr "If not set, File name will be random string."
+
+msgid "拡張子も明記する必要があります。（例、hoge.pdf)"
+msgstr "You should also include file extension name (e.x hoge.pdf)"
+
+msgid "アップロードするファイルの拡張子となります。"
+msgstr "Uploaded File’s Extension"
+
+msgid "type（必須）"
+msgstr "type (required)"
+
+msgid "フィールドのタイプとなります。選択しないと生成ボタンを押してもソースコードが生成されません。"
+msgstr "Type of Fields, the source code can’t be generated unless you select."
+
+msgid "タイトル（必須）"
+msgstr "Title (Requried)"
+
+msgid "見出しになります。"
+msgstr "Used for Title"
+
+msgid "フィールド（必須）"
+msgstr "Field (Required)"
+
+msgid "フィールド名です。name属性として使用されます。"
+msgstr "Field Name used for name attribute."
+
+msgid "option要素"
+msgstr "Option Element"
+
+msgid "セレクトボックス用の項目になります。"
+msgstr "Option for Select Box"
+
+msgid "input要素"
+msgstr "Input Element"
+
+msgid "ラジオボタン用の項目になります。"
+msgstr "Option for Radio Button"
+
+msgid "カスタムフィールドグループ"
+msgstr "Custom Field Group"
+
+msgid "カスタムユニット"
+msgstr "Custom Unit"
+
+msgid "基本設定"
+msgstr "Basic Settings"
+
+msgid "typeとタイトルとフィールド、全てを入力しないとソースコードを生成できません。"
+msgstr "You can’t generate source code, unless you input type, title and field."
+
+msgid "チェックボックス用の項目になります。"
+msgstr "Option for checkbox."
+
+msgid "group名を入力しないとgroupを生成できません。"
+msgstr "The group’s source code can’t be generated unless you enter group name."
+
+msgid "groupタイトル"
+msgstr "Group’s Title"
+
+msgid "カスタムフィールドグループのテーブル用のタイトルとなります。"
+msgstr "It is title of the table for custom field group."
+
+msgid "カスタムフィールドグループのフィールド名です。値を必ず入力してください。"
+msgstr "Field Name of Custom Field Group. It is required."
+
+msgid "グループ生成"
+msgstr "Add Group"
+
+msgid "入力用ソース"
+msgstr "Source for Input"
+
+msgid "プレビュー"
+msgstr "Preview"
+
+msgid "出力用ソース"
+msgstr "Source for Output"
+
+msgid "acms-admin.cssを使用する"
+msgstr "Use acms-admin.css"
+
+msgid "ソースをコピー"
+msgstr "Copy Source"
+
+msgid "履歴クリア"
+msgstr "Clear history"
+
+#: themes/system/admin/entry/action.html
+msgid "エントリーの編集"
+msgstr "Edit Entry"
+
+msgid "エントリーを複製します。よろしいですか？"
+msgstr "Are you sure you want to duplicate the entry?"
+
+msgid "エントリーを削除します。よろしいですか？"
+msgstr "Are you sure you want to delete the entry?"
+
+msgid "ユニットの追加"
+msgstr "Add Units"
+
+#: themes/system/admin/entry/add.html
+msgid "ユニット追加"
+msgstr "Add Units"
+
+msgid "現在の変更が破棄されます、よろしいですか？"
+msgstr "Are you sure you want to cancel the current update?"
+
+#: themes/system/admin/entry/approval-history.html
+msgid "承認履歴"
+msgstr "Approval Histories"
+
+#: themes/system/admin/entry/edit-field.html
+msgid "カスタムフィールドを保存しました"
+msgstr "Custom Field Saved."
+
+msgid "カスタムフィールドを保存"
+msgstr "Save Custom Field"
+
+#: themes/system/admin/entry/edit.html
+msgid "下書き"
+msgstr "Draft"
+
+msgid "ゴミ箱"
+msgstr "Trash"
+
+msgid "タグ候補"
+msgstr "Tag Lists"
+
+msgid "時刻"
+msgstr "Time"
+
+msgid "詳細設定"
+msgstr "Advanced Settings"
+
+msgid "掲載期限"
+msgstr "Publishing Period"
+
+msgid "概要"
+msgstr "Summary"
+
+msgid "上から"
+msgstr "Extract the "
+
+msgid "全て"
+msgstr "All"
+
+msgid "番目までのカラムを抜粋"
+msgstr "units from the top"
+
+msgid "一覧に表示する"
+msgstr "Show at Lists"
+
+msgid "リンク先URL"
+msgstr "Linked URL"
+
+msgid "関連エントリー設定"
+msgstr "Setting for the related entries."
+
+msgid "検索ワード"
+msgstr "Search Entries"
+
+msgid "エントリーの編集をやめます。\\n現在の変更内容が破棄されます、よろしいですか？"
+msgstr ""
+"Quit editing of the entry.\n"
+"Current updated contents will be removed. Are you sure you want to continue?"
+
+msgid "エントリーの作成ができませんでした。"
+msgstr "The entry couldn't be added."
+
+msgid "エントリーの保存ができませんでした。"
+msgstr "The entry couldn't be saved."
+
+msgid "カテゴリーが非公開の記事は公開できません。"
+msgstr "Entry with private category can't be published."
+
+msgid "システムで予約されているキーワードです。(詳細設定を開いてファイル名を変更してください)"
+msgstr "Keywords reserved in the system. (Please open Advanced settings and change File Name.)"
+
+msgid "同ブログ内に同じファイル名が存在します。(詳細設定を開いてファイル名を変更してください)"
+msgstr "The same named file already exists in the current blog. (Please open Advanced Settings and change the File Name.)"
+
+msgid "作業領域に保存"
+msgstr "Save to the working space"
+
+msgid "エントリーの編集を中止します。\\n現在の変更内容が破棄されますが、よろしいですか？"
+msgstr "Finish editing of the entries, current updated contents will be destroyed. Are you sure you want to continue?"
+
+msgid "上記の内容でエントリーを投稿しました。"
+msgstr "Post entry with the above contents."
+
+#: themes/system/admin/entry/editor.html
+msgid "エントリー編集"
+msgstr "Edit entry"
+
+msgid "エントリーを更新しました。"
+msgstr "Entry updated."
+
+#: themes/system/admin/entry/index.html
+msgid "エントリー管理"
+msgstr "Entries"
+
+msgid "エントリー一覧を更新しました。"
+msgstr "Entry list updated."
+
+msgid "エントリーがありません。"
+msgstr "Not found entry."
+
+msgid "子ブログのカテゴリーをグローバル（共有）カテゴリーではないものに変更することはできません。"
+msgstr "Can not change child blog’s category  to local category."
+
+msgid "全ての期間"
+msgstr "All dates"
+
+msgid "公開中"
+msgstr "Showing"
+
+msgid "公開終了"
+msgstr "Closed"
+
+msgid "未来公開"
+msgstr "Future"
+
+msgid "全てのユーザー"
+msgstr "All Users"
+
+msgid "全てのカテゴリー"
+msgstr "All Categories"
+
+msgid "カテゴリーなし"
+msgstr "Uncategorized"
+
+msgid "現在のブログ"
+msgstr "Current Blog"
+
+msgid "下階層のブログも表示"
+msgstr "Display descendant blogs"
+
+msgid "タイトル・本文・カスタムフィールドから検索（複数指定可）"
+msgstr "Search entries by title, text, custom field. ( You can search entries by several keywords at once )"
+
+msgid "ドラックでエントリーの表示順を変更できます"
+msgstr "You can change display order with drag and drop"
+
+msgid "ドラックでユーザー絞り込み時の表示順を変更できます"
+msgstr "You can change display order on filtering user with drag and drop"
+
+msgid "ドラックでカテゴリー絞り込み時の表示順を変更できます"
+msgstr "You can change display order on filtering categories with drag and drop"
+
+msgid ""
+"※変更されたエントリーはログイン中のユーザーの所有になり、カテゴリーの設定は解除されます。ただし、グローバルカテゴリーと"
+"して設定されている場合はカテゴリーが保持されます"
+msgstr ""
+"*The category setting will be off, with the updated entries will be the belongings of the login user. But if the "
+"category is set as global category, the category will be retained"
+
+msgid "※この操作は、件数が多いと処理に時間がかかることがあります"
+msgstr "* This operation may take several minitues if the number of instances is too large"
+
+msgid "ゴミ箱に移します。\\nよろしいですか？"
+msgstr "Move to trash.\\nAre you sure you want to continue?"
+
+#: themes/system/admin/entry/revision-info.html
+msgid "作業領域から承認依頼"
+msgstr "Approval form working space"
+
+msgid "作業領域からバージョンを作成して承認画面に移動します。よろしいですか？"
+msgstr "Add version from working space, and go to approval page. Are you sure you want to continue?"
+
+msgid "現在のバージョン"
+msgstr "Current Version"
+
+msgid "バージョン数"
+msgstr "Number of versions"
+
+msgid "現在の状態がバージョンとして保存されていません"
+msgstr "Current state is not saved as the version."
+
+msgid "以下のエントリーは承認が完了されているものになります。"
+msgstr "The below entries have already approved."
+
+msgid "保存した内容は"
+msgstr "The content is saved at"
+
+msgid "作業領域"
+msgstr "Working Space"
+
+msgid "に保存されています。"
+msgstr "&nbsp;"
+
+#: themes/system/admin/entry/revision.html
+msgid "そのまま"
+msgstr "As is"
+
+msgid "バージョンを残して"
+msgstr "As the Version"
+
+msgid "未来バージョンとして"
+msgstr "As the Future Version"
+
+#: themes/system/admin/entry/title.html
+msgid "エントリー変更"
+msgstr "Edit Entry"
+
+msgid "保存しました"
+msgstr "Saved"
+
+msgid "内容を入力し、「作成」ボタンを押してください。"
+msgstr "Enter the contents and click the “Add” button."
+
+msgid "内容を変更し、「保存」ボタンを押してください。"
+msgstr "Enter the contents and click the “Save” button."
+
+#: themes/system/admin/entry/trash.html
+msgid "ゴミ箱は空です。"
+msgstr "The trash is empty."
+
+msgid "全てのユーザ"
+msgstr "All Users"
+
+msgid "ゴミ箱を空にする"
+msgstr "Empty the Trash"
+
+msgid "このブログ以下の全てのブログのゴミ箱を空にします。\\nこの操作は取り消せません。よろしいですか？"
+msgstr ""
+"All descendent blog\\'s trash will be empty.\n"
+"this operation can\\'t be reverted. Are you sure you want to continue?"
+
+msgid "完全削除"
+msgstr "Delete Completely"
+
+msgid "復元"
+msgstr "Restore"
+
+msgid "完全に削除します。\\nよろしいですか？"
+msgstr ""
+"Delete completely\n"
+"Are you sure you want to continue ?"
+
+msgid "非公開で復元します。\\nよろしいですか？"
+msgstr ""
+"Restore as private\n"
+"Are you sure you want to continue ?"
+
+#: themes/system/admin/entry/unit.html
+msgid "以下のユニットが"
+msgstr "Units under of this bar won’t be shown on the index pages."
+
+msgid "一覧表示時に"
+msgstr "&nbsp;"
+
+msgid "「続きを読む」"
+msgstr "“Read More”"
+
+msgid "になります"
+msgstr "&nbsp;"
+
+msgid "メディアを挿入"
+msgstr "Insert Media"
+
+msgid "時計回りで90度回転"
+msgstr "Rotate 90 degrees clockwise"
+
+msgid "反時計回りで90度回転"
+msgstr "Rotate 90 degrees counterclockwise"
+
+msgid "メイン画像"
+msgstr "Main image"
+
+msgid "検索機能は使用できません。"
+msgstr "Searching is not available."
+
+msgid "地図大きさ"
+msgstr "Size of Map"
+
+#: themes/system/admin/fix/fulltext.html
+msgid "フルテキスト修正"
+msgstr "Fix Fulltext"
+
+msgid "フルテキストのデータを修正しました。"
+msgstr "Fixed data of fulltext."
+
+msgid ""
+"ブログ、カテゴリー、エントリーのフルテキストを再生成します。 ver2.1.0正式版以前のデータですと、KEYWORDコンテキストを利用"
+"したブログ、カテゴリーの全文検索時に検索対象に含まれていないので修正を行って下さい。"
+msgstr ""
+"Regenerate the blog, category, entry’s fulltext. Please use it if you use data generated by under Ver.2.1.0, because "
+"you can’t search blogs using keyword context and categories correctly."
+
+msgid "注意事項"
+msgstr "Warning"
+
+msgid "現在、正しく検索できている場合は実行する必要がありません。"
+msgstr "When you can search correctly, you don’t have to use this function."
+
+msgid "ターゲット"
+msgstr "Target"
+
+msgid "ターゲットを選択して下さい"
+msgstr "Please select the target."
+
+msgid "修正"
+msgstr "Fix"
+
+msgid "フルテキストのデータを修正します。よろしいですか？"
+msgstr "Fix the fulltext’s data. Are you sure you want to continue?"
+
+#: themes/system/admin/fix/image.html
+msgid "画像サイズ修正"
+msgstr "Fix Image Size"
+
+msgid "画像サイズを修正しました。"
+msgstr "Fixed image size."
+
+msgid "ユニットの画像サイズ（拡大画像、通常画像、モバイル画像、正方形画像）を修正します。"
+msgstr "Fix unit’s image size ( large image, normal image, tiny image and square image )."
+
+msgid "拡大画像がない場合や、拡大画像より大きいサイズには修正がされないのでご注意下さい。"
+msgstr "If the actual size is bigger than the image’s size, or the large image’s size doesn’t exist, it won’t be fixed."
+
+msgid "リサイズをする画像サイズを選択してください。"
+msgstr "Select the image size that you want to resize."
+
+msgid "モバイル画像"
+msgstr "Tiny Image"
+
+msgid "正方形画像"
+msgstr "Square Image"
+
+msgid "リサイズ"
+msgstr "Resize"
+
+msgid "リサイズ後のサイズを入力してください。"
+msgstr "Select the fixed size."
+
+msgid "リサイズするサイズを入力して下さい"
+msgstr "Select the size you resize."
+
+msgid "数値を入力して下さい"
+msgstr "Enter the number."
+
+msgid "画像サイズを修正します。よろしいですか？"
+msgstr "Fix the image size. Are you sure you want to continue?"
+
+#: themes/system/admin/fix/index.html
+msgid "データ修正"
+msgstr "Fix Data"
+
+msgid "システムの修正ツール"
+msgstr "Fix Tool of System"
+
+msgid "ユニットサイズ修正"
+msgstr "Fix Unit Size"
+
+msgid "ユニットグループ修正"
+msgstr "Fix Unit Group"
+
+msgid "シーケンス修正"
+msgstr "Fix Sequence"
+
+msgid "テキスト置換"
+msgstr "Text Replacement"
+
+msgid "その他のツール"
+msgstr "Other Tool"
+
+msgid "N-gramインデックスの付与"
+msgstr "N-gram Index Attachment"
+
+msgid "既存エントリーへのタグ追加"
+msgstr "Add tags to the existing entries."
+
+#: themes/system/admin/fix/ngram.html
+msgid "n-gramインデックス"
+msgstr "N-gram Index"
+
+msgid "n-gramインデックスを付与しました。"
+msgstr "N-gram Index attached"
+
+msgid ""
+"既存コンテンツにN-gramインデックスを付与します。文字列を指定した文字数(gram)で切り分けることで検索用のキーを生成します。"
+"<br>この処理を実行した後に、config.system.yamlなどからngramを有効にすると、サイト内検索の内部処理が変更されます。"
+msgstr ""
+"Attach N-gram Index to existing contents. Keywords for searching will be generated by separating strings with word "
+"count (gram).<br>After executing this process, you can update the inner process of searching By enabling ngram via "
+"config.system.yaml."
+
+msgid "private/config.system.yamlのngramの値と同じ（標準は2）である必要があります。"
+msgstr "Need to select the same value (default is ‘2’ ) of ngram at private/config.system.yaml."
+
+msgid "N-gramを入力して下さい"
+msgstr "Enter N-gram"
+
+msgid "N-gramインデックスを付与"
+msgstr "Attach N-gram Index"
+
+msgid "N-gramインデックスを付与します。よろしいですか？"
+msgstr "Are you sure you want to attach N-gram Index ?"
+
+#: themes/system/admin/fix/replacement.html
+msgid "$1件のデータを置換しました。"
+msgstr "$1 items are replaced."
+
+msgid "エントリータイトル、テキストユニット、カスタムフィールドで指定した文字を一括で変更します。"
+msgstr "Replace strings designated by Entry Title, Text Unit and Custom Field at once. "
+
+msgid "一括置換後は元に戻せませんので注意して実行ください。"
+msgstr "Be aware that this operation can't be reverted after replacement."
+
+msgid "対象フィールド"
+msgstr "Target Field"
+
+msgid "置換を実行したいフィールド項目を選択してください。"
+msgstr "Please select ‘Target Field’ to replace."
+
+msgid "対象フィールドを選択して下さい"
+msgstr "select the target field"
+
+msgid "フィールド指定"
+msgstr "Field Name"
+
+msgid ""
+"対象がカスタムフィールドの場合、ここにカスタムフィールド名を指定することで置換するフィールドを限定できます。空の場合は全"
+"フィールドが対象となります。"
+msgstr ""
+"If target is Custom Fields, select the field’s name  to control replacement. If empty, all of the field will be "
+"replaced."
+
+msgid "対象文字 / 置換文字"
+msgstr "Target Character / Replacement Character"
+
+msgid "置換対象の文字と置き換え文字を指定します。"
+msgstr "Set the target character of replacement and the character to be replaced."
+
+msgid "対象文字"
+msgstr "Target Character"
+
+msgid "対象文字を入力してください"
+msgstr "Enter the target character"
+
+msgid "変換文字"
+msgstr "Replacement Character"
+
+msgid "変換文字を入力してください"
+msgstr "Enter the replacement character"
+
+msgid "チェック"
+msgstr "Check"
+
+msgid "変更箇所の確認を行います。最大100件表示されます。確認後,置換を実行してください。"
+msgstr ""
+"Confirm the result of replacement. At most 100 characters will be shown. Replace the characters after confirmation."
+
+msgid "確認を行わず置換"
+msgstr "Replace without Confirmation"
+
+msgid "データを置換します。この作業は元に戻せません。本当によろしいですか？"
+msgstr "This operation can't be reverted. Are you sure you want to replace the data?"
+
+msgid "キャンセル"
+msgstr "Cancel"
+
+msgid "チェックをつけたものを置換"
+msgstr "Replace the checked characters."
+
+msgid "対象文字が見つかりませんでした。"
+msgstr "No target characters found."
+
+msgid "フィールド名"
+msgstr "Field Name"
+
+msgid "置換対象"
+msgstr "Replacement Target"
+
+#: themes/system/admin/fix/sequence.html
+msgid "シーケンスを修正しました。"
+msgstr "Fixed Sequence."
+
+msgid "シーケンスのデータを修正します。よろしいですか？"
+msgstr "Fix sequence data. Are you sure you want to continue?"
+
+msgid "IDの発行に異常がある状態のシーケンスを修正しますIDの発行に異常がある状態のシーケンスを修正します。"
+msgstr "Fix sequences which have problems with ID generation."
+
+msgid "現在、正しくIDが発行できている場合は、このツールを実行する必要はありません。"
+msgstr "If ID’s were generated correctly, there is no need to run this tool."
+
+#: themes/system/admin/fix/tag.html
+msgid "タグ追加"
+msgstr "Add Tag"
+
+msgid "タグを付与しました。"
+msgstr "Tag added."
+
+msgid "指定ワードを含むエントリーに対して、ワードをタグとして付与します。"
+msgstr "If entries have designated word, add the same tag to them."
+
+msgid "指定された設定の場合、以下のエントリーに指定ワードのタグが追加されます。"
+msgstr "With this conditions, designated tags will be added to the following entries. "
+
+msgid "指定ワード"
+msgstr "Designated words"
+
+msgid "がタグとして追加されるエントリー"
+msgstr "will be added as tag in the following entries"
+
+msgid "タグ追加から除外"
+msgstr "Exclude"
+
+msgid "指定された設定で、タグの追加対象になるエントリーは見つかりませんでした。"
+msgstr "Can’t find any entries you can add tags to in the settings."
+
+msgid "指定ワードを改行区切りで記述したファイルを選択してください。"
+msgstr "Please select a file whose words are separated by newlines."
+
+msgid "ファイルを選択してください。"
+msgstr "Please select file."
+
+msgid "オプションを設定してください。"
+msgstr "Select option."
+
+msgid "タイトルに指定ワードが含まれていたら、必ずタグを追加する"
+msgstr "Add tag, if the title include the designated word."
+
+msgid "回以上、指定ワードが本文中に出現したときにタグを追加する"
+msgstr "Add tag, if the designated word appear on the entry several times."
+
+msgid "タグを付与します。よろしいですか？"
+msgstr "Are you sure you want to add tag ?"
+
+#: themes/system/admin/fix/unit-group.html
+msgid "ユニットグループのデータを修正しました。"
+msgstr "Fixed unit group data."
+
+msgid "ユニットグループに設定してあるクラスを一括で書き換えます。"
+msgstr "Replace class which has already been used at unit group."
+
+msgid "変更したいユニットグループの値を選択します。"
+msgstr "Select the value of the unit group."
+
+msgid "選択して下さい"
+msgstr "Please select"
+
+msgid "ターゲットの値を選択して下さい"
+msgstr "Select “Target”’s value."
+
+msgid "変更後"
+msgstr "After changed"
+
+msgid "選択したユニットグループの値をここで入力した値に変更します。"
+msgstr "Change unit group’s value you entered here."
+
+msgid "変更値を入力して下さい"
+msgstr "Enter the change value."
+
+msgid "ユニットグループのデータを修正します。よろしいですか？"
+msgstr "Are you sure you want to fix data of unit group ?"
+
+#: themes/system/admin/fix/unit-size.html
+msgid "ユニット修正"
+msgstr "Fix Unit"
+
+msgid "ユニットサイズのデータを修正しました。"
+msgstr "Fixed unit size."
+
+msgid ""
+"ユニットのサイズ（画像、マップ、メディア、ビデオ、画像URL）を修正します。サイズはピクセル指定の実際サイズ、表示サイズは"
+"クラスや %指定ができます。"
+msgstr "Fix the unit size ( image, map, media, video, image URL ) . Size can be set by pixels, class or %."
+
+msgid "ユニットのサイズを変更するユニットのタイプを選択します。"
+msgstr "Select the type of unit size that you change."
+
+msgid "ビデオサイズ"
+msgstr "Video Size"
+
+msgid "タイプを選択して下さい"
+msgstr "Select Type"
+
+msgid "ユニットサイズのタイプを選択して下さい。サイズはピクセル。表示サイズは%またはクラスが設定されています。"
+msgstr "Select the type of Unit Size. “Size” by pixel, “Display Size” by class or %."
+
+msgid "サイズタイプを選択して下さい"
+msgstr "Select the Size Type."
+
+msgid "選択"
+msgstr "Select"
+
+msgid "ユニットサイズ"
+msgstr "Unit Size"
+
+msgid "変更したいユニットのサイズを選択します。"
+msgstr "Select the unit size you want to change."
+
+msgid "変更前サイズを選択して下さい"
+msgstr "Select the size before changed."
+
+msgid "変更値"
+msgstr "Changed Value"
+
+msgid "選択したユニットのサイズの値をここで入力した値に変更します。"
+msgstr "Change the unit size that selected by entered value."
+
+msgid "ユニットのデータを修正します。この作業は元に戻せません。よろしいですか？"
+msgstr "Fix data of Units. This operation can’t be reverted. Are you sure you want to continue ?"
+
+#: themes/system/admin/form/edit.html
+msgid "フォーム管理"
+msgstr "Form"
+
+msgid "フォームIDを作成しました"
+msgstr "Form ID created."
+
+msgid "フォームIDを保存しました"
+msgstr "Form ID saved."
+
+msgid "フォームIDを削除しました"
+msgstr "Form ID deleted."
+
+msgid "投稿データ"
+msgstr "Posted Data"
+
+msgid "フォームIDに関連づけられたログも一緒に削除されます。\\nこの操作は元に戻せません。よろしいですか？"
+msgstr ""
+"The logs related to the form ID will be deleted.\n"
+"This operation can’t be reverted. Are you sure you want to continue ?"
+
+msgid "このフォームに付与するID名です。フォームのテンプレート側にもこのIDと同じ記述が必要になります。（半角英数字）"
+msgstr "ID name assigned to this form.  The same ID is required at template of the form."
+
+msgid "フォームIDが入力されていません"
+msgstr "Form ID is not entered."
+
+msgid "フォームIDに使用出来ない文字が含まれています"
+msgstr "Some of the characters in the Form ID are not available."
+
+msgid "フォームIDが既に使用されています"
+msgstr "Same Form ID is already used."
+
+msgid "フォーム名"
+msgstr "Form Name"
+
+msgid "このフォームIDを管理するための名前です。（日本語可）"
+msgstr "Name for manage Form ID."
+
+msgid "フォーム名が入力されていません"
+msgstr "Form Name is required."
+
+msgid "チェックをすると、このフォームIDが下の階層のブログでも使用できます。"
+msgstr "If Checked, You can use this Form ID in the children blogs too."
+
+msgid "一般メール設定"
+msgstr "Basic Mail Setting"
+
+msgid ""
+"このフォームに入力した方へ送信されるメールの題名に使うテンプレートファイルを指定します。使用しているテーマディレクトリの"
+"ルートからパスを記述してください。"
+msgstr ""
+"Assign the template file for the mail's title sent to the user who used this form. Write the path from the root of the "
+"used theme directory."
+
+msgid ""
+"このフォームに入力した方へ送信されるメールの本文に使うテンプレートファイルを指定します。使用しているテーマディレクトリの"
+"ルートからパスを記述してください。"
+msgstr ""
+"Assign the template file for the mail's body sent to the user who used this form. Write the path from the root of the "
+"used theme directory."
+
+msgid ""
+"このフォームにHTMLメールテンプレートを設定した場合、送信されるメールがHTMLメールになります。。HTMLメールを使用している"
+"テーマディレクトリのルートからパスを記述してください。また、HTMLメールを送る場合にもBodyTpl（テキストメールテンプレー"
+"ト）は必須になります。"
+msgstr ""
+"If you set HTML mail template for this form, HTML mail will be sent to its targets. Write the path from the root of the "
+"used theme directory. You need to fill in BodyTpl ( text mail template ) even if you want to sent HTML mail."
+
+msgid ""
+"このフォームに入力した方へ送信されるメールの送信先（To）の設定です。通常はフォームで取得するメールアドレスを使用するため"
+"テンプレート側に記述します。"
+msgstr ""
+"Setting of the mail's destination for the user who used this form. Basically,write down to the template to use mail "
+"address acquired at the form."
+
+msgid "このフォームに入力した方へ送信されるメールの送信元（From）の設定です。"
+msgstr "Setting of the sender (From) of the mail sent to the user who used this form."
+
+msgid "このフォームに入力した方へ送信されるメールのカーボンコピー（Cc）の設定です。"
+msgstr "Setting of the carbon copy (CC) of the mail sent to the user who used this form."
+
+msgid "このフォームに入力した方へ送信されるメールのブラインドカーボンコピー（Bcc）の設定です"
+msgstr "Setting of the blind carbon copy (BCC) of the mal sent to the user who used this form."
+
+msgid "このフォームに入力した方へ送信されるメールの返信先（Reply-to）の設定です。"
+msgstr "Setting of the reply destination for the user who used this form."
+
+msgid "文字コード(テキストメール)"
+msgstr "Character Code (txt)"
+
+msgid "このフォームから送信されるメールの、文字コードの設定です。"
+msgstr "Setting of the character code of the mail send from this form."
+
+msgid "文字コード(HTMLメール)"
+msgstr "Character code (HTML Mail)"
+
+msgid "このフォームから送信されるHTMLメールの、文字コードの設定です。"
+msgstr "Set the character code sent from this form."
+
+msgid "カンマ区切りで複数指定出来ます。"
+msgstr "Select several E-mail addresses by separating with comma."
+
+msgid ""
+"このフォームの管理者宛へ送信されるメールの題名に使うテンプレートファイルを指定します。使用しているテーマディレクトリの"
+"ルートからパスを記述してください。"
+msgstr ""
+"Assign the template file for the mail's title sent to the administrator of this form. Write the path from the root of "
+"the used theme directory."
+
+msgid ""
+"このフォームの管理者宛へ送信されるメールの本文に使うテンプレートファイルを指定します。使用しているテーマディレクトリの"
+"ルートからパスを記述してください。"
+msgstr ""
+"Assigned the template file for the mail's body sent to the administrator of this form. Write the path from the root of "
+"the used theme directory."
+
+msgid ""
+"このフォームにHTMLメールテンプレートを設定した場合、管理者宛へ送信されるメールがHTMLメールになります。。HTMLメールを使用"
+"しているテーマディレクトリのルートからパスを記述してください。また、HTMLメールを送る場合にもAdminBodyHTMLTpl（テキスト"
+"メールテンプレート）は必須になります。"
+msgstr ""
+"If you set HTML mail template for this form, HTML mail will be sent to the administrators. Write the path from the root "
+"of the used theme directory. You need to fill in AdminBodyHTMLTpl ( text mail template )."
+
+msgid "このフォームの管理者宛へ送信されるメールの送信先（To）の設定です。"
+msgstr "Setting of the mail's destination sent to the administrator of this form."
+
+msgid "このフォームの管理者宛へ送信されるメールの送信元（From）の設定です。"
+msgstr "Setting of the mail's sender sent to the administrator of this form."
+
+msgid "このフォームの管理者宛へ送信されるメールのカーボンコピー（Cc）の設定です。"
+msgstr "Setting of the carbon copy (CC) of the mail sent to the administrator of this form."
+
+msgid "このフォームの管理者宛へ送信されるメールのブラインドカーボンコピー（Bcc）の設定です。"
+msgstr "Setting of the blind carbon copy (BCC) of the mail sent to the administrator of this form."
+
+msgid "このフォームの管理者宛へ送信されるメールの返信先（Reply-to）の設定です。"
+msgstr "Setting of the replying source of the mail sent to the administrator of this form."
+
+msgid "ファイル添付"
+msgstr "Attach Files"
+
+msgid "フォームからアップロードされたファイルをメールに添付して送る設定です。"
+msgstr "Attaching uploaded file to the mail."
+
+msgid "メールに添付する"
+msgstr "Attach files"
+
+msgid "カンマ区切りで複数指定出来ます。管理者宛メールの文字コードは、一般メール設定の文字コードと同じになります。"
+msgstr ""
+"You can separate the words by comma. Character code for the administrator is same as the character code for the "
+"subscribers."
+
+msgid "フォームオプション"
+msgstr "Form Option"
+
+msgid "チェックするカスタムフィールドの名前を入力します"
+msgstr "Enter custom field’s name you want to check"
+
+msgid "チェックする項目を選択します。"
+msgstr "Select item to be checked."
+
+msgid "チェックする項目による値を設定します。（例:最大文字数など）"
+msgstr "You can set values for the checked items (Ex.max count)"
+
+msgid "オプションを選択"
+msgstr "Select Options"
+
+msgid "最小文字数"
+msgstr "Minimum Character Size"
+
+msgid "最大文字数"
+msgstr "Max Character Size"
+
+msgid "下限値"
+msgstr "Lower Limit"
+
+msgid "上限値"
+msgstr "Upper Limit"
+
+msgid "数字チェック"
+msgstr "Number Validation"
+
+msgid "メールアドレスチェック"
+msgstr "Mail Address Validation"
+
+msgid "URLチェック"
+msgstr "URL Validation"
+
+msgid "等価チェック"
+msgstr "Equivalent Validation"
+
+msgid "日付チェック"
+msgstr "Date Validation"
+
+msgid "時間チェック"
+msgstr "Time Checking"
+
+msgid "正規表現マッチ"
+msgstr "Regex Match"
+
+msgid "入力の変換"
+msgstr "Coversion"
+
+msgid "メールアドレスの重複禁止"
+msgstr "Mail Address Overlapping Validation"
+
+#: themes/system/admin/form/index.html
+msgid "フォームIDがありません。"
+msgstr "No Form IDs found."
+
+msgid "フォームID一覧を更新しました"
+msgstr "Updated Form ID list."
+
+msgid "作成順"
+msgstr "Created Order"
+
+msgid "投稿数"
+msgstr "Number of Posts"
+
+msgid "最新の投稿"
+msgstr "Related Post"
+
+msgid "フォームIDを作成"
+msgstr "Add Form ID"
+
+msgid " - "
+msgstr " - "
+
+#: themes/system/admin/form/log.html
+msgid "投稿データ一覧"
+msgstr "Posted Data List"
+
+msgid "投稿データがありません。"
+msgstr "No posted data found."
+
+msgid "投稿データ一覧を更新しました"
+msgstr "Posted Data updated"
+
+msgid "通番"
+msgstr "Serial Number"
+
+msgid "管理者宛（件名/本文）"
+msgstr "To Admin (Subject / Body)"
+
+msgid "連番"
+msgstr "Series"
+
+msgid "件の投稿データをCSV形式で"
+msgstr "as CSV format."
+
+msgid "ダウンロード"
+msgstr "Download"
+
+msgid "チェックした投稿データを"
+msgstr "Checked posted data"
+
+msgid "この操作は元に戻せません。\\nよろしいですか？"
+msgstr "This operation can’t be reverted. Are you sure you want to continue?"
+
+msgid "宛先"
+msgstr "Address"
+
+msgid "件名"
+msgstr "Title"
+
+msgid "本文"
+msgstr "Body"
+
+msgid "本文を表示"
+msgstr "Display Body"
+
+#: themes/system/admin/form2/edit.html
+msgid "フォームセット"
+msgstr "Form Set"
+
+msgid "フォームセットが入力されていません。"
+msgstr "Form Set is not entered"
+
+#: themes/system/admin/form2/unit.html
+msgid "アドレスの重複禁止"
+msgstr "Reject address overlapping"
+
+#: themes/system/admin/i18n/index.html
+msgid "国際化"
+msgstr "Internationalization"
+
+msgid "POT ダウンロード"
+msgstr "Download POT File"
+
+msgid "翻訳可能文字列"
+msgstr "Translatable Characters"
+
+msgid "a-blog cms で文字列を翻訳可能にするには元の文字列を以下のコメントで囲みます。"
+msgstr "If you want characters to be translatable, you have to enclose the ones with following comment tag."
+
+msgid "または"
+msgstr "or"
+
+msgid "変数の埋め込み"
+msgstr "Embedding Variables"
+
+msgid ""
+"翻訳対象の中に変数が入ってくる場合は以下のように変数を&lt;!--$1--&gt;で囲みます。変数の数によって$数値を増やしていってく"
+"ださい。"
+msgstr ""
+"If some variables are in translatable targets, you can enclose these variables with &lt;!--$1--&gt; so that you can "
+"change the order of variables. Increment the $number depending on the variables count."
+
+msgid "POファイル"
+msgstr "PO File"
+
+msgid "文脈"
+msgstr "Context"
+
+msgid ""
+"文字列としては同じでも、文脈により意味が異なるケースがあります。その場合は以下のように<strong>ctx=\"\"</strong>を振るこ"
+"とで、別のものとして翻訳することができます。"
+msgstr ""
+"Characters may have different meanings according to its context. If you want to translate characters respectively, you "
+"can use <strong>ctx=\"\"</strong>. "
+
+msgid "POTファイル"
+msgstr "POT File"
+
+msgid "各テーマのadmin以下のテンプレートでマークした文字列を抽出します。"
+msgstr "Extract characters marked on the files lower than the admin directory."
+
+msgid "<strong>pot ダウンロード</strong>からPOTファイルをダウンロードして下さい。"
+msgstr "Download POT File from <strong>Download POT File</strong>"
+
+msgid "ダウンロードしたPOTファイルから各言語に翻訳してPOファイルを生成します。"
+msgstr "Generate PO File after translating from downloaded POT File."
+
+msgid "例: 英語に翻訳"
+msgstr "exp: Translate into English"
+
+msgid "MOファイル"
+msgstr "MO File"
+
+msgid "POファイルからMOファイルを生成してください。"
+msgstr "Generate PO File From MO File."
+
+msgid "出来上がったMOファイルを以下の場所（デフォルト）に設置してください。"
+msgstr "Put the generated MO File to the place described below."
+
+msgid "/a-blogcms設置ディレクトリ/lang/[言語]_[地域]/LC_MESSAGES/messages.mo"
+msgstr "/a-blogcms installed directory/lang/[lang]_[location]/LC_MESSAGES/messages.mo"
+
+msgid "<strong>config.server.php</strong> で以下の設定ができます。"
+msgstr "You can do following settings with <strong>config.server.php</strong>"
+
+msgid "fix: config.server.phpで指定した言語地域で固定します"
+msgstr "fix: Use locale set in config.server.php"
+
+msgid "user: ユーザ毎に管理画面より言語地域を設定します。"
+msgstr "user: You can set lang zone for every user."
+
+msgid "auto: ブラウザの言語地域の設定を反映します"
+msgstr "auto: Abide by the browser’s locale settings."
+
+msgid "TYPEが\"user\"だった場合、ユーザ詳細ページのカスタマイズが必要になります。"
+msgstr "If the type is [user], you have to customize [User Detail] page."
+
+msgid "admin: adminディレクトリ以下（管理ページ）のみ翻訳します"
+msgstr "admin: Translate Admin Page only."
+
+msgid "login: ログインしている時のみ翻訳します"
+msgstr "login: Translate for login users"
+
+msgid "all: すべてのページを翻訳対象にします"
+msgstr "all: All pages are translatable."
+
+msgid ""
+"基本の言語地域を設定します。GETTEXT_TYPEが固定だった場合やブラウザの言語地域のmoファイルが見つからない場合にこの言語地域"
+"が使用されます。"
+msgstr "Set the Basic Lang "
+
+msgid "gettextのグローバルドメインを設定します。（デフォルト: messages）"
+msgstr "Set the global domain of gettext (default: messages)"
+
+msgid "ドメインへのパスを設定します。（デフォルト: lang）"
+msgstr "Set the path of the domain (default:lang)"
+
+#: themes/system/admin/import/csv.html
+msgid "CSVインポート"
+msgstr "CSV Import"
+
+msgid "{importMessage}"
+msgstr ""
+
+msgid "$1 ブログ $2 に $3件、インポートしました。"
+msgstr "Imported $3 items to $2 of $1 blog."
+
+msgid "CSVデータを、指定したカテゴリーにインポートまたは上書きします。"
+msgstr "Overwrite or import the CSV data to the designated categories."
+
+msgid "CSV形式のファイル(カンマ区切りデータ)をエントリーと、エントリーのカスタムフィールドに変換してインポートします。"
+msgstr "Convert CSV formated files to the entries or custom fields and import them."
+
+msgid "CSVファイルに、カスタムフィールドの情報のみが含まれる場合は、エントリー情報は自動で作成されます。"
+msgstr "Create the entries information automatically if the custom field information is included."
+
+msgid "CSVに <strong>entry_id</strong> を指定することで既存のエントリーに上書きすることができます。"
+msgstr "Overwrite CSV data to the exist entries by designate the <strong>entry_id</strong> to the CSV."
+
+msgid "CSVに<strong>entry_category_id</strong>を指定することで、優先してそのカテゴリーにインポートされます。"
+msgstr "Import the category as priority by assign <strong>entry_category_id</strong> to the CSV."
+
+msgid "インポートを実行します。よろしいですか？"
+msgstr "Are you sure you want to import ?"
+
+msgid "CSVデータ"
+msgstr "CSV Data"
+
+msgid "インポート先ブログ"
+msgstr "Blog to import"
+
+msgid "インポート先カテゴリー"
+msgstr "Category to import"
+
+msgid "インポートデータ（CSV）"
+msgstr "Import Data (CSV)"
+
+#: themes/system/admin/import/index.html
+msgid "各種インポート"
+msgstr "Import from the list"
+
+#: themes/system/admin/import/mt.html
+msgid "Movable Typeインポート"
+msgstr "Movable Type Import"
+
+msgid "Movable Typeのエクスポートデータ<strong>(txt形式)</strong>を、現在のブログにインポートします。"
+msgstr "Import Movable Type's exportation data <strong>(txtformat)</strong> to the current blog."
+
+msgid "インポートされるデータは現在ログインしているユーザーでインポートされます"
+msgstr "Data will be imported with the current login user."
+
+msgid ""
+"カテゴリーコードは、<strong>category-[番号]</strong>という形でインポートされます。カテゴリー名はMovable Typeのものが反映"
+"されます。"
+msgstr ""
+"Category code will be imported as <strong>category-[number]</strong>. Category name is same as Movable Type's one."
+
+msgid "Movable Typeからの移行"
+msgstr "Shift from the Movable Type."
+
+msgid "MTのカテゴリーを使用"
+msgstr "Use MT's category"
+
+msgid "MTエクスポートデータ（txt形式）"
+msgstr "MT exported data (txt)."
+
+msgid "投稿データのインポート形式"
+msgstr "Format of the imported posts."
+
+msgid "pタグで囲む"
+msgstr "Enclose by p tag"
+
+msgid "ウィジウィグ"
+msgstr "WYSIWYG"
+
+msgid "マークダウン"
+msgstr "Markdown"
+
+msgid "自由入力"
+msgstr "Free format"
+
+#: themes/system/admin/import/user.html
+msgid "ユーザーインポート"
+msgstr "User Importation"
+
+msgid "$1 ブログ に $2件、インポートしました。"
+msgstr "Imported $2 items to $1 blog."
+
+msgid "CSVデータのユーザーを現在のブログにインポートまたは上書きします。"
+msgstr "Overwrite or import CSV data to the current blog."
+
+msgid "CSV形式のファイル(カンマ区切りデータ)をユーザーと、ユーザーのカスタムフィールドに変換してインポートします。"
+msgstr "Convert CSV formated file to the users and users custom field and import them."
+
+msgid "user_code, user_mail, user_passは必須項目です。"
+msgstr "User_code, user_mail, user_pass is required."
+
+msgid "CSVに <strong>user_id</strong> を指定することで既存のユーザーを上書きすることができます。"
+msgstr "Overwrite exist users by assign <strong>user_id</strong> to the CSV."
+
+msgid "エクスポートデータ（CSV）"
+msgstr "Export Data (CSV)"
+
+#: themes/system/admin/import/wordpress.html
+msgid "WordPressインポート"
+msgstr "WordPress Importation"
+
+msgid "WordPressのエクスポートデータを、選択されたカテゴリーにインポートします。"
+msgstr "Import the WordPress's exported data to the selected categories."
+
+msgid "WordPressでエクスポートするときは、<strong>投稿のみ</strong>を選択して実行してください。"
+msgstr "If you want to export data with WordPress, select  <strong>'only published'</strong> and execute."
+
+msgid "WordPressの各投稿における、パスワード保護設定は無視されてインポートされます"
+msgstr "Import without password protection setting for the post of WordPress."
+
+msgid "WordPressからの移行"
+msgstr "Shift from the WordPress."
+
+msgid "WordPressエクスポートデータ（XML）"
+msgstr "WordPress exported data (XML)."
+
+#: themes/system/admin/layout/action.html
+msgid "レイアウト"
+msgstr "Layout"
+
+#: themes/system/admin/layout/block.html
+msgid "レイアウトをドラッグ"
+msgstr "Drag Layout here"
+
+msgid "モジュールをドラッグ"
+msgstr "Drag Module here"
+
+#: themes/system/admin/media/_upload.html
+msgid "ここにファイルをドロップ"
+msgstr "Drop files here"
+
+msgid "ラベルを選択"
+msgstr "Select the label"
+
+msgid "新しいラベル"
+msgstr "New label"
+
+msgid "アップロード"
+msgstr "Upload"
+
+#: themes/system/admin/media/edit.html
+msgid "メディア編集"
+msgstr "Media Editing"
+
+msgid "編集を保存しました"
+msgstr "Editing Saved"
+
+msgid "メディアを削除しました"
+msgstr "Media deleted"
+
+msgid "サムネイル"
+msgstr "Thumbnail"
+
+msgid "画像のサムネイルです。"
+msgstr "Thumbnail Image"
+
+msgid "画像またはファイルを変更します。"
+msgstr "Update Images or Files"
+
+msgid "ファイルのサムネイル画像です。"
+msgstr "Thumbnail image for the file."
+
+msgid "管理用のラベルです。"
+msgstr "Admin Label"
+
+msgid "パーマリンク"
+msgstr "Permalink"
+
+msgid "メディアへのリンクです。"
+msgstr "Media Links"
+
+msgid "アップロード日時"
+msgstr "Uploaded date"
+
+msgid "メディアのファイル名"
+msgstr "Media File Name"
+
+msgid "リンクを設定できます。"
+msgstr "You can set linked url of the image."
+
+msgid "詳細な情報を入力できます。"
+msgstr "Enter the further details here."
+
+#: themes/system/admin/media/index.html
+msgid "メディア一覧を更新しました。"
+msgstr "Media list updated."
+
+msgid "メディアがありません。アップロードして下さい。"
+msgstr "There are no media. Please upload."
+
+msgid "メディアアップロード"
+msgstr "Upload"
+
+msgid "パス"
+msgstr "Path"
+
+#: themes/system/admin/media/upload.html
+msgid "メディア一覧"
+msgstr "Media list"
+
+#: themes/system/admin/menu.html
+msgid "投稿管理"
+msgstr "Posting"
+
+msgid "モブログ"
+msgstr "Moblog"
+
+msgid "ショップ"
+msgstr "Shop"
+
+msgid "カスタマイズ管理"
+msgstr "Customize"
+
+msgid "その他の管理"
+msgstr "Others"
+
+msgid "ショートカット"
+msgstr "Shortcuts"
+
+msgid "エイリアス"
+msgstr "Alias"
+
+msgid "パブリッシュ"
+msgstr "Publishing"
+
+msgid "拡張アプリ"
+msgstr "ExApps"
+
+msgid "プラグイン"
+msgstr "Plugins"
+
+msgid "イベント"
+msgstr "Events"
+
+#: themes/system/admin/moblog/edit.html
+msgid "モブログを作成しました"
+msgstr "Moblog created."
+
+msgid "モブログを保存しました"
+msgstr "Moblog saved."
+
+msgid "モブログを削除しました"
+msgstr "Moblog deleted."
+
+msgid "モブログを削除します。\\nよろしいですか？"
+msgstr "Are you sure you want to delete the Moblog?"
+
+msgid "表示中のモブログ設定の有効・無効を選択します。"
+msgstr "You can enable or disable Moblog feature."
+
+msgid "モブログに使用するメールアドレスを指定します。"
+msgstr "Set the E-mail address used for moblog."
+
+msgid "メールアドレスが入力されていないか、又は不正なメールアドレスです"
+msgstr "Mail address is not entered or invalid mail address."
+
+msgid "POPサーバー"
+msgstr "POP server"
+
+msgid "モブログに使用するPOPサーバーを指定します。"
+msgstr "Set the POP server used for the moblog."
+
+msgid "サーバーが入力されていません"
+msgstr "Server is not entered."
+
+msgid "POPユーザー"
+msgstr "POP user"
+
+msgid "モブログに使用するPOPサーバーのユーザー名を指定します。"
+msgstr "Set the user name of the POP server used for moblog."
+
+msgid "ユーザーが入力されていません"
+msgstr "User is not entered."
+
+msgid "POPパスワード"
+msgstr "POP password"
+
+msgid "モブログに使用するPOPサーバーのパスワードを指定します。"
+msgstr "Set the password of the POP server used for moblog."
+
+msgid "メール投稿許可アドレス"
+msgstr "Mail address allowed for the mail posting."
+
+msgid "ここで指定したメールアドレスからの投稿のみ受け付けます。"
+msgstr "Accept only postings from the E-mail address you set here."
+
+msgid "エントリーのステータス"
+msgstr "Entry status"
+
+msgid "モブログで投稿したエントリーの初期ステータスを指定します。"
+msgstr "Set entry’s status posted via moblog."
+
+msgid "画像サイズ"
+msgstr "Image size"
+
+msgid "添付画像の長辺サイズを指定します。"
+msgstr "Set the Long side length of attached image."
+
+msgid "画像サイズが入力されていないか、数値以外の文字が入力されています"
+msgstr "Image size is not entered or no-numeric characters are enterd."
+
+msgid "画像の配置"
+msgstr "Image arrangement"
+
+msgid "添付画像の配置を指定します。"
+msgstr "Alignment of the attached image."
+
+msgid "テキストユニット"
+msgstr "Text unit"
+
+msgid "モブログで投稿したエントリーを書いたユーザーを誰にするか指定します。"
+msgstr "You can set the author of entries posted with moblog."
+
+msgid "ユーザーが選択されていません"
+msgstr "User is not entered."
+
+msgid "モブログで投稿したエントリーをどのカテゴリーにするか指定します。"
+msgstr "Set entries’s category uploaded by moblog."
+
+msgid "なし_CTX_category"
+msgstr "Uncategorized"
+
+#: themes/system/admin/moblog/index.html
+msgid "モブログ管理"
+msgstr "Moblog"
+
+msgid "登録されているメールアドレスがありません。"
+msgstr "There are no registered mail address."
+
+msgid "モブログの作成"
+msgstr "Add New"
+
+#: themes/system/admin/module/edit.html
+msgid "新規モジュールID"
+msgstr "Add New"
+
+msgid "モジュールIDを作成しました"
+msgstr "The Module ID has created."
+
+msgid "モジュールIDを保存しました"
+msgstr "The Module ID has updated."
+
+msgid "モジュールIDを削除しました"
+msgstr "The Module ID has deleted."
+
+msgid "モジュールIDを複製しました"
+msgstr "The Module ID has copied."
+
+msgid "入力内容に誤りがあります。"
+msgstr "This forms has errors."
+
+msgid "IDモジュールを削除します。\\nよろしいですか？"
+msgstr ""
+"Delete the ID Module\n"
+"This operation will not be cancelled. Are you sure you want to continue?"
+
+msgid "条件設定"
+msgstr "Condition setting"
+
+msgid "表示設定"
+msgstr "Display setting"
+
+#: themes/system/admin/module/index.html
+msgid "モジュールID管理"
+msgstr "Module ID"
+
+msgid "モジュールIDがありません。"
+msgstr "There are no Module IDs."
+
+msgid "モジュール一覧を更新しました。"
+msgstr "Module List updated"
+
+msgid "移動に失敗したモジュールIDがあります"
+msgstr "There are Module IDs which couldn’t be moved."
+
+msgid "適用モジュール名"
+msgstr "Applied module"
+
+msgid "クイック検索"
+msgstr "Quick search"
+
+msgid "例）"
+msgstr "ex."
+
+msgid "モジュールIDを作成"
+msgstr "Add New."
+
+msgid "現在のブログで管理しているモジュールのみ削除できます"
+msgstr "You can delete only modules you manage on the current blog."
+
+msgid "適用モジュール"
+msgstr "Applied module"
+
+#: themes/system/admin/module/select.html
+msgid "モジュールを選択"
+msgstr "Select the Module"
+
+msgid "コメント・トラックバック"
+msgstr "Comment / Trackback"
+
+msgid "RSS・FLASH"
+msgstr "RSS / FLASH"
+
+msgid "カート・ショップ"
+msgstr "Cart / Shop"
+
+msgid "Instagram 最近の投稿"
+msgstr "Instagram recent posting"
+
+msgid "Instagram 最近のLiked"
+msgstr "Instagram recent liked"
+
+msgid "Bing ウェブ検索"
+msgstr "Bing Web Search"
+
+msgid "Bing イメージ検索"
+msgstr "Bing Image Search"
+
+msgid "オートコンプリート"
+msgstr "Auto Completion"
+
+msgid "モジュール名"
+msgstr "Module name"
+
+#: themes/system/admin/publish/index.html
+msgid "パブリッシュ管理"
+msgstr "Publishing"
+
+msgid "パブリッシュ設定を保存しました。"
+msgstr "Publishing settings saved."
+
+msgid ""
+"パブリッシュの実行が許可されていません。このブログがパブリッシュを実行するには、親ブログで設定をする必要があります。"
+msgstr "Publishing is not allowed. If you want to publish this blog, you may want to set it at the parent blog."
+
+msgid "パブリッシュを実行する"
+msgstr "Execute publishing"
+
+msgid "入出力パス"
+msgstr "I/O path"
+
+msgid "生成元URI ( スキーム : http:// または acms:// )"
+msgstr "Source URI (scheme : http:// or acms://)"
+
+msgid "生成範囲"
+msgstr "Generation range"
+
+msgid "出力先パス ( テーマ・テンプレート )"
+msgstr "Output destination (theme/template)"
+
+msgid "URIが不正です"
+msgstr "Url is invalid."
+
+msgid "書き込みに失敗しました"
+msgstr "Writings was failed."
+
+msgid "取得に失敗しました"
+msgstr "Failed to get the source."
+
+msgid "レイアウトのみ"
+msgstr "Layout only"
+
+msgid "出力先の書き込み権限がありません"
+msgstr "You are not authorized to write to the destination."
+
+msgid "出力先が存在しない、またはアクセスできません"
+msgstr "You can't access to the destination,or destination is not found."
+
+msgid "子ブログ"
+msgstr "Child blogs"
+
+msgid "子ブログでのパブリッシュ"
+msgstr "Publishing on the child blogs"
+
+msgid "直接の子ブログでのパブリッシュの実行を許可する"
+msgstr "Allow publishing on the direct child blogs."
+
+#: themes/system/admin/role/edit.html
+msgid "ロール詳細"
+msgstr "Advanced Role Setting"
+
+msgid "ロールを作成しました"
+msgstr "Role created."
+
+msgid "ロールを保存しました"
+msgstr "Role saved."
+
+msgid "ロールを削除しました"
+msgstr "Role deleted."
+
+msgid "ロールを作成できませんでした。"
+msgstr "Role couldn't be created."
+
+msgid "ロールを保存できませんでした。"
+msgstr "Role couldn't be saved."
+
+msgid "ロールのIDです。固有の値になります。"
+msgstr "Role ID. The id is unique."
+
+msgid "ロール名"
+msgstr "Role name"
+
+msgid "ロール名を指定します（日本語化）"
+msgstr "Set the role name (Japanese allowed)."
+
+msgid "このロールがどのような動作をするかなどのメモです。"
+msgstr "The note of the behavior of this role."
+
+msgid "エントリー権限"
+msgstr "Entry Role"
+
+msgid ""
+"エントリーについての権限を設定します。<br>自分のエントリー以外も管理にチェックをつけると自分以外が書いたエントリも管理で"
+"きるようになります。"
+msgstr ""
+"Set the role of the entries.<br>If you check the 'management' you can manage the entries even if those are the not "
+"entries you edited."
+
+msgid "エントリーの投稿・編集"
+msgstr "Entry posting, Editing"
+
+msgid "自分のエントリー以外も管理"
+msgstr "Manage other entries too."
+
+msgid "エントリーの削除"
+msgstr "Delete entries"
+
+msgid "カテゴリー権限"
+msgstr "Category Role"
+
+msgid "カテゴリーについての権限を設定します。"
+msgstr "Set user role for Category."
+
+msgid "カテゴリーの作成"
+msgstr "Create category"
+
+msgid "カテゴリーの編集・削除"
+msgstr "Edit and Delete Category"
+
+msgid "フォーム権限"
+msgstr "Form Role"
+
+msgid "フォームについての権限を設定します。"
+msgstr "Set user role for Form."
+
+msgid "フォームデータの閲覧"
+msgstr "Read the form data"
+
+msgid "フォーム設定の編集・削除"
+msgstr "Edit and Delete the form setting"
+
+msgid "タグ権限"
+msgstr "Tag Role"
+
+msgid "タグについての権限を設定します。"
+msgstr "Set the role of the tag."
+
+msgid "タグの編集・削除"
+msgstr "Edit and Delete the tag"
+
+msgid "メディア権限"
+msgstr "Media Role"
+
+msgid "メディアについての権限を設定します。"
+msgstr "Set user role for Media."
+
+msgid "メディアのアップロード"
+msgstr "Upload media"
+
+msgid "メディアの編集・削除"
+msgstr "Edit and Delete the media"
+
+msgid "パブリッシュ権限"
+msgstr "Publishing Role"
+
+msgid "パブリッシュについての権限を設定します。"
+msgstr "Set user role for Publishing."
+
+msgid "パブリッシュの編集"
+msgstr "Edit publishing"
+
+msgid "パブリッシュの実行"
+msgstr "Execute publishing"
+
+msgid "管理権限"
+msgstr "Administrator"
+
+msgid ""
+"管理操作についての権限を設定します。<br>その他管理操作にチェックをつけるとロールにない機能が全て使えるようになりますの"
+"で、ご注意下さい。"
+msgstr ""
+"Set the role of the management. <br>If you check 'operation of the other' the all system not in the role will be "
+"available."
+
+msgid "コンフィグの編集"
+msgstr "Edit of the Config"
+
+msgid "モジュールの編集"
+msgstr "Edit of the Module"
+
+msgid "ルールの編集"
+msgstr "Edit of the Rule"
+
+msgid "バックアップ（エクスポート）"
+msgstr "Backup (Export)"
+
+msgid "バックアップ（インポート）"
+msgstr "Backup (Import)"
+
+msgid "その他管理操作"
+msgstr "Operation of the other"
+
+msgid "子ブログを管理対象にする"
+msgstr "Also manage the child blogs"
+
+msgid "子ブログを管理対象にします。チェックをつけたブログの下階層のブログがチェックをつけていなくても管理対象となります。"
+msgstr "You can also manage the child blogs.lower blogs of the checked blogs are also be managable."
+
+msgid "対象ブログ"
+msgstr "Target blogs"
+
+msgid "対象ブログを設定します。チェックをつけると管理対象となります。"
+msgstr "Set Target Blog. If checked, it will be managed."
+
+#: themes/system/admin/role/index.html
+msgid "ロール一覧"
+msgstr "Role List"
+
+msgid "ロール一覧を更新しました。"
+msgstr "Role list is updated."
+
+msgid "ロールがありません。"
+msgstr "There are no roles."
+
+msgid "ロールの作成"
+msgstr "Create Role"
+
+msgid "ロールID"
+msgstr "Role ID"
+
+msgid "登録ブログ数"
+msgstr "The number of registered blogs"
+
+msgid "存在しません"
+msgstr "None"
+
+#: themes/system/admin/rule/edit.html
+msgid "ルール管理"
+msgstr "Rule"
+
+msgid "ルールを作成しました"
+msgstr "The rule created."
+
+msgid "ルールを保存しました"
+msgstr "The rule saved."
+
+msgid "ルールを削除しました"
+msgstr "The rule deleted."
+
+msgid "ルールに関連づけられたコンフィグも一緒に削除されます。\\nよろしいですか？"
+msgstr ""
+"Config related to the rule will be also deleted.\n"
+"Are you sure you want to continue?"
+
+msgid "このルールを管理するための名前です。（日本語可）"
+msgstr "Name to identify this rule (Japanese allowed)."
+
+msgid "このルールが有効か無効かの設定です。"
+msgstr "Set this rule’s status, available or unavailable"
+
+msgid "このルールがどのような動作をするかなどのメモです。"
+msgstr "Description how this rule behave."
+
+msgid "チェックをすると、このルールが下の階層のブログでも使用できます。"
+msgstr "If checked, you can use this rule on the lower blogs."
+
+msgid "下の階層のブログが利用することを許可する ( 子ブログを持たないブログでは設定できません )"
+msgstr "Allow the descendant blogs to use the rule (you can't set the rule at the blog with no children)."
+
+msgid "詳細情報"
+msgstr "Description"
+
+msgid "エイリアスID"
+msgstr "Alias ID (aid)"
+
+msgid "エイリアスの管理ID（番号）を指定します。"
+msgstr "Designate the alias identification number."
+
+msgid "指定しない"
+msgstr "Not Set"
+
+msgid "数値を入力して下さい。"
+msgstr "Enter the number."
+
+msgid "ユーザーID"
+msgstr "User ID (uid)"
+
+msgid "ユーザーの管理ID（番号）を指定します。"
+msgstr "Set the user identification number."
+
+msgid "ID参照"
+msgstr "ID reference"
+
+msgid "数値を入力してください。"
+msgstr "Enter the number."
+
+msgid "カテゴリーID"
+msgstr "Category ID (cid)"
+
+msgid "カテゴリーの管理ID（番号）を指定します。"
+msgstr "Set the category identification number."
+
+msgid "エントリーID"
+msgstr "Entry ID (eid)"
+
+msgid "エントリーの管理ID（番号）を指定します。"
+msgstr "Set the entry identification number."
+
+msgid "ユーザーコード"
+msgstr "User code (ucd)"
+
+msgid "ユーザーの管理名（英数）を指定します。"
+msgstr "Set the user code (alphanumerics)."
+
+msgid "カテゴリーコード"
+msgstr "Category code (ccd)"
+
+msgid "カテゴリーの管理名（英数）を指定します。"
+msgstr "Set the category identification name."
+
+msgid "エントリーの管理名（英数）を指定します。"
+msgstr "Set the entry identification name."
+
+msgid "ユーザーエージェント"
+msgstr "User agent"
+
+msgid "サイトを表示する機器、ブラウザーなどを指定します。"
+msgstr "Assign the browsers to show the site."
+
+msgid "{label}[raw]"
+msgstr ""
+
+msgid "判定に使用するcookieのキーと値を設定します。"
+msgstr "Set key value pair of cookies."
+
+msgid "期間"
+msgstr "Period"
+
+msgid "期間を指定します。"
+msgstr "Set the period."
+
+msgid "定期"
+msgstr "Interval"
+
+msgid "固定"
+msgstr "Fix"
+
+msgid "毎月"
+msgstr "Every month"
+
+msgid "日_CTX_date"
+msgstr " "
+
+msgid "毎日"
+msgstr "Every day"
+
+msgid "日_CTX_week"
+msgstr "Sun"
+
+msgid "月"
+msgstr "Mon"
+
+msgid "火"
+msgstr "Tue"
+
+msgid "水"
+msgstr "Wed"
+
+msgid "木"
+msgstr "Thu"
+
+msgid "金"
+msgstr "Fri"
+
+msgid "土"
+msgstr "Sat"
+
+#: themes/system/admin/rule/index.html
+msgid "ルールの一覧を更新しました。"
+msgstr "The rule list updated."
+
+msgid "ルールがありません。"
+msgstr "There are no rules."
+
+msgid "ルールを作成"
+msgstr "Add New"
+
+msgid "優先順位"
+msgstr "Priority"
+
+#: themes/system/admin/schedule/edit-data.html
+msgid "スケジュール管理"
+msgstr "Schedule"
+
+msgid "スケジュールのデータを保存しました"
+msgstr "Schedule data saved."
+
+msgid "前月"
+msgstr "Prev month"
+
+msgid "を編集する"
+msgstr "Edit"
+
+msgid "次月"
+msgstr "Next month"
+
+msgid "年"
+msgstr "Year"
+
+msgid "設定しない"
+msgstr "No setting"
+
+#: themes/system/admin/schedule/edit-label.html
+msgid "スケジュールのラベルを保存しました"
+msgstr "Schedule label saved."
+
+msgid "ラベル名"
+msgstr "Label name"
+
+msgid "省略可"
+msgstr "Optional"
+
+#: themes/system/admin/schedule/edit.html
+msgid "スケジュールセットを作成しました"
+msgstr "Schedule set created."
+
+msgid "スケジュールセットを保存しました"
+msgstr "Schedule set saved."
+
+msgid "スケジュールセットを削除しました"
+msgstr "Schedule set deleted."
+
+msgid "スケジュールセットを削除します。\\nよろしいですか？"
+msgstr ""
+"Delete the schedule set\n"
+"Are you sure you want to continue?"
+
+msgid "セット名"
+msgstr "Set Name"
+
+msgid "このスケジュールを管理するための名前です。（日本語可）"
+msgstr "Name to identify this schedule (Japanese allowed)."
+
+msgid "このスケジュールがどのような動作をするかなどのメモです。"
+msgstr "Description how this schedule behave."
+
+#: themes/system/admin/schedule/index.html
+msgid "スケジュールセットを作成"
+msgstr "Add New"
+
+msgid "スケジュールセットがありません。"
+msgstr "No Schedule Sets Found."
+
+msgid "登録データ"
+msgstr "Registered Data"
+
+#: themes/system/admin/shortcut/edit.html
+msgid "ショートカット管理"
+msgstr "Shortcuts"
+
+msgid "ショートカットを作成しました。"
+msgstr "Shortcut created."
+
+msgid "ショートカットを保存しました。"
+msgstr "Shortcut saved."
+
+msgid "ショートカットを削除しました。"
+msgstr "Shortcut deleted."
+
+msgid "ショートカットを削除します。\\nよろしいですか？"
+msgstr "Are you sure you want to delete the shortcut."
+
+msgid "ショートカット名"
+msgstr "Shortcut name"
+
+msgid "このショートカットを管理するための名前です。（日本語可）"
+msgstr "The name to manage this shortcut (Japanese allowed)."
+
+msgid "対象ユーザー"
+msgstr "Target user"
+
+msgid "ここで設定した権限以上のユーザーが、このショートカットを利用できます。"
+msgstr "User whoes role is greater than the role you set here can use this shortcut."
+
+msgid "編集権限"
+msgstr "Editor"
+
+msgid "投稿権限"
+msgstr "Contributor"
+
+msgid "を持つユーザー"
+msgstr "&nbsp;"
+
+msgid "ショートカット先になるURLを設定します。"
+msgstr "Set the URL of the shortcut's destination."
+
+#: themes/system/admin/shortcut/index.html
+msgid "ショートカットがありません。"
+msgstr "There are no shortcuts."
+
+msgid "表示順を変更しました"
+msgstr "Display order updated"
+
+#: themes/system/admin/tag/edit.html
+msgid "タグ管理"
+msgstr "Tag"
+
+msgid "タグを保存しました"
+msgstr "The tag saved."
+
+msgid "タグを削除しました"
+msgstr "The tag deleted."
+
+msgid "タグ名"
+msgstr "Tag name"
+
+msgid "このタグの名前です。管理、表示とも同じ内容が使われます。"
+msgstr "The tag's name,used for the identification and display."
+
+msgid "タグ名が入力されていません。"
+msgstr "The tag name is not entered."
+
+#: themes/system/admin/tag/index.html
+msgid "名前順"
+msgstr "Name Order"
+
+msgid "タグ数"
+msgstr "Display number"
+
+msgid "例）タグ1"
+msgstr "e.x.) tag1"
+
+msgid "タグがありません。"
+msgstr "There are no tags."
+
+#: themes/system/admin/top.html
+msgid "システムバージョン"
+msgstr "System Version"
+
+msgid "ユーザーの上限"
+msgstr "User Limit"
+
+msgid "トライアル終了"
+msgstr "End of the trial"
+
+msgid "トライアル期限"
+msgstr "Trial Period"
+
+msgid "サブドメイン拡張"
+msgstr "Subdomain Extension"
+
+msgid "利用可能"
+msgstr "Available"
+
+msgid "独自ドメイン拡張"
+msgstr "Original Domain Extension"
+
+msgid "プラス独自ドメイン"
+msgstr "Orijinal Domain"
+
+msgid "個"
+msgstr "&nbsp;"
+
+msgid "モブログ(Cron版) プラグイン"
+msgstr "Moblog (Cron)"
+
+msgid "ショップ プラグイン"
+msgstr "Shop Add-on"
+
+msgid "メールマガジン プラグイン"
+msgstr "Mail-Magazine Add-on"
+
+msgid "a-blog cms公式サイト"
+msgstr "a-blog cms Official Site"
+
+msgid "キャッシュファイル管理"
+msgstr "Cache and File Management"
+
+msgid "キャッシュ生成の状態"
+msgstr "State of the cache generation"
+
+msgid "全体の総サイズ"
+msgstr "Volume"
+
+msgid "バイト"
+msgstr "Byte"
+
+msgid "最大同時キャッシュ生成数"
+msgstr "Maximum Number of Cache"
+
+msgid "子ブログのキャッシュも含める"
+msgstr "Include child blog’s cache"
+
+msgid "完全消去"
+msgstr "Delete all"
+
+msgid "リフレッシュ"
+msgstr "Refresh"
+
+msgid "キャッシュ生成"
+msgstr "Generate Cache"
+
+msgid "config.server.phpのMAX_PUBLISHESの値が低いとキャッシュが一度に作られない場合があります。"
+msgstr "When “MAX_PUBLISHES” value in config.server.php is low, Cache can not be generated at once. "
+
+msgid "その場合は、MAX_PUBLISHESを大きくするか、キャッシュの生成を何回か行ってください。"
+msgstr "If problem occur, please make sure “MAX_PUBLISHES” value is higher enough or please generate cache several times."
+
+msgid "公開 / 掲載終了 予定の記事"
+msgstr "Will-be closed entries"
+
+msgid "公開予定"
+msgstr "Will-be Published"
+
+msgid "掲載終了"
+msgstr "Closed"
+
+msgid "下書きのエントリー"
+msgstr "Draft"
+
+msgid "下書き中のエントリーは見つかりませんでした"
+msgstr "There are no drafts"
+
+msgid "ログイン履歴"
+msgstr "Login History"
+
+msgid "最終ログイン日時"
+msgstr "Recent login time"
+
+msgid "ユーザー/権限"
+msgstr "User/Role"
+
+msgid "ログイン許可/拒否 端末"
+msgstr "Restricting User Access"
+
+msgid "端末制限されているユーザーに、この端末でのログインの許可・拒否を設定する"
+msgstr "Allow or deny restricted users to access this blog."
+
+msgid "許可端末"
+msgstr "Allowed"
+
+msgid "拒否端末"
+msgstr "Denied"
+
+msgid "許可端末に設定"
+msgstr "Allow Access"
+
+msgid "拒否端末に設定"
+msgstr "Restrict the device to login"
+
+#: themes/system/admin/topicpath-list.html
+msgid "エイリアス詳細"
+msgstr "Alias"
+
+msgid "タグ詳細"
+msgstr "Tag"
+
+msgid "トラックバック管理"
+msgstr "Trackback"
+
+msgid "ユーザー管理"
+msgstr "User"
+
+msgid "ユーザーグループ管理"
+msgstr "User Group"
+
+msgid "ユーザーグループ詳細"
+msgstr "User Group Detail"
+
+msgid "ワークフロー管理"
+msgstr "Workflow"
+
+msgid "ユーザー詳細"
+msgstr "User detail"
+
+msgid "ロール管理"
+msgstr "Role"
+
+msgid "N-gramインデックス"
+msgstr "N-gram Index"
+
+msgid "キャッシュ消去予約管理"
+msgstr "Cache Deleting Reservation"
+
+msgid "トラックバック本文"
+msgstr "Trackback Body"
+
+msgid "トラックバックリスト"
+msgstr "Trackback List"
+
+msgid "フラッシュトップイメージ"
+msgstr "Flash Image"
+
+msgid "Yahooウェブ検索"
+msgstr "Yahoo Web Search"
+
+msgid "Yahooイメージ検索"
+msgstr "Yahoo Image Search"
+
+msgid "ショートカット詳細"
+msgstr "Shortcut Detail"
+
+msgid "モブログ編集"
+msgstr "Moblog"
+
+msgid "ショップ関連メニュー"
+msgstr "Shopping Menu"
+
+msgid "カートメニュー"
+msgstr "Cart Menu"
+
+msgid "注文画面の設定"
+msgstr "Order Page Setting"
+
+msgid "送料の設定"
+msgstr "Shipping Fee Setting"
+
+msgid "外部連携の設定"
+msgstr "External API Setting"
+
+msgid "基本の設定"
+msgstr "Basic Settings"
+
+msgid "受注一覧"
+msgstr "Order List"
+
+msgid "受注詳細"
+msgstr "Order Detail"
+
+msgid "お客様一覧"
+msgstr "Customer List"
+
+msgid "お客様詳細"
+msgstr "Customer Detail"
+
+msgid "スケジュール詳細"
+msgstr "Schedule Detail"
+
+msgid "スケジュールのデータ詳細"
+msgstr "Schedule Data Detail"
+
+msgid "スケジュールのラベル設定"
+msgstr "Schedule Label Setting"
+
+msgid "MovableTypeインポート"
+msgstr "MovableType Import"
+
+msgid "styleguide"
+msgstr "Styleguide"
+
+msgid "オリジナルモジュール"
+msgstr "Original Module"
+
+#: themes/system/admin/user/edit.html
+msgid "ユーザーを作成しました"
+msgstr "User added"
+
+msgid "ユーザーを保存しました"
+msgstr "User saved"
+
+msgid "ユーザーを削除しました"
+msgstr "User deleted"
+
+msgid "ユーザーを削除できませんでした。"
+msgstr "User couldn’t be deleted"
+
+msgid "自分自身は削除出来ません。"
+msgstr "you can't delete yourself."
+
+msgid "エントリーが登録されているユーザーは削除できません。"
+msgstr "User registered in entries couldn't be deleted."
+
+msgid "モブログで使用されているユーザーは削除できません。"
+msgstr "User registered in Mobile Blog couldn't be deleted."
+
+msgid "ユーザー作成数の上限に達しているため、現在お使いのライセンスでは以下の操作を行えません。"
+msgstr "Since reaching to the user limit,you can't do below operations."
+
+msgid "・新規ユーザーの作成（読者以外）"
+msgstr "• Add new user (except subscriber)"
+
+msgid "・読者ユーザーの権限昇格"
+msgstr "• Promote subscribers"
+
+msgid ""
+"登録済みのユーザーを削除するか、<a href=\"http://www.a-blogcms.jp/license/\" target=\"_blank\">無制限ユーザーライセンス"
+"</a>の新規購入をご検討ください。"
+msgstr ""
+"Delete registered user or purchase<a href=\"http://www.a-blogcms.jp/license/\" target=\"_blank\">unlimited user "
+"license</a>."
+
+msgid "ログインに失敗しました"
+msgstr "Login failed."
+
+msgid "認証に失敗しました"
+msgstr "Authentification failed."
+
+msgid "アカウントが既に存在します"
+msgstr "The account already exist."
+
+msgid "ユーザーを削除します。\\nこの操作は取り消せません、よろしいですか？"
+msgstr ""
+"This operation is not revoked.\n"
+"Are you sure you want to continue?"
+
+msgid "日付の形式が不正です"
+msgstr "Date format is invalid."
+
+msgid "ユーザーの名前です。（日本語可）"
+msgstr "User name (Japanese allowed)"
+
+msgid " (日本語可)"
+msgstr " (Japanese allowed)"
+
+msgid "ユーザーがログイン時に入力するID名です。半角英数字で設定します。"
+msgstr "ID name used when user login to the system.set with half-width alphanumeric."
+
+msgid " (英数字)"
+msgstr "(alphanumeric)"
+
+msgid "無効なユーザーIDです。"
+msgstr "Invalid User ID"
+
+msgid "既に使用されているユーザーIDです。"
+msgstr "The User ID has already been used"
+
+msgid "アイコン画像"
+msgstr "Icon Image"
+
+msgid ""
+"ユーザーがログイン時に入力するID名です。半角英数字で設定します。アップロードされた画像は64ピクセル四方の画像にリサイズ、"
+"トリミングされます。"
+msgstr ""
+"ID name used when user login to the system.set with half-widthalphanumeric.uploaded image will be trimminged to 64 "
+"pixel on all sides."
+
+msgid ""
+"ユーザーのEメールアドレスです。「メールマガジンを受け取る」がチェックされているユーザーにはHTML形式のメールマガジンを送"
+"信できます。"
+msgstr "User Email address. You can send HTTP formated mail magazine to the user you check [get mail magazine]."
+
+msgid "メールアドレスが入力されていません。"
+msgstr "Mail address is not entered."
+
+msgid "既に使用されているメールアドレスです。"
+msgstr "The mail address is already used."
+
+msgid "メールマガジンを受け取る"
+msgstr "Get mail magazine."
+
+msgid "携帯"
+msgstr "MobilePhone"
+
+msgid ""
+"ユーザーの携帯電話のEメールアドレスです。「メールマガジンを受け取る」がチェックされているユーザーにはHTML形式のメールマ"
+"ガジンを送信できます。"
+msgstr ""
+"User Email address for mobile phone. You can send HTTP formated mail magazine to the user you check [get mail magazine]."
+
+msgid "ユーザーがwebサイトを持っている場合のURLです。"
+msgstr "User's web site URL."
+
+msgid "新しいパスワード"
+msgstr "New Password"
+
+msgid "ログイン用のパスワードです。"
+msgstr "Login password"
+
+msgid "パスワードが入力されていません。"
+msgstr "Password is not entered."
+
+msgid "無効なパスワードです。"
+msgstr "Invalid password."
+
+msgid "ログイン用のパスワードの確認です。コピー＆ペーストを使用せず手入力で確認してください。"
+msgstr "Confirmation for the login password. Do not copy and paste, enter it manually."
+
+msgid "パスワードの確認ができません。"
+msgstr "Password is not entered."
+
+msgid "Twitterログイン"
+msgstr "Login with Twitter"
+
+msgid "Twitterにログインした状態で「認証」を行うと、ログイン情報とこのユーザーが関連づけされます。"
+msgstr "If you authenticate with your Twitter account, your Twitter login information will be associated with this user."
+
+msgid "認証解除"
+msgstr "Deauthentication"
+
+msgid "Facebookログイン"
+msgstr "Login with Facebook"
+
+msgid "Facebookにログインした状態で「認証」を行うと、ログイン情報とこのユーザーが関連づけされます。"
+msgstr ""
+"If you authenticate with your Facebook account, your Facebook login information will be associated with this user."
+
+msgid "「管理者」「編集者」「投稿者」「読者」を選ぶことができます。"
+msgstr "You can select from ‘administrator’, ‘editor’, ‘contributor’ or ‘subscriber’."
+
+msgid ""
+"チェックが外されたユーザーはユーザー一覧に表示されなくなります。しかし「非表示」ではないのでURLを入力するとユーザーを表"
+"示できます。"
+msgstr ""
+"Unchecked user won’t be displayed in the user list. But because it doesn’t mean “not display”, you can display the user "
+"by entering the URL."
+
+msgid "どこでもログイン"
+msgstr "Login anywhere"
+
+msgid ""
+"チェックをすると、このユーザーが所属するブログ以下のどのブログでもログインできるようになり、このユーザーと同じメールアド"
+"レス、ユーザーIDは全てのブログで使用出来なくなります。チェックがはずされた場合には、このユーザーが所属するブログでしかロ"
+"グインできません。"
+msgstr ""
+"If checked, the user belong to the blog can login to any descendant blogs, the mail address and user ID can’t be used "
+"at any blogs. If unchecked, the user can't access to the blogs except his own blog."
+
+msgid "他のブログからログイン"
+msgstr "Log in from other blogs"
+
+msgid "他のブログのユーザーとユーザーIDまたはメールアドレスが重複しています"
+msgstr "The user name or user ID is overlapped with another user’s one in another blog."
+
+msgid "ログイン制限"
+msgstr "Login Restriction"
+
+msgid "チェックがされたユーザーはが許可された端末からしかログイン出来なくなります。"
+msgstr "Checked user are allowed to login only from authorized terminals."
+
+msgid "許可された端末からのみログインを許可"
+msgstr "Only authorized devices can log in"
+
+msgid "ロケール"
+msgstr "Locale"
+
+msgid "ユーザー毎のロケールを設定します。"
+msgstr "Set local for every user"
+
+#: themes/system/admin/user/index.html
+msgid "ユーザー一覧を更新しました。"
+msgstr "User list updated."
+
+msgid "ユーザーがありません。"
+msgstr "There are no users."
+
+msgid "ユーザーの名前・メールアドレス・カスタムフィールドの値から検索（複数指定可）"
+msgstr "You can search users by user name, mail address and custom field."
+
+msgid "ユーザー作成"
+msgstr "Add User"
+
+msgid "有効_CTX_user"
+msgstr "Activated User"
+
+msgid "無効_CTX_user"
+msgstr "Inactivated User"
+
+msgid "アイコン"
+msgstr "Icon"
+
+#: themes/system/admin/usergroup/edit.html
+msgid "ユーザーグループを作成しました"
+msgstr "User Group added"
+
+msgid "ユーザーグループを保存しました"
+msgstr "User Group saved."
+
+msgid "ユーザーグループを削除しました"
+msgstr "User Group deleted."
+
+msgid "ユーザーグループを作成できませんでした。"
+msgstr "User Group couldn’t be added."
+
+msgid "ユーザーグループを保存できませんでした。"
+msgstr "User Group couldn’t be saved."
+
+msgid "ユーザーグループのIDです。固有の値になります。"
+msgstr "User Group ID. The ID must be unique."
+
+msgid "ユーザーグループ名"
+msgstr "User Group Name"
+
+msgid "ユーザーグループ名を設定します（日本語化）"
+msgstr "Set the user group name. (Japanese allowed)"
+
+msgid "すでに同じ名前のユーザーグループが存在します。"
+msgstr "The same named user group already exists."
+
+msgid "このユーザーグループがどのようなグループなのかをメモします。"
+msgstr "Just a memo about this user group."
+
+msgid "ロール"
+msgstr "Role"
+
+msgid "ロールを設定します。ここで設定したロールの権限が設定されます。"
+msgstr "Set the role. The role you set here will be applied."
+
+msgid "ロールを選択"
+msgstr "Select the role"
+
+msgid "ロールがセットされていません。"
+msgstr "Role hasn’t been set yet."
+
+msgid "承認ポイント"
+msgstr "Approval Point"
+
+msgid "並列承認で使用するポイントを設定します。"
+msgstr "Set the point used for parallel approval workflow."
+
+msgid "承認ポイントが入力されていません。"
+msgstr "Approval point is not entered."
+
+msgid "対象ユーザーを設定します。選択できるユーザはルートブログの投稿者・編集者ユーザになります。"
+msgstr "Set target users. You can select from contributors or editors in the root blog."
+
+#: themes/system/admin/usergroup/index.html
+msgid "ユーザーグループ一覧"
+msgstr "User group list"
+
+msgid "ユーザーグループ一覧を更新しました。"
+msgstr "User group list updated."
+
+msgid "ユーザーグループがありません。"
+msgstr "There are no user group."
+
+msgid "ユーザーグループの作成"
+msgstr "Create a user group"
+
+msgid "登録ユーザー数"
+msgstr "Number of registered user"
+
+#: themes/system/admin/workflow/index.html
+msgid "ワークフローを保存しました"
+msgstr "Workflow saved."
+
+msgid "グループが重複しています。"
+msgstr "The group name is overlapped."
+
+msgid "ワークフロー名"
+msgstr "Workflow Name"
+
+msgid "ワークフロー名を設定します（日本語化）"
+msgstr "Set the workflow name. (Japanese allowed)"
+
+msgid "このワークフローがどのような動作をするかなどのメモです。"
+msgstr "Just a memo for the behavior of this workflow."
+
+msgid "ステータスを設定します。チェックをつけると、このブログで承認機能が有効になります。"
+msgstr "Set the status. If checked, you can use approval feature in this blog."
+
+msgid "有効（このブログで承認機能が有効になります）"
+msgstr "Available (You can use approval workflow feature in this blog.)"
+
+msgid "ステータスが入力されていません。"
+msgstr "Status is not set."
+
+msgid "承認タイプ"
+msgstr "Type of Approval Workflow"
+
+msgid "直列、並列承認どちらを使用するか選択します"
+msgstr "Select serial workflow or parallel workflow."
+
+msgid "直列承認"
+msgstr "Serial Approval Workflow"
+
+msgid "並列承認"
+msgstr "Parallel Approval Workflow"
+
+msgid "承認タイプが選択されていません。"
+msgstr "Type of approval is not set."
+
+msgid "承認グループ"
+msgstr "Group for approval"
+
+msgid "承認・承認依頼をするグループを設定します。上から下に承認フローが流れます。"
+msgstr "Set the group of approval and request. The request flow is from top to bottom."
+
+msgid "ユーザーグループを選択"
+msgstr "Select a user group."
+
+msgid "承認グループがセットされていません。"
+msgstr "A group for approval is not set."
+
+msgid "記事作成"
+msgstr "Add New"
+
+msgid "承認依頼グループを設定します。一番最初に承認依頼をするグループになります。"
+msgstr "Set a group for approval request. The group will request first."
+
+msgid "承認依頼グループがセットされていません。"
+msgstr "The group for approval request is not set."
+
+msgid "記事公開"
+msgstr "Publishing"
+
+msgid ""
+"最終承認ユーザーグループを設定します。ここで設定されたグループのユーザが最終承認をすることにより記事が公開されるようにな"
+"ります。"
+msgstr "Set the final user group for approval. If users in this group approve an entry, the one will be published."
+
+msgid "最終承認グループがセットされていません。"
+msgstr "Final group for approval is not set."
+
+msgid "公開ポイント"
+msgstr "Publishing Point"
+
+msgid "公開ポイントを設定します。この値を合計承認ポイントが超えると記事が公開されます。"
+msgstr "Set the Publishing Point. If the total publishing point is above this point, the post will be published."
+
+msgid "ポイント"
+msgstr "Point"
+
+msgid "公開ポイントが設定されていません。"
+msgstr "Publishing point is not set."
+
+msgid "却下ポイント"
+msgstr "Rejection Point"
+
+msgid "却下ポイントを設定します。この値を合計却下ポイントが超えると記事が却下されます。"
+msgstr "Set the rejection point. If the total rejection point is above this point, the post will be rejected."
+
+msgid "却下ポイントが設定されていません。"
+msgstr "Rejection point is not set."
+
+#: themes/system/admin.html
+msgid "メニュー"
+msgstr "Menu"
+
+msgid "ルールなし"
+msgstr "No Rule"
+
+msgid "サイトを表示"
+msgstr "View Site"
+
+msgid "プロフィール変更"
+msgstr "Account Settings"
+
+msgid "管理ボックス"
+msgstr "Admin Box"
+
+msgid "ユーザーグループ"
+msgstr "User Groups"
+
+msgid "ワークフロー"
+msgstr "Workflow"
+
+msgid "その他管理"
+msgstr "Others"
+
+msgid "拡張メニュー"
+msgstr "Extensions"
+
+#: themes/system/ajax/edit/category-add-form.html
+msgid "スコープ"
+msgstr "Scope"
+
+#: themes/system/ajax/emoji-edit.html
+msgid "リンク挿入"
+msgstr "Insert link"
+
+msgid "強調1"
+msgstr "Emphasis1"
+
+msgid "強調2"
+msgstr "Emphasis2"
+
+#: themes/system/include/module/edit.html
+msgid "ID情報"
+msgstr "ID Info"
+
+msgid "mid"
+msgstr "mid"
+
+msgid "モジュールIDの固有のIDです。"
+msgstr "Unique ID for module ID"
+
+msgid "IDを付与する対象のモジュールです。テンプレート側では、ここで指定したモジュールの記述にIDを付与します。"
+msgstr "Target Module attached with ID. ID you set here should be written on templates."
+
+msgid "モジュールを選択してください。"
+msgstr "Select the module"
+
+msgid "モジュールに付与するID名です。これと同じ記述がテンプレート側にも必要になります。（半角英数字）"
+msgstr "ID name attached to the module. You need to write the same ID on templates. (alphanumerics)"
+
+msgid "idを入力して下さい。"
+msgstr "Enter id."
+
+msgid "idが重複しています。"
+msgstr "ID overlapped"
+
+msgid "このモジュールIDを管理するための名前です。（日本語可）"
+msgstr "Label for managing this Module ID (Japanese allowed)"
+
+msgid "このモジュールIDがどのような動作をするかなどのメモです。"
+msgstr "Just a memo such as the behavior of this Module ID."
+
+msgid "チェックをすると、このモジュールIDが下の階層のブログでも使用できます。"
+msgstr "If checked, you can use this module ID in the lower blogs too."
+
+msgid "チェックをすると、このモジュールIDでフィールド情報を表示できるようになります"
+msgstr "If checked, you can use custom field of this Module ID."
+
+msgid "カスタムフィールドを表示"
+msgstr "Show Custom Field."
+
+msgid "チェックをすると、このモジュールIDがレイアウトモジュールで選択できるようになります。"
+msgstr "If checked, you can use this module ID in the Layout Module."
+
+msgid "レイアウトモジュール、モジュールユニットで使用"
+msgstr "Use this in Layout Module and Module Unit."
+
+msgid "レイアウトモジュールで使用"
+msgstr "Use in Layout Module"
+
+msgid "引数（チェックするとURLコンテキストが優先されます）"
+msgstr "Parameter (If checked, URL context will be prioritized)"
+
+msgid "ブログID（bid）"
+msgstr "Blog ID (bid)"
+
+msgid "このモジュールIDの表示内容を、ブログの管理ID（番号）で指定します。"
+msgstr "You can narrow down what to show by selecting Blog ID."
+
+msgid "数字またはグローバル変数を入力してください。"
+msgstr "Enter number or Global Variable."
+
+msgid "ユーザーID（uid）"
+msgstr "User ID (id)"
+
+msgid "このモジュールIDの表示内容を、ユーザーの管理ID（番号）で指定します。"
+msgstr "You can narrow down what to show by selecting User ID."
+
+msgid "カテゴリーID（cid）"
+msgstr "Category ID (cid)"
+
+msgid "このモジュールIDの表示内容を、カテゴリーの管理ID（番号）で指定します。"
+msgstr "You can narrow down what to show by selecting Category ID."
+
+msgid "エントリーID（eid）"
+msgstr "Entry ID (eid)"
+
+msgid "このモジュールIDの表示内容を、エントリーの管理ID（番号）で指定します。"
+msgstr "You can narrow down what to show by selecting Entry ID."
+
+msgid "存在しないエントリーが指定されています。"
+msgstr "Non-existent Entry is set."
+
+msgid "キーワード（keyword）"
+msgstr "Keyword"
+
+msgid "このモジュールIDの表示内容を、エントリーについてキーワードで指定します。"
+msgstr "You can narrow down what to show with keyword of entries."
+
+msgid "タグ（tag）"
+msgstr "Tag"
+
+msgid "このモジュールIDの表示内容を、エントリーについてタグで指定します。"
+msgstr "You can narrow down what to show with tag of entries."
+
+msgid "フィールド（field）"
+msgstr "Field"
+
+msgid "このモジュールIDの表示内容を、カスタムフィールドで指定します。"
+msgstr "You can narrow down what to show with Custom Fields."
+
+msgid "開始日時（start）"
+msgstr "Start date (start)"
+
+msgid "エントリーの日時に対して表示期間を指定します。ここで指定した日時以降のエントリーが表示されます。"
+msgstr "Set the display date of entries. Entries made after this date will be shown."
+
+msgid "終了日時（end）"
+msgstr "End date (end)"
+
+msgid "エントリーの日時に対して表示期間を指定します。ここで指定した日時以前のエントリーが表示されます。"
+msgstr "Set the display date of entries. Entries made before this date will be shown."
+
+msgid "ページ（page）"
+msgstr "Page"
+
+msgid ""
+"このモジュールIDの表示内容を、ページ番号で指定します。ページャー（ページ送り）を使用する場合は、チェックをしてください。"
+msgstr "You can narrow down what to show by the page number. If you want to use pager, you should check. "
+
+msgid "表示順（order）"
+msgstr "Order"
+
+msgid "このモジュールIDの表示内容を、表示順で指定します。"
+msgstr "You can change the display order of the Module ID."
+
+msgid "（引数に複数選択があるとここは自動的に self が設定されます）"
+msgstr "(If you select some in the parameters, ‘self’ will be automatically set)"
+
+msgid "下階層のブログを表示内容に含めるかの設定です。"
+msgstr "Setting whether you want to show lower blog’s contents or not."
+
+msgid "下階層のブログを含めない"
+msgstr "Exclude lower blogs’s content."
+
+msgid "下階層のブログも含める"
+msgstr "Include lower blogs’s content too."
+
+msgid "下階層のブログのみを対象とする"
+msgstr "Only Include lower blogs’s content."
+
+msgid "下階層のカテゴリーを表示内容に含めるかの設定です。"
+msgstr "Setting whether you want to show lower categories’s contents or not."
+
+msgid "下階層のカテゴリーを含めない ( self )"
+msgstr "Exclude lower categories’s content."
+
+msgid "下階層のカテゴリーも含める"
+msgstr "Include lower categories’s content too."
+
+msgid "下階層のカテゴリーのみを対象とする"
+msgstr "Only include lower categories’s content."
+
+#~ msgid "確認用ソース"
+#~ msgstr "Source for confirmation"
+
+#~ msgid "記事"
+#~ msgstr "Entries"
+
+#~ msgid "ローカル"
+#~ msgstr "Local"
+
+#~ msgid "新規ページ"
+#~ msgstr "New Page"
+
+#~ msgid "サブドメイン"
+#~ msgstr "Sub Domain"
+
+#~ msgid "独自ドメイン"
+#~ msgstr "Unlimited Original Domain"
+
+#~ msgid "OEMライセンス"
+#~ msgstr "OEM License"
+
+#~ msgid "無制限ユーザーライセンス"
+#~ msgstr "Unlimited User License"
+
+#~ msgid "ライト版ライセンス（フリー）"
+#~ msgstr "Lite License (For Free)"
+
+#~ msgid "スタンダードライセンス"
+#~ msgstr "Standard License"
+
+#~ msgid "モジュール版"
+#~ msgstr "Module Version"
+
+#~ msgid "CGI版"
+#~ msgstr "CGI Version"
+
+#~ msgid "不明"
+#~ msgstr "Unknown"
+
+#~ msgid "使用可"
+#~ msgstr "Available"
+
+#~ msgid "不可"
+#~ msgstr "Unavailable"
+
+#~ msgid "携帯電話"
+#~ msgstr "Feature Phone"
+
+#~ msgid "スマートフォン"
+#~ msgstr "SmartPhone"
+
+#~ msgid "タブレット"
+#~ msgstr "Tablet"
+
+#~ msgid "&nbsp;&nbsp;&nbsp;&nbsp;Androidフォン"
+#~ msgstr "&nbsp;&nbsp;&nbsp;&nbsp;Android Phone"
+
+#~ msgid "&nbsp;&nbsp;&nbsp;&nbsp;Windowsフォン"
+#~ msgstr "&nbsp;&nbsp;&nbsp;&nbsp;Windows Phone"
+
+#~ msgid "&nbsp;&nbsp;&nbsp;&nbsp;Androidタブレット"
+#~ msgstr "&nbsp;&nbsp;&nbsp;&nbsp;Android Tablet"
+
+#~ msgid "インデキシングされているブログのみ表示す"
+#~ msgstr "Display only indexed blogs."
+
+#~ msgid "拡張アプリの名前"
+#~ msgstr "Name of ExApps"
+
+#~ msgid "提供者ネームスペース e.g, com.appleple"
+#~ msgstr "Namespace of Author (e.x. com.appleple)"
+
+#~ msgid "拡張アプリの説明"
+#~ msgstr "Description of ExApps"
+
+#~ msgid "{updated}件のデータを置換しました。"
+#~ msgstr "{updated} items are replaced."
+
+#~ msgid "新規エントリー作成"
+#~ msgstr "Add New Entry"
+
+#~ msgid "1カラム"
+#~ msgstr "1 Column"
+
+#~ msgid "2カラム"
+#~ msgstr "2 Column"
+
+#~ msgid "3カラム"
+#~ msgstr "3 Column"
+
+#~ msgid "エントリーのテキストユニットにおける、拡張フィールドラベルを設定します。<変数 : \\{extend_tag\\}>"
+#~ msgstr "Set extended field label on text unit<variable : \\{extend_tag\\}>"
+
+#~ msgid "毎月_CTX_every"
+#~ msgstr "Every"
+
+#~ msgid "ヶ月"
+#~ msgstr "month from now"
+
+#~ msgid "取得した"
+#~ msgstr "Acquired"
+
+#~ msgid "内税"
+#~ msgstr "Tax Included"
+
+#~ msgid "外税"
+#~ msgstr "Tax excluded"
+
+#~ msgid "指定したクラスをブログに設定できます。例えばグリッドシステムのカラム数設定などにご利用ください。"
+#~ msgstr "Set entered class inside of loop block. For example, You can set columns of grid system."
+
+#~ msgid "指定したクラスをカテゴリーに設定できます。例えばグリッドシステムのカラム数設定などにご利用ください。"
+#~ msgstr "You can output css class"
+
+#~ msgid "日付 (昇順)"
+#~ msgstr "Date (ASC)"
+
+#~ msgid "日付 (降順)"
+#~ msgstr "Date (DESC)"
+
+#~ msgid "ファイル名（昇順）"
+#~ msgstr "File name (ASC)"
+
+#~ msgid "ファイル名（降順）"
+#~ msgstr "File name (DESC)"
+
+#~ msgid "ID（昇順）"
+#~ msgstr "ID (ASC)"
+
+#~ msgid "ID（降順）"
+#~ msgstr "ID (DESC)"
+
+#~ msgid "表示順（昇順）"
+#~ msgstr "Display order (ASC)"
+
+#~ msgid "表示順（降順）"
+#~ msgstr "Display order (DESC)"

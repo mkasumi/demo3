@@ -1,0 +1,273 @@
+<div>
+<table class="acms-admin-table acms-admin-table-bordered acms-margin-bottom-mini">
+	<tr>
+		<th>メインイメージ</th>
+		<td style="padding: 0;">
+			<!-- BEGIN mainPhoto@path:veil -->
+			<img src="%{ARCHIVES_DIR}{mainPhoto@path}" alt="" class="acms-img-responsive">
+			<input type="hidden" name="mainPhoto@old" value="{mainPhoto@path}"><br>
+			<label>
+				<input type="checkbox" name="mainPhoto@edit" value="delete">削除
+			</label>
+			<!-- END mainPhoto@path:veil -->
+			<input type="file" name="mainPhoto" size="20">
+			<input type="hidden" name="field[]" value="mainPhoto">
+			<input type="hidden" name="mainPhoto:extension" value="image">
+			<input type="hidden" name="mainPhoto@size" value="450">
+			<input type="hidden" name="mainPhoto@tinyWidth" value="225">
+			<input type="hidden" name="mainPhoto@largeWidth" value="900">
+			<input type="hidden" name="mainPhoto@squareWidth" value="200">
+			<input type="hidden" name="mainPhoto@filename" value=""><br>
+			<input type="text" name="mainCaption" value="{mainCaption}" size="30"/>
+			<input type="hidden" name="field[]" value="mainCaption">
+		</td>
+	</tr>
+	<tr>
+		<th>説明文</th>
+		<td>
+			<textarea name="intro" rows="6" class="acms-admin-form-width-full" placeholder="ここに会社についての説明、アピールポイントが入ります。左のメイン画像、下のサブ画像には、仕事風景やオフィスの内装など、ぜひ「御社らしさ」のある写真をお使いください。画像の下にキャプションを入れることができます。">{intro}</textarea>
+			<input type="hidden" name="field[]" value="intro">
+		</td>
+	</tr>
+	<tr>
+		<th>サムネイルイメージ</th>
+		<td>
+		<!-- BEGIN thumbnail@path:veil -->
+			<img src="%{ARCHIVES_DIR}{thumbnail@path}" alt="" class="acms-img-responsive">
+			<input type="hidden" name="thumbnail@old" value="{thumbnail@path}"><br>
+			<label>
+				<input type="checkbox" name="thumbnail@edit" value="delete">削除
+			</label>
+			<!-- END thumbnail@path:veil -->
+			<input type="file" name="thumbnail" size="20">
+			<input type="hidden" name="field[]" value="thumbnail">
+			<input type="hidden" name="thumbnail:extension" value="image">
+			<input type="hidden" name="thumbnail@size" value="450">
+			<input type="hidden" name="thumbnail@tinyWidth" value="225">
+			<input type="hidden" name="thumbnail@largeWidth" value="900">
+			<input type="hidden" name="thumbnail@squareWidth" value="260">
+			<input type="hidden" name="thumbnail@filename" value=""><br>
+			<input type="text" name="mainCaption" value="{mainCaption}" size="30"/>
+			<input type="hidden" name="field[]" value="mainCaption">
+		</td>
+	</tr>
+</table>
+
+<table  class="acms-admin-table acms-admin-table-bordered acms-margin-bottom-mini">
+	<tr>
+		<th>サブイメージ1</th>
+		<th>サブイメージ2</th>
+		<th>サブイメージ3</th>
+	</tr>
+	<tr>
+		<td>
+			<!-- BEGIN subPhoto1@path:veil -->
+			<img src="%{ARCHIVES_DIR}{subPhoto1@path}">
+			<input type="hidden" name="subPhoto1@old" value="{subPhoto1@path}"><br>
+			<label>
+				<input type="checkbox" name="subPhoto1@edit" value="delete">削除
+			</label>
+			<!-- END subPhoto1@path:veil -->
+			<input type="file" name="subPhoto1" style="width:100px">
+			<input type="hidden" name="field[]" value="subPhoto1">
+			<input type="hidden" name="subPhoto1:extension" value="image">
+			<input type="hidden" name="subPhoto1@size" value="230">
+			<input type="hidden" name="subPhoto1@largeWidth" value="1280">
+			<input type="hidden" name="subPhoto1@filename" value="">
+		</td>
+		<td>
+			<!-- BEGIN subPhoto2@path:veil -->
+			<img src="%{ARCHIVES_DIR}{subPhoto2@path}">
+			<input type="hidden" name="subPhoto2@old" value="{subPhoto2@path}"><br>
+			<label>
+				<input type="checkbox" name="subPhoto2@edit" value="delete">削除
+			</label>
+			<!-- END subPhoto2@path:veil -->
+			<input type="file" name="subPhoto2" style="width:100px">
+			<input type="hidden" name="field[]" value="subPhoto2">
+			<input type="hidden" name="subPhoto2:extension" value="image">
+			<input type="hidden" name="subPhoto2@size" value="230">
+			<input type="hidden" name="subPhoto2@largeWidth" value="1280">
+			<input type="hidden" name="subPhoto2@filename" value="">
+		</td>
+		<td>
+			<!-- BEGIN subPhoto3@path:veil -->
+			<img src="%{ARCHIVES_DIR}{subPhoto3@path}">
+			<input type="hidden" name="subPhoto3@old" value="{subPhoto3@path}"><br>
+			<label>
+				<input type="checkbox" name="subPhoto3@edit" value="delete">削除
+			</label>
+			<!-- END subPhoto3@path:veil -->
+			<input type="file" name="subPhoto3" style="width:100px">
+			<input type="hidden" name="field[]" value="subPhoto3">
+			<input type="hidden" name="subPhoto3:extension" value="image">
+			<input type="hidden" name="subPhoto3@size" value="230">
+			<input type="hidden" name="subPhoto3@largeWidth" value="1280">
+			<input type="hidden" name="subPhoto3@filename" value="">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<input type="text" name="subCaption1" value="{subCaption1}" size="30"/>
+			<input type="hidden" name="field[]" value="subCaption1">
+		</td>
+		<td>
+			<input type="text" name="subCaption2" value="{subCaption2}" size="30"/>
+			<input type="hidden" name="field[]" value="subCaption2">
+		</td>
+		<td>
+			<input type="text" name="subCaption3" value="{subCaption3}" size="30"/>
+			<input type="hidden" name="field[]" value="subCaption3">
+		</td>
+	</tr>
+</table>
+
+<table  class="acms-admin-table acms-admin-table-bordered acms-margin-bottom-mini">
+  <tr>
+		<th>募集職種</th>
+		<td>
+			<select name="recruitJob">
+				<option value="">なし</option>
+				<option value="ディレクター"{recruitJob:selected#ディレクター}>ディレクター</option>
+				<option value="デザイナー"{recruitJob:selected#デザイナー}>デザイナー</option>
+				<option value="マークアップエンジニア"{recruitJob:selected#マークアップエンジニア}>マークアップエンジニア</option>
+				<option value="プログラマー"{recruitJob:selected#プログラマー}>プログラマー</option>
+			</select>
+			<input type="hidden" name="field[]" value="recruitJob">
+		</td>
+	</tr>
+  <tr>
+	<th>主な仕事内容</th>
+	<td>
+	  <textarea name="recruitDetail" class="acms-admin-form-width-full" placeholder="例)まずは、デザイナーとしてご活躍いただき、ゆくゆくはアートディレクターとして、技術的なクオリティを担うポジションでご活躍いただきたいと考えております。">{recruitDetail}</textarea>
+	  <input type="hidden" name="field[]" value="recruitDetail">
+	</td>
+  </tr>
+  <tr>
+	<th>募集理由</th>
+	<td>
+	  <textarea name="recuitReason" class="acms-admin-form-width-full" placeholder="事業拡大のため。">{recuitReason}</textarea>
+	  <input type="hidden" name="field[]" value="recuitReason">
+	</td>
+  </tr>
+  <tr>
+	<th>応募条件</th>
+	<td>
+	  <textarea name="recruitRequirement" class="acms-admin-form-width-full" class="WEBデザインの経験があり、弊社の経営理念に共感して下さる方。 向上心と探究心を持って人生を前向きに歩んでいこうとする方であれば、経験等は応相談。">{recruitRequirement}</textarea>
+	  <input type="hidden" name="field[]" value="recruitRequirement">
+	</td>
+  </tr>
+  <tr>
+	<th>雇用形態</th>
+	<td>
+	  <select name="recruitEmploymenttype">
+			<option value="">選択してください</option>
+			<option value="正社員(新卒)"{recruitEmploymenttype:selected#正社員(新卒)}>正社員(新卒)</option>
+			<option value="正社員(中途)"{recruitEmploymenttype:selected#正社員(中途)}>正社員(中途)</option>
+			<option value="アルバイト"{recruitEmploymenttype:selected#アルバイト}>アルバイト</option>
+			<option value="契約社員"{recruitEmploymenttype:selected#契約社員}>契約社員</option>
+			<option value="派遣社員"{recruitEmploymenttype:selected#派遣社員}>派遣社員</option>
+			<option value="業務委託"{recruitEmploymenttype:selected#業務委託}>業務委託</option>
+		</select>
+		<input type="hidden" name="field[]" value="recruitEmploymenttype">
+	</td>
+  </tr>
+  <tr>
+	<th>勤務時間</th>
+	<td>
+	  <textarea name="officehour" class="acms-admin-form-width-full" placholder="10:00〜19:00 実働8時間">{officehour}</textarea>
+	  <input type="hidden" name="field[]" value="officehour">
+	</td>
+  </tr>
+  <tr>
+	<th>福利厚生など</th>
+	<td>
+		<textarea name="welfare" class="acms-admin-form-width-full" placholder="交通費全額支給">{welfare}</textarea>
+		<input type="hidden" name="field[]" value="welfare">
+	</td>
+  </tr>
+  <tr>
+	<th>休日・休暇</th>
+	<td>
+		<textarea name="holiday" class="acms-admin-form-width-full" placeholder="完全週休2日制(土・日)、祝日、年末年始、GW、夏季休暇、慶弔">{holiday}</textarea>
+		<input type="hidden" name="field[]" value="holiday">
+	</td>
+  </tr>
+  <tr>
+	<th>勤務地カテゴリ</th>
+	<td>
+		<select name="place">
+			<option value=""></option>
+			<option value="名古屋市内"{place:selected#名古屋市内}>名古屋市内</option>
+			<option value="三河地区"{place:selected#三河地区}>三河地区</option>
+			<option value="尾張地区"{place:selected#尾張地区}>尾張地区</option>
+			<option value="知多地区"{place:selected#知多地区}>知多地区</option>
+			<option value="岐阜県"{place:selected#岐阜県}>岐阜県</option>
+			<option value="三重県"{place:selected#三重県}>三重県</option>
+			<option value="静岡県"{place:selected#静岡県}>静岡県</option>
+			<option value="その他"{place:selected#その他}>その他</option>
+		</select>
+		<input type="hidden" name="field[]" value="place">
+	</td>
+  </tr>
+  <tr>
+	<th>郵便番号</th>
+	<td>
+	  〒<input type="text" name="post_number" value="{post_number}">
+	  <input type="hidden" name="field[]" value="post_number">
+	</td>
+  </tr>
+  <tr>
+	<th>住所1(市町村、番地)</th>
+	<td>
+	  <input type="text" name="workplace1" value="{workplace1}" class="acms-admin-form-width-medium">
+	  <input type="hidden" name="field[]" value="workplace1">
+	</td>
+  </tr>
+  <tr> 
+	<th>住所2(建物名など)</th>
+	<td>
+	  <input type="text" name="workplace2" value="{workplace2}" class="acms-admin-form-width-medium">
+	  <input type="hidden" name="field[]" value="workplace2">
+	</td>
+  </tr>
+  <tr>
+	<th>求人ページURL</th>
+	<td>
+	  <input type="url" name="recruitURL" value="{recruitURL}" class="acms-admin-form-width-medium">
+	  <input type="hidden" name="field[]" value="recruitURL">
+	</td>
+  </tr>
+</table>
+<table class="acms-admin-table acms-admin-table-bordered acms-margin-bottom-mini">
+  <tr>
+	<th>勤務地マップ</th>
+	<td>
+	<div class="js-map-editable">
+		 <div class="acms-form-group">
+			<input type="text" name="" value="" class="js-editable_map-search_text" disabled="disabled" size="40">
+			<input type="button" name="" value="検索" class="js-editable_map-search_button acms-btn-admin" disabled="disabled">
+		</div>
+		<div class="acms-form-group">
+			<img class="js-map_editable-container" src="http://maps.google.com/maps/api/staticmap?center=35.185574,136.899066&zoom=10&size=400x300&maptype=roadmap&markers=35.185574,136.899066&sensor=false" width="400" height="300" style="display:block;">
+		</div>
+		<!-- BEGIN mapLat:veil -->
+		<div class="acms-form-group">
+			緯度 <input type="text" name="mapLat" value="{mapLat}" size="9" class="js-map_editable-lat">
+			経度 <input type="text" name="mapLng" value="{mapLng}" size="10" class="js-map_editable-lng">
+			ズーム <input type="text" name="mapZoom" value="{mapZoom}" size="10" class="js-map_editable-zoom">
+		</div><!-- END mapLat:veil -->
+		<!-- BEGIN mapLat:empty -->
+		緯度 <input type="text" name="mapLat" value="35.172775" size="9" class="js-map_editable-lat">
+		経度 <input type="text" name="mapLng" value="136.887466" size="10" class="js-map_editable-lng">
+		ズーム <input type="text" name="mapZoom" value="7" size="10" class="js-map_editable-zoom">
+		<!-- END mapLat:empty -->
+		<input type="hidden" name="field[]" value="mapLat">
+		<input type="hidden" name="field[]" value="mapLng">
+		<input type="hidden" name="field[]" value="mapZoom">
+	</div>
+	</td>
+  </tr>
+</table>
+
+</div>

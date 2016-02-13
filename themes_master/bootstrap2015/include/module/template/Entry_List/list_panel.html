@@ -1,0 +1,15 @@
+<!-- BEGIN_MODULE Entry_List -->
+<div>
+	<!--#include file="/admin/module/setting.html"-->
+	<div class="panel panel-default hidden-print">
+		<!-- BEGIN moduleField --><div class="panel-heading">
+			<h2 class="panel-title">{module_heading}</h2>
+		</div><!-- END moduleField -->
+		<div class="list-group">
+			<!-- BEGIN entry:loop -->
+			<a href="{url}" class="list-group-item {entry:loop.class}">{title}</a>
+			<!-- END entry:loop -->
+		</div>
+	</div>
+</div>
+<!-- END_MODULE Entry_List -->
